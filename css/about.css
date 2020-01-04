@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 0.8px;
+}
+html, body{
+    height: 100%;
+}
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 80px;
+    /* background-color: lightblue; */
+    border-bottom: 0.5px solid rgb(221, 221, 221);
+}
+header .nav_bar{
+    width: 100%;
+    height: 80px;
+    padding-top: 10px;
+    color: rgb(241, 241, 241);
+}
+header .nav_bar h1{
+    width: 16.6%;
+    height: 100%;
+    float: left;
+    vertical-align: middle;
+}
+header .nav_bar h1 img{
+    width: 85%;
+}
+header .nav_bar ul{
+    float: right;
+    width: 83.4%;
+    height: 70px;
+    list-style: none;
+}
+header .nav_bar ul li{
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 80px;
+    cursor: pointer;
+    font-size: 1.03rem;
+}
+header .nav_bar ul li a{
+    color: #253b59;
+    text-decoration: none;
+    transition: .3s ease;
+}
+header .nav_bar ul li a:hover{
+    font-weight: 700;
+}
+section .bg{ 
+    background-color:rgba(0, 0, 0, 0.3);
+    width:100%; 
+    height: 845px; 
+    position: absolute;
+}
+section .about_section1{
+    width: 100%;
+    height: 845px;
+    background-image: url(../img/mission.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+section .about_section1 .mission_box{
+    width: 600px;
+    height: 500px;
+    position: absolute;
+    left: 75%;
+    top: 50%;
+    transform: translate(-50%,-30%);
+}
+section .about_section1 .mission_box p{
+    color: rgb(241, 241, 241);
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+    font-family: 'Baskervville', serif;
+    letter-spacing: 1.2px;
+    animation: misani1 3.7s;
+}
+section .about_section1 .mission_box p.thanks{
+    margin-bottom: 80px;
+    font-size: 1.55rem;
+    margin-left: -6px;
+}
+section .about_section1 .mission_box span{
+    color: #253b59;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    font-family: 'Baskervville', serif;
+    animation: misani1 3.7s;
+    margin-right: 5px;
+}
+@keyframes misani1{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+section .about_section2 h2{
+    margin-top: 60px;
+    font-size: 2rem;
+}
+section .about_section2 .partner_box{
+    width: 100%;
+    height: 700px;
+    /* background-color: lavenderblush; */
+}
+section .about_section2 .partner_box img{
+    width: 100%;
+    padding: 40px;
+    margin-top: -250px;
+    animation: misani1 3.7s;
+}
+@keyframes misani1{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+section .about_section3{
+    width: 100%;
+    height: 600px;
+}
+section .about_section3 h2{
+    margin-top: 60px;
+    font-size: 2rem;
+}
+section .about_section3 .map{
+    width: 100%;
+    height: 400px;
+    /* background-color: lavenderblush; */
+}
+section .about_section3 .map img{
+    width: 50%;
+    padding: 40px 40px 40px 0;
+    animation: misani1 3.7s;
+    float: left;
+}
+@keyframes misani1{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+section .about_section3 .map .adress{
+    width: 50%;
+    display: inline-block;
+    padding: 40px 0 40px 20px;
+}
+section .about_section3 .map .adress p.company_name{
+    width: 35%;
+    color: #253b59;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #f0f0f2;
+}
+section .about_section3 .map .adress h3{
+    color: #253b59;
+    font-size: 1.1rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+section .about_section4{
+    width: 100%;
+    height: 100%;
+}
+section .about_section4 h2{
+    margin-top: 60px;
+    font-size: 2rem;
+}
+section .about_section4 .map{
+    width: 100%;
+    height: 400px;
+    /* background-color: lavenderblush; */
+}
+section .about_section4 .map img{
+    width: 50%;
+    padding: 40px 40px 40px 0;
+    animation: misani1 3.7s;
+    float: left;
+}
+@keyframes misani1{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+section .about_section4 .map .adress{
+    width: 50%;
+    display: inline-block;
+    padding: 40px 0 40px 20px;
+}
+section .about_section4 .map .adress p.company_name{
+    width: 35%;
+    color: #253b59;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #f0f0f2;
+}
+section .about_section4 .map .adress h3{
+    color: #253b59;
+    font-size: 1.1rem;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}

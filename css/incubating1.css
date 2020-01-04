@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: 0.8px;
+}
+html, body{
+    height: 100%;
+}
+.wrap{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+    height: 80px;
+    /* background-color: lightblue; */
+    border-bottom: 0.5px solid rgb(221, 221, 221);
+}
+header .nav_bar{
+    width: 100%;
+    height: 80px;
+    padding-top: 10px;
+    color: rgb(241, 241, 241);
+}
+header .nav_bar h1{
+    width: 16.6%;
+    height: 100%;
+    float: left;
+    vertical-align: middle;
+}
+header .nav_bar h1 img{
+    width: 85%;
+}
+header .nav_bar ul{
+    float: right;
+    width: 83.4%;
+    height: 70px;
+    list-style: none;
+}
+header .nav_bar ul li{
+   display: inline-block;
+   margin-left: 20px;
+   line-height: 80px;
+   cursor: pointer;
+   font-size: 1.03rem;
+}
+header .nav_bar ul li a{
+    color: #253b59;
+    text-decoration: none;
+    transition: .3s ease;
+}
+header .nav_bar ul li a:hover{
+    font-weight: 700;
+}
+section .bg{ 
+    background-color:rgba(0, 0, 0, 0.2);
+    width:100%; 
+    height: 300px; 
+    position: absolute;
+}
+section .incu_section1{
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/incu1.jpg);
+    background-size: cover;
+    background-position-y: 45%;
+    background-repeat: no-repeat;
+}
+section .incu_section1 h2{
+    height: 225px;
+    color: white;
+    font-size: 2rem;
+    position: relative; 
+    z-index:1000;
+    line-height: 300px;
+    animation: misani1 3.7s;
+    letter-spacing: 1.5px;
+}
+section .incu_section1 h3{
+    display: inline;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 1.1rem;
+    position: relative; 
+    z-index:1000;
+    animation: misani1 3.7s;
+    letter-spacing: 1.5px;
+    margin-right: 15px;
+}
+section .incu_section1 h3 a{
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 1.1rem;
+    position: relative; 
+    z-index:1000;
+    animation: misani1 3.7s;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+}
+@keyframes misani1{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+section .incu_section2{
+    width: 100%;
+    height: 100%;
+    /* background-color: thistle; */
+}
+section .incu_section2 .intro{
+    width: 700px;
+    height: 200px;
+    padding-top: 45px;
+    margin: 0 auto;
+}
+section .incu_section2 .intro p{
+    text-align: center;
+    word-break: keep-all;
+    line-height: 30px;
+    margin-bottom: 10px;
+    font-size: 1.12rem;
+    letter-spacing: 1px;
+}
+section .incu_section2 .incu_main{
+    width: 100%;
+    height: 100%;
+}
+section .incu_section2 .incu_main img{
+    width: 100%;
+}
+section .incu_section2 .incu_main .incu1{
+    width: 17%;
+    height: 270px;
+    display: inline-block;
+    margin-right: 55px;
+    border-radius: 15px;
+    border: 1px solid #dfdfe0;
+    padding: 15px;
+    float: left;
+}
+section .incu_section2 .incu_main .incu1 ul{
+    list-style: none;
+}
+section .incu_section2 .incu_main .incu1 ul li{
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+section .incu_section2 .incu_main .incu1 .incu1.graph1 ul li:nth-child(8){
+    margin-bottom: 0;
+}
+section .incu_section2 .incu_main .incu1.graph1{
+    margin-left: 65px;
+}
+section .incu_section2 .incu_main .incu1.graph2 ul li{
+    margin-bottom: 11px;
+}
+section .incu_section2 .incu_main .incu1.graph3 ul li{
+    margin-bottom: 11px;
+}
+section .incu_section2 .incu_main .incu1.graph4{
+    margin-right: 0;
+}
+section .incu_section2 .incu_main .incu1.graph4 ul li{
+    margin-bottom: 11px;
+}
