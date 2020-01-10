@@ -108,8 +108,9 @@ section .incu_section1 h3 a{
 }
 section .incu_section2{
     width: 100%;
-    height: 100%;
+    height: 700px;
     /* background-color: thistle; */
+    margin-bottom: 50px;
 }
 section .incu_section2 .intro{
     width: 700px;
@@ -167,4 +168,10 @@ section .incu_section2 .incu_main .incu1.graph4{
 }
 section .incu_section2 .incu_main .incu1.graph4 ul li{
     margin-bottom: 11px;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: #303030;
+    overflow: hidden;
 }
