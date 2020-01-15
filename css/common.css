@@ -15,14 +15,13 @@ html, body{
 }
 header{
     width: 100%;
-    height: 80px;
+    height: 70px;
     /* background-color: lightblue; */
     border-bottom: 0.5px solid rgb(221, 221, 221);
 }
 header .nav_bar{
     width: 100%;
-    height: 80px;
-    padding-top: 10px;
+    height: 70px;
     color: rgb(241, 241, 241);
 }
 header .nav_bar h1{
@@ -42,13 +41,13 @@ header .nav_bar ul{
 }
 header .nav_bar ul li{
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 16px;
     line-height: 80px;
     cursor: pointer;
-    font-size: 1.03rem;
+    font-size: 0.875rem;
 }
 header .nav_bar ul li a{
-    color: #253b59;
+    color: #444;
     text-decoration: none;
     transition: .3s ease;
 }
