@@ -1,63 +1,6 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
-    box-sizing: border-box;
-    font-family: 'Noto Sans KR', sans-serif;
-    letter-spacing: 0.8px;
-}
-html, body{
-    height: 100%;
-}
-.wrap{
-    max-width: 1200px;
-    margin: 0 auto;
-}
-header{
-    width: 100%;
-    height: 80px;
-    /* background-color: lightblue; */
-    border-bottom: 0.5px solid rgb(221, 221, 221);
-}
-header .nav_bar{
-    width: 100%;
-    height: 80px;
-    padding-top: 10px;
-    color: rgb(241, 241, 241);
-}
-header .nav_bar h1{
-    width: 16.6%;
-    height: 100%;
-    float: left;
-    vertical-align: middle;
-}
-header .nav_bar h1 img{
-    width: 85%;
-}
-header .nav_bar ul{
-    float: right;
-    width: 83.4%;
-    height: 70px;
-    list-style: none;
-}
-header .nav_bar ul li{
-    display: inline-block;
-    margin-left: 20px;
-    line-height: 80px;
-    cursor: pointer;
-    font-size: 1.03rem;
-}
-header .nav_bar ul li a{
-    color: #253b59;
-    text-decoration: none;
-    transition: .3s ease;
-}
-header .nav_bar ul li a:hover{
-    font-weight: 700;
-}
 section .bg{ 
     background-color:rgba(0, 0, 0, 0.3);
-    width:100%; 
+    width: 100%; 
     height: 845px; 
     position: absolute;
 }
@@ -70,10 +13,9 @@ section .about_section1{
     background-repeat: no-repeat;
 }
 section .about_section1 .mission_box{
-    width: 600px;
     height: 500px;
     position: absolute;
-    left: 75%;
+    left: 70%;
     top: 50%;
     transform: translate(-50%,-30%);
 }
@@ -106,6 +48,26 @@ section .about_section1 .mission_box span{
     100%{
         opacity: 1;
     }
+}
+section .menu_btn{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 400px;
+}
+section .menu_btn ul li{
+    width: 300px;
+    height: 50px;
+    list-style: none;
+    color: white;
+    background-color: #2d2d2d;
+    float: left;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;  
+}
+section .menu_btn ul li:nth-child(2){
+    border-left: 1px solid white;
+    border-right: 1px solid white;
 }
 section .about_section2 h2{
     margin-top: 60px;
