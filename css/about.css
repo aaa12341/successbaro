@@ -62,11 +62,14 @@ section .menu_btn ul li{
     background-color: #253b59;
     float: left;
     line-height: 50px;
-    vertical-align: middle;
     text-align: center;  
     cursor: pointer;
 }
-section .menu_btn ul li:hover{
+section .menu_btn ul li a{
+    color: white;
+    text-decoration: none;
+}
+section .menu_btn ul li a:hover{
     background-color: cadetblue;
 }
 section .menu_btn ul li:nth-child(2){
