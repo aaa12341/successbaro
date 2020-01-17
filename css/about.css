@@ -64,6 +64,7 @@ section .menu_btn ul li{
     line-height: 50px;
     text-align: center;  
     cursor: pointer;
+    border-radius: 3px;
 }
 section .menu_btn ul li a{
     color: white;
@@ -73,8 +74,8 @@ section .menu_btn ul li a:hover{
     background-color: cadetblue;
 }
 section .menu_btn ul li:nth-child(2){
-    border-left: 5px solid white;
-    border-right: 5px solid white;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 section .about_section2 h2{
     margin-top: 60px;
