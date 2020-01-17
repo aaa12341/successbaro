@@ -79,7 +79,10 @@ section .menu_btn ul li:nth-child(2){
 section .about_section2 h2{
     margin-top: 60px;
     font-size: 2rem;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+}
+section .about_section2 h3{
+    letter-spacing: 1.2px;
 }
 section .about_section2 .partner_box{
     width: 100%;
