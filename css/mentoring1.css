@@ -4,15 +4,15 @@ section .bg{
     height: 300px; 
     position: absolute;
 }
-section .incu_section1{
+section .mento_section1{
     width: 100%;
     height: 300px;
-    background-image: url(../img/incu1.jpg);
+    background-image: url(../img/mento2.jpg);
     background-size: cover;
-    background-position-y: 45%;
+    background-position-y: 80%;
     background-repeat: no-repeat;
 }
-section .incu_section1 h2{
+section .mento_section1 h2{
     height: 225px;
     color: white;
     font-size: 2rem;
@@ -22,9 +22,9 @@ section .incu_section1 h2{
     animation: misani1 3.7s;
     letter-spacing: 1.5px;
 }
-section .incu_section1 h3{
+section .mento_section1 h3{
     display: inline;
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.6);
     font-size: 1.1rem;
     position: relative; 
     z-index:1000;
@@ -33,8 +33,8 @@ section .incu_section1 h3{
     margin-right: 15px;
     transition: 0.1s ease-in;
 }
-section .incu_section1 h3 a{
-    color: rgba(255, 255, 255, 0.4);
+section .mento_section1 h3 a{
+    color: rgba(255, 255, 255, 0.6);
     font-size: 1.1rem;
     position: relative; 
     z-index:1000;
@@ -51,63 +51,40 @@ section .incu_section1 h3 a{
         opacity: 1;
     }
 }
-section .incu_section1 h3:hover{
+section .mento_section1 h3:hover{
     color: #80786E;
 }
-section .incu_section1 h3 a:hover{
+section .mento_section1 h3 a:hover{
     color: #80786E;
 }
-section .incu_section2{
+section .mento_section2{
     width: 100%;
     height: 700px;
     /* background-color: thistle; */
     margin-bottom: 50px;
 }
-section .incu_section2 .intro{
-    width: 700px;
-    height: 200px;
+section .mento_section2 .intro{
+    width: 800px;
+    height: 250px;
     padding-top: 45px;
     margin: 0 auto;
     color: #444;
 }
-section .incu_section2 .intro p{
+section .mento_section2 .intro p{
     text-align: center;
     word-break: keep-all;
     line-height: 30px;
     margin-bottom: 10px;
     letter-spacing: 1px;
 }
-section .incu_section2 .incu_main{
+section .mento_section2 .mento_main{
     width: 100%;
     height: 100%;
     color: #444;
 }
-section .incu_section2 .incu_main img{
-    width: 100%;
+section .mento_section2 .mento_main img{
+    width: 20%;
     margin-top: 45px;
-}
-section .incu_section2 .incu_main .incu1{
-    width: 17%;
-    height: 225px;
-    display: inline-block;
-    margin-right: 53px;
-    /* border-radius: 4px; */
-    /* border: 1px solid #80786E; */
-    /* padding-top: 15px;
-    padding-bottom: 15px; */
-    float: left;
-}
-section .incu_section2 .incu_main .incu1 ul{
-    list-style: none;
-}
-section .incu_section2 .incu_main .incu1 ul li{
-    text-align: center;
-    letter-spacing: 1px;
-    margin-bottom: 11px;
-    font-size: 0.875rem;
-}
-section .incu_section2 .incu_main .incu1.graph1{
-    margin-left: 65px;
 }
 footer{
     width: 100%;
