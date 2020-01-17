@@ -81,12 +81,13 @@ section .incu_section2 .incu_main img{
 }
 section .incu_section2 .incu_main .incu1{
     width: 17%;
-    height: 270px;
+    height: 225px;
     display: inline-block;
     margin-right: 55px;
-    border-radius: 15px;
+    border-radius: 4px;
     border: 1px solid #dfdfe0;
-    padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     float: left;
 }
 section .incu_section2 .incu_main .incu1 ul{
@@ -96,6 +97,7 @@ section .incu_section2 .incu_main .incu1 ul li{
     text-align: center;
     letter-spacing: 1px;
     margin-bottom: 5px;
+    font-size: 0.875rem;
 }
 section .incu_section2 .incu_main .incu1 .incu1.graph1 ul li:nth-child(8){
     margin-bottom: 0;
@@ -108,9 +110,6 @@ section .incu_section2 .incu_main .incu1.graph2 ul li{
 }
 section .incu_section2 .incu_main .incu1.graph3 ul li{
     margin-bottom: 11px;
-}
-section .incu_section2 .incu_main .incu1.graph4{
-    margin-right: 0;
 }
 section .incu_section2 .incu_main .incu1.graph4 ul li{
     margin-bottom: 11px;
