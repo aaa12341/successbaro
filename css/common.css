@@ -52,4 +52,5 @@ header .nav_bar ul li a{
 }
 header .nav_bar ul li a:hover{
     font-weight: 700;
+    color: #80786E;
 }

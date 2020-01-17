@@ -100,7 +100,7 @@ section .about_section2 .partner_box{
     height: 100%;
     /* background-color: lavenderblush; */
     margin-top: 55px;
-    margin-left: 350px;
+    /* margin-left: 350px; */
 }
 section .about_section2 .partner_box img{
     width: 40%;

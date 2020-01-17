@@ -67,7 +67,6 @@ section .incu_section2 .intro p{
     word-break: keep-all;
     line-height: 30px;
     margin-bottom: 10px;
-    font-size: 1.12rem;
     letter-spacing: 1px;
 }
 section .incu_section2 .incu_main{
@@ -77,16 +76,17 @@ section .incu_section2 .incu_main{
 }
 section .incu_section2 .incu_main img{
     width: 100%;
+    margin-top: 45px;
 }
 section .incu_section2 .incu_main .incu1{
     width: 17%;
     height: 225px;
     display: inline-block;
-    margin-right: 55px;
-    border-radius: 4px;
+    margin-right: 53px;
+    /* border-radius: 4px; */
     /* border: 1px solid #80786E; */
-    padding-top: 15px;
-    padding-bottom: 15px;
+    /* padding-top: 15px;
+    padding-bottom: 15px; */
     float: left;
 }
 section .incu_section2 .incu_main .incu1 ul{
@@ -95,23 +95,11 @@ section .incu_section2 .incu_main .incu1 ul{
 section .incu_section2 .incu_main .incu1 ul li{
     text-align: center;
     letter-spacing: 1px;
-    margin-bottom: 5px;
+    margin-bottom: 11px;
     font-size: 0.875rem;
-}
-section .incu_section2 .incu_main .incu1 .incu1.graph1 ul li:nth-child(8){
-    margin-bottom: 0;
 }
 section .incu_section2 .incu_main .incu1.graph1{
     margin-left: 65px;
-}
-section .incu_section2 .incu_main .incu1.graph2 ul li{
-    margin-bottom: 11px;
-}
-section .incu_section2 .incu_main .incu1.graph3 ul li{
-    margin-bottom: 11px;
-}
-section .incu_section2 .incu_main .incu1.graph4 ul li{
-    margin-bottom: 11px;
 }
 footer{
     width: 100%;
