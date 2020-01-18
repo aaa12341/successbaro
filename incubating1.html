@@ -8,30 +8,35 @@
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Baskervville&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/incubating1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
     <div id="wrap">
-        <header>
-            <div class="wrap">
-                <div class="nav_bar">
-                    <a href="index.html">
-                        <h1><img src="img/logo3.png" alt=""></h1>
-                    </a>
-                    <ul>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="incubating1.html">기업 Incubating</a></li>
-                        <li><a href="mentoring1.html">경영 Mentoring</a></li>
-                        <li><a href="">인사 Consulting</a></li>
-                        <li><a href="">기업 Innovation</a></li>
-                        <li><a href="">기업 Rebuilding</a></li>
-                        <li><a href="">기타 컨설팅</a></li>
-                        <li><a href="">Contact</a></li>
-                    </ul>
+        <div class="head">
+            <header>
+                <div class="wrap">
+                    <div class="nav_bar">
+                        <a href="index.html">
+                            <h1><img src="img/logo3.png" alt=""></h1>
+                        </a>
+                        <ul class="navul">
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="incubating1.html">기업 Incubating</a></li>
+                            <li><a href="mentoring1.html">경영 Mentoring</a></li>
+                            <li><a href="">인사 Consulting</a></li>
+                            <li><a href="">기업 Innovation</a></li>
+                            <li><a href="">기업 Rebuilding</a></li>
+                            <li><a href="">기타 컨설팅</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </header>
+            </header>
+            <nav>
+                
+            </nav>
+        </div>
         <section>
-            <div class="bg"></div>
             <div class="incu_section1">
                 <div class="wrap">
                     <h2>법인설립 컨설팅</h2>
@@ -95,6 +100,15 @@
             </div>
         </footer>
     </div>
-    </div>
+    <script>
+        $(document).ready(function(){
+            $('.navul').mouseenter(function(){
+                $('nav').slideDown()
+            })
+            $('nav').mouseleave(function(){
+                $('nav').slideUp()
+            })
+        })
+    </script>
 </body>
 </html>

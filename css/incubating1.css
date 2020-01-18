@@ -1,8 +1,7 @@
 section .bg{ 
-    background-color:rgba(0, 0, 0, 0.2);
     width:100%; 
     height: 300px; 
-    position: absolute;
+    /* position: absolute; */
 }
 section .incu_section1{
     width: 100%;
@@ -11,13 +10,16 @@ section .incu_section1{
     background-size: cover;
     background-position-y: 45%;
     background-repeat: no-repeat;
+    position: relative;
+    top:70px;
+    margin-bottom: 70px;
 }
 section .incu_section1 h2{
     height: 225px;
     color: white;
     font-size: 2rem;
     position: relative; 
-    z-index:1000;
+    /* z-index:900; */
     line-height: 300px;
     animation: misani1 3.7s;
     letter-spacing: 1.5px;
@@ -27,7 +29,7 @@ section .incu_section1 h3{
     color: rgba(255, 255, 255, 0.4);
     font-size: 1.1rem;
     position: relative; 
-    z-index:1000;
+    /* z-index:900; */
     animation: misani1 3.7s;
     letter-spacing: 1.5px;
     margin-right: 15px;
@@ -37,7 +39,7 @@ section .incu_section1 h3 a{
     color: rgba(255, 255, 255, 0.4);
     font-size: 1.1rem;
     position: relative; 
-    z-index:1000;
+    /* z-index:900; */
     animation: misani1 3.7s;
     letter-spacing: 1.5px;
     text-decoration: none;
