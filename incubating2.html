@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,30 +12,7 @@
 </head>
 <body>
     <div id="wrap">
-        <div class="head">
-            <header>
-                <div class="wrap">
-                    <div class="nav_bar">
-                        <a href="index.html">
-                            <h1><img src="img/logo3.png" alt=""></h1>
-                        </a>
-                        <ul class="navul">
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="incubating1.html">기업 Incubating</a></li>
-                            <li><a href="">경영 Mentoring</a></li>
-                            <li><a href="">인사 Consulting</a></li>
-                            <li><a href="">기업 Innovation</a></li>
-                            <li><a href="">기업 Rebuilding</a></li>
-                            <li><a href="">기타 컨설팅</a></li>
-                            <li><a href="">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </header>
-            <nav>
-                
-            </nav>
-        </div>
+        <div class="head" id="head"></div>
         <section>
             <div class="incu_section1">
                 <div class="wrap">
@@ -74,15 +51,6 @@
             </div>
         </footer>
     </div>
-    <script>
-        $(document).ready(function(){
-            $('.navul').mouseenter(function(){
-                $('nav').slideDown()
-            })
-            $('nav').mouseleave(function(){
-                $('nav').slideUp()
-            })
-        })
-    </script>
+    <script src="js/header.js"></script>
 </body>
 </html>

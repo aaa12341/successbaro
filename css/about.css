@@ -7,7 +7,7 @@ section .bg{
 section .about_section1{
     width: 100%;
     height: 845px;
-    background-image: url(../img/mission.jpg);
+    background-image: url(../img/mission2.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -54,7 +54,10 @@ section .menu_btn{
     display: inline-block;
     margin-top: 15px;
 }
-section .menu_btn ul a li{
+section .menu_btn ul li.btn1{
+    background-color: #253b59;
+}
+section .menu_btn ul li{
     width: 390px;
     height: 50px;
     list-style: none;
@@ -70,40 +73,63 @@ section .menu_btn ul a li{
 section .menu_btn ul li:hover{
     background-color: #253b59;
 }
-section .menu_btn ul a li{
+section .menu_btn ul li{
     color: white;
     text-decoration: none;
 }
-section .menu_btn ul a li.rolebaro{
+section .menu_btn ul li.btn2{
     margin-left: 5px;
     margin-right: 5px;
 }
-section .about_section2 h2{
+div.con_wrap{
+    height: 800px;
+}
+section.abouts1{
+    width: 100%;
+    position: absolute;
+}
+section.abouts2{
+    width: 100%;
+    position: absolute;
+    display: none;
+}
+section.abouts3{
+    width: 100%;
+    position: absolute;
+    display: none;
+}
+section .about_section2 .partner_box1{
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+section .about_section2 .partner_box1 h2{
     margin-top: 60px;
     font-size: 2rem;
     margin-bottom: 40px;
     color: #444;
 }
-section .about_section2 span{
+section .about_section2 .partner_box1 span{
     margin-top: 60px;
     font-size: 2rem;
     margin-bottom: 40px;
     color: #80786E;
 }
-section .about_section2 h3{
+section .about_section2 .partner_box1 h3{
     letter-spacing: 1.2px;
     color: #444;
     word-break: keep-all;
+    line-height: 2.5rem;
 }
-section .about_section2 .partner_box{
-    width: 100%;
+section .about_section2 .partner_box2{
+    width: 60%;
     height: 100%;
-    /* background-color: lavenderblush; */
-    margin-top: 55px;
-    /* margin-left: 350px; */
+    float: right;
+    text-align: center;
+    margin-top: 70px;
 }
-section .about_section2 .partner_box img{
-    width: 40%;
+section .about_section2 .partner_box2 img{
+    width: 70%;
     animation: misani1 3.7s;
 }
 @keyframes misani1{

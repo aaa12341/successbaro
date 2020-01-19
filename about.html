@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,31 +12,7 @@
 </head>
 <body>
     <div id="wrap">
-        <div class="head">
-            <header>
-                <div class="wrap">
-                    <div class="nav_bar">
-                        <a href="index.html">
-                            <h1><img src="img/logo3.png" alt=""></h1>
-                        </a>
-                        <ul class="navul">
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="incubating1.html"
-                                onMouseOver='this.innerHTML="기업 Incubating"' onMouseOut='this.innerHTML="Incubating"'>Incubating</a></li>
-                            <li><a href="mentoring1.html">경영 Mentoring</a></li>
-                            <li><a href="">인사 Consulting</a></li>
-                            <li><a href="">기업 Innovation</a></li>
-                            <li><a href="">기업 Rebuilding</a></li>
-                            <li><a href="">기타 컨설팅</a></li>
-                            <li><a href="">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </header>
-            <nav>
-                
-            </nav>
-        </div>
+        <div class="head" id="head"></div>
         <section>
             <div class="bg"></div>
             <div class="about_section1">
@@ -55,26 +31,29 @@
             <div class="menu_btn">
                 <div class="wrap">
                     <ul>
-                        <a href="about.html"><li>BARO's Partners</li></a>
-                        <a href="about.html"><li class="rolebaro">Role of BARO</li></a>
-                        <a href="about.html"><li>Directions</li></a>
+                        <li class="btn1">BARO's Partners</li c>
+                        <li class="btn2">Role of BARO</li>
+                        <li class="btn3">Directions</li>
                     </ul>
                 </div>
             </div>
         </section>
-        <section>
+        <div class="con_wrap">
+        <section class="abouts1">
             <div class="about_section2">
                 <div class="wrap">
-                    <h2>BARO's Partners <span>|</span></h2>
-                    <h3>석세스바로는 고객에게 꼭 필요한 솔루션을 제공하기 위해 다양한 경험과 로고스(Logos), 파토스(Pathos), 에토스(Ethos)를 갖춘 핵심 파트너들(Key Partners)과 함께하고 있습니다. 
+                    <div class="partner_box1">
+                        <h2>BARO's Partners <span>|</span></h2>
+                        <h3>석세스바로는 고객에게 꼭 필요한 솔루션을 제공하기 위해 다양한 경험과 로고스(Logos), 파토스(Pathos), 에토스(Ethos)를 갖춘 핵심 파트너들(Key Partners)과 함께하고 있습니다. 
                     </h3>
-                    <div class="partner_box">
+                    </div>
+                    <div class="partner_box2">
                         <img src="img/partner2.jpg" alt="">
                     </div>
                 </div>
             </div>
         </section>
-        <section>
+        <section class="abouts2">
             <div class="about_section3">
                 <div class="wrap">
                     <h2>Role of BARO <span>|</span></h2>
@@ -84,7 +63,7 @@
                 </div>
             </div>
         </section>
-        <section>
+        <section class="abouts3">
             <div class="about_section4">
                 <div class="wrap">
                     <h2>Directions <span>|</span></h2>
@@ -101,18 +80,59 @@
                 </div>
             </div>
         </section>
+        </div>
         <footer>
             <div class="wrap">
             </div>
         </footer>
     </div>
+    <script src="js/header.js"></script>
     <script>
         $(document).ready(function(){
-            $('.navul').mouseenter(function(){
-                $('nav').slideDown()
+            $('.btn2').click(function(){
+                $(this).css({
+                    "backgroundColor" : "#253b59"
+                })
+                $('.btn3 , .btn1').css({
+                    "backgroundColor" : "#80786E"
+                })
+                $('.abouts2').fadeIn()
+                $('.abouts1').css({
+                    "display" : "none"
+                })
+                $('.abouts3').css({
+                    "display" : "none"
+                })
             })
-            $('nav').mouseleave(function(){
-                $('nav').slideUp()
+            $('.btn3').click(function(){
+                $(this).css({
+                    "backgroundColor" : "#253b59"
+                })
+                $('.btn2 , .btn1').css({
+                    "backgroundColor" : "#80786E"
+                })
+                $('.abouts3').fadeIn()
+                $('.abouts1').css({
+                    "display" : "none"
+                })
+                $('.abouts2').css({
+                    "display" : "none"
+                })
+            })
+            $('.btn1').click(function(){
+                $(this).css({
+                    "backgroundColor" : "#253b59"
+                })
+                $('.btn2, .btn3').css({
+                    "backgroundColor" : "#80786E"
+                })
+                $('.abouts1').fadeIn()
+                $('.abouts2').css({
+                    "display" : "none"
+                })
+                $('.abouts3').css({
+                    "display" : "none"
+                })
             })
         })
     </script>
