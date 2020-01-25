@@ -13,6 +13,11 @@ html, body{
     max-width: 1200px;
     margin: 0 auto;
 }
+div.head{
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+}
 header{
     width: 100%;
     height: 70px;
@@ -64,12 +69,29 @@ header .nav_bar ul li a:hover{
 }
 nav{
     width: 100%;
-    height: 200px;
-    background-color: rgba(255, 255, 255, 0.4);
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.8);
     display: none;
 }
-div.head{
-    width: 100%;
-    position: fixed;
-    z-index: 999;
+nav .main_nav{
+    width: 12%;
+    height: 100%;
+    float: left;
+    /* margin-right: 5px; */
+}
+nav .main_nav ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+nav .main_nav ul li a{
+    color:black;
+    text-decoration: none;
+    font-size: 0.815rem;
+    transition: .2s ease;
+}
+nav .main_nav ul li a:hover{
+    color:red;
+}
+nav .incu_nav{
+    margin-left: 300px;
 }

@@ -31,7 +31,7 @@
             <div class="menu_btn">
                 <div class="wrap">
                     <ul>
-                        <li class="btn1">BARO's Partners</li c>
+                        <li class="btn1">BARO's Partners</li>
                         <li class="btn2">Role of BARO</li>
                         <li class="btn3">Directions</li>
                     </ul>
@@ -89,6 +89,21 @@
     <script src="js/header.js"></script>
     <script>
         $(document).ready(function(){
+            $('.btn1').click(function(){
+                $(this).css({
+                    "backgroundColor" : "#253b59"
+                })
+                $('.btn2, .btn3').css({
+                    "backgroundColor" : "#80786E"
+                })
+                $('.abouts1').fadeIn()
+                $('.abouts2').css({
+                    "display" : "none"
+                })
+                $('.abouts3').css({
+                    "display" : "none"
+                })
+            })
             $('.btn2').click(function(){
                 $(this).css({
                     "backgroundColor" : "#253b59"
@@ -116,21 +131,6 @@
                     "display" : "none"
                 })
                 $('.abouts2').css({
-                    "display" : "none"
-                })
-            })
-            $('.btn1').click(function(){
-                $(this).css({
-                    "backgroundColor" : "#253b59"
-                })
-                $('.btn2, .btn3').css({
-                    "backgroundColor" : "#80786E"
-                })
-                $('.abouts1').fadeIn()
-                $('.abouts2').css({
-                    "display" : "none"
-                })
-                $('.abouts3').css({
                     "display" : "none"
                 })
             })
