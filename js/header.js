@@ -8,7 +8,7 @@ const HeaderTag = document.getElementById('head');
             <ul class="navul">
                 <li><a href="about.html">About</a></li>
                 <li><a href="incubating1.html">Incubating</a></li>
-                <li><a href="mentoring1.html">Consulting</a></li>
+                <li><a href="consulting1.html">Consulting</a></li>
                 <li><a href="">HR Consulting</a></li>
                 <li><a href="">기타서비스</a></li>
             </ul>
@@ -26,23 +26,23 @@ const HeaderTag = document.getElementById('head');
         </div>
         <div class="main_nav consul_nav">
             <ul>
-                <li><a href="mentoring1.html">정기경영자문</a></li>
-                <li><a href="mentoring1.html">경영현황 관리체계</a></li>
-                <li><a href="mentoring1.html">BI 기반 경영컨설팅</a></li>
-                <li><a href="mentoring1.html">마케팅 프로세스 구축</a></li>
-                <li><a href="mentoring1.html">경영전략 수립</a></li>
+                <li><a href="consulting1.html">정기경영자문</a></li>
+                <li><a href="consulting1.html">경영현황 관리체계</a></li>
+                <li><a href="consulting1.html">BI 기반 경영컨설팅</a></li>
+                <li><a href="consulting4.html">마케팅 프로세스 구축</a></li>
+                <li><a href="consulting1.html">경영전략 수립</a></li>
             </ul>
         </div>
         <div class="main_nav hr_nav">
             <ul>
-                <li><a href="mentoring1.html">HR 컨설팅</a></li>
+                <li><a href="consulting1.html">HR 컨설팅</a></li>
             </ul>
         </div>
         <div class="main_nav ser_nav">
             <ul>
-                <li><a href="mentoring1.html">ISO 인증 컨설팅</a></li>
-                <li><a href="mentoring1.html">감사행정시스템 구축</a></li>
-                <li><a href="mentoring1.html">상시감사시스템 구축</a></li>
+                <li><a href="consulting1.html">ISO 인증 컨설팅</a></li>
+                <li><a href="consulting1.html">감사행정시스템 구축</a></li>
+                <li><a href="consulting1.html">상시감사시스템 구축</a></li>
             </ul>
         </div>
     <div>
@@ -62,9 +62,9 @@ $(document).ready(function(){
         $(this).html("<a href='incubating1.html'>Incubating</a>")
     })
     $('.navul li:nth-child(3)').mouseenter(function(){
-        $(this).html("<a href='mentoring1.html'>경영 컨설팅</a>")
+        $(this).html("<a href='consulting1.html'>경영 컨설팅</a>")
     })
     $('.navul li:nth-child(3)').mouseleave(function(){
-        $(this).html("<a href='mentoring1.html'>Consulting</a>")
+        $(this).html("<a href='consulting1.html'>Consulting</a>")
     })
 })
