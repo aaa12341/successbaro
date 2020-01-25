@@ -97,3 +97,14 @@ nav .hr_nav{
     margin-left: -28px;
     margin-right: 10px;
 }
+footer{
+    width: 100%;
+    height: 160px;
+    background-color: #303030;
+    overflow: hidden;
+    color: white;
+}
+footer p{
+    font-size: 0.8rem;
+    margin-top: 10px;
+}

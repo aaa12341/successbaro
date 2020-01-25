@@ -82,9 +82,3 @@ section .incu_section2 .incu_main{
 section .incu_section2 .incu_main img{
     width: 100%;
 }
-footer{
-    width: 100%;
-    height: 300px;
-    background-color: #303030;
-    overflow: hidden;
-}

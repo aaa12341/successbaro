@@ -226,7 +226,7 @@ section .about_section4 .map .adress h3{
     margin-top: 30px;
     margin-bottom: 10px;
 }
-footer{
+/* footer{
     width: 100%;
     height: 160px;
     background-color: #303030;
@@ -236,4 +236,4 @@ footer{
 footer p{
     font-size: 0.8rem;
     margin-top: 10px;
-}
+} */

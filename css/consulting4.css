@@ -89,9 +89,3 @@ section .consul_section2 .mento_main img{
     width: 20%;
     margin-top: 45px;
 }
-footer{
-    width: 100%;
-    height: 300px;
-    background-color: #303030;
-    overflow: hidden;
-}
