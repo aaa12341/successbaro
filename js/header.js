@@ -10,7 +10,7 @@ const HeaderTag = document.getElementById('head');
                 <li><a href="incubating1.html">Incubating</a></li>
                 <li><a href="consulting1.html">Consulting</a></li>
                 <li><a href="">HR Consulting</a></li>
-                <li><a href="">기타서비스</a></li>
+                <li><a href="">Service</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
         </div>
@@ -67,5 +67,11 @@ $(document).ready(function(){
     })
     $('.navul li:nth-child(3)').mouseleave(function(){
         $(this).html("<a href='consulting1.html'>Consulting</a>")
+    })
+    $('.navul li:nth-child(5)').mouseenter(function(){
+        $(this).html("<a href='consulting1.html'>기타 서비스</a>")
+    })
+    $('.navul li:nth-child(5)').mouseleave(function(){
+        $(this).html("<a href='consulting1.html'>Service</a>")
     })
 })
