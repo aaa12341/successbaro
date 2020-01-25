@@ -51,7 +51,7 @@ html, body{
 }
 .main_section .nav_bar ul li{
    display: inline-block;
-   margin-left: 25px;
+   margin-left: 40px;
    line-height: 80px;
    cursor: pointer;
    font-size: 1.03rem;
