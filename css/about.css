@@ -9,15 +9,15 @@ section .about_section1{
     height: 845px;
     background-image: url(../img/mission3.jpg);
     background-size: cover;
-    background-position-y: 10%;
+    background-position-y: 20%;
     background-repeat: no-repeat;
 }
 section .about_section1 .mission_box{
-    height: 500px;
+    height: 400px;
     position: absolute;
-    left: 70%;
+    left: 72%;
     top: 50%;
-    transform: translate(-50%,-30%);
+    transform: translate(-50%,-35%);
 }
 section .about_section1 .mission_box p{
     color: rgb(241, 241, 241);
