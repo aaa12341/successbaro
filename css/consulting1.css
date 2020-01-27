@@ -1,0 +1,36 @@
+section .consul_section2{
+    height: 500px;
+}
+section .consul_section2 .intro{
+    float: left;
+    width: 60%;
+    height: 100%;
+    padding-top: 55px;
+    animation: misani1 3.7s;
+}
+section .consul_section2 .intro p{
+    text-align: left;
+    margin-bottom: 20px;
+}
+section .consul_section2 .consul_main{
+    float: right;
+    width: 35%;
+    height: 100%;
+    padding-top: 60px;
+    animation: misani1 3.7s;
+}
+@keyframes misani1{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+section .consul_section2 .consul_main img{
+    width: 100%;
+    border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.39);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.39);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.39);
+}
