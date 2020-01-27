@@ -3,19 +3,18 @@ section .bg{
     height: 300px; 
     /* position: absolute; */
 }
-section .consul_section1{
+section .hr_section1{
     width: 100%;
     height: 300px;
-    background-image: url(../img/hr1.jpg);
+    background-image: url(../img/hr_pic.jpg);
     background-size: cover;
-    background-position-y: 65%;
-    /* background-position:center; */
+    background-position:center;
     background-repeat: no-repeat;
     position: relative;
     top:70px;
     margin-bottom: 70px;
 }
-section .consul_section1 h2{
+section .hr_section1 h2{
     height: 225px;
     color: white;
     font-size: 2rem;
@@ -25,27 +24,6 @@ section .consul_section1 h2{
     animation: misani1 3.7s;
     letter-spacing: 1.5px;
 }
-section .consul_section1 h3{
-    display: inline;
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 1.1rem;
-    position: relative; 
-    /* z-index:900; */
-    animation: misani1 3.7s;
-    letter-spacing: 1.5px;
-    margin-right: 15px;
-    transition: 0.1s ease-in;
-}
-section .consul_section1 h3 a{
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 1.1rem;
-    position: relative; 
-    /* z-index:900; */
-    animation: misani1 3.7s;
-    letter-spacing: 1.5px;
-    text-decoration: none;
-    transition: 0.1s ease-in;
-}
 @keyframes misani1{
     0%{
         opacity: 0;
@@ -54,38 +32,32 @@ section .consul_section1 h3 a{
         opacity: 1;
     }
 }
-section .consul_section1 h3:hover{
-    color: #80786E;
-}
-section .consul_section1 h3 a:hover{
-    color: #80786E;
-}
-section .consul_section2{
+section .hr_section2{
     width: 100%;
     height: 700px;
     /* background-color: thistle; */
     margin-bottom: 50px;
 }
-section .consul_section2 .intro{
+section .hr_section2 .intro{
     width: 800px;
     height: 250px;
     padding-top: 45px;
     margin: 0 auto;
     color: #444;
 }
-section .consul_section2 .intro p{
+section .hr_section2 .intro p{
     text-align: center;
     word-break: keep-all;
     line-height: 30px;
     margin-bottom: 10px;
     letter-spacing: 1px;
 }
-section .consul_section2 .mento_main{
+section .hr_section2 .mento_main{
     width: 100%;
     height: 100%;
     color: #444;
 }
-section .consul_section2 .mento_main img{
+section .hr_section2 .mento_main img{
     width: 20%;
     margin-top: 45px;
 }

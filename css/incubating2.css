@@ -6,7 +6,7 @@ section .bg{
 section .incu_section1{
     width: 100%;
     height: 300px;
-    background-image: url(../img/incu1.jpg);
+    background-image: url(../img/incu_pic.jpg);
     background-size: cover;
     background-position-y: 45%;
     background-repeat: no-repeat;
