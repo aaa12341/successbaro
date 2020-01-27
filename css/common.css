@@ -81,13 +81,13 @@ nav .main_nav ul li{
     margin-top: 10px;
 }
 nav .main_nav ul li a{
-    color:black;
+    color:#444;
     text-decoration: none;
     font-size: 0.815rem;
     transition: .2s ease;
 }
 nav .main_nav ul li a:hover{
-    color:red;
+    color:rgb(146, 106, 21);
 }
 nav .incu_nav{
     margin-left: 400px;
