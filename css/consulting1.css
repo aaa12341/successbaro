@@ -10,7 +10,6 @@ section .consul_section2 .intro{
     animation: misani1 3.7s;
 }
 section .consul_section2 .intro p{
-    text-align: left;
     margin-bottom: 20px;
 }
 section .consul_section2 .consul_main{
