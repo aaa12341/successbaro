@@ -72,7 +72,7 @@ section .menu_btn ul li{
 section .menu_btn ul li:hover{
     background-color: #253b59;
 }
-section .menu_btn ul li.btn1{
+section .menu_btn ul li.active{
     background-color: #253b59;
 }
 section .menu_btn ul li.btn2{

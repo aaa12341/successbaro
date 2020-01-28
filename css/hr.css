@@ -49,6 +49,22 @@ section .hr_section2 .intro p{
     margin-bottom: 10px;
     letter-spacing: 1px;
 }
+section .hr_section2 .intro ul{
+    width: 100%;
+}
+section .hr_section2 .intro li{
+    width: 100%;
+    list-style-type: none;
+    color: red;
+}
+section .hr_section2 .intro li div{
+    display: inline-block;
+}
+section .hr_section2 .intro li div:nth-child(1){
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
 section .hr_section2 .mento_main{
     width: 100%;
     height: 100%;

@@ -31,7 +31,7 @@
             <div class="menu_btn">
                 <div class="wrap">
                     <ul>
-                        <li class="btn1">BARO's Partners</li>
+                        <li class="btn1 active">BARO's Partners</li>
                         <li class="btn2">Role of BARO</li>
                         <li class="btn3">Directions</li>
                     </ul>
@@ -87,12 +87,9 @@
     <script>
         $(document).ready(function(){
             $('.btn1').click(function(){
-                $(this).css({
-                    "backgroundColor" : "#253b59"
-                })
-                $('.btn2, .btn3').css({
-                    "backgroundColor" : "#80786E"
-                })
+                $(this).addClass("active")
+                $('.btn2, .btn3').removeClass("active")
+
                 $('.abouts1').fadeIn()
                 $('.abouts2').css({
                     "display" : "none"
@@ -102,12 +99,9 @@
                 })
             })
             $('.btn2').click(function(){
-                $(this).css({
-                    "backgroundColor" : "#253b59"
-                })
-                $('.btn3 , .btn1').css({
-                    "backgroundColor" : "#80786E"
-                })
+                $(this).addClass("active")
+                $('.btn1, .btn3').removeClass("active")
+
                 $('.abouts2').fadeIn()
                 $('.abouts1').css({
                     "display" : "none"
@@ -117,12 +111,9 @@
                 })
             })
             $('.btn3').click(function(){
-                $(this).css({
-                    "backgroundColor" : "#253b59"
-                })
-                $('.btn2 , .btn1').css({
-                    "backgroundColor" : "#80786E"
-                })
+                $(this).addClass("active")
+                $('.btn1, .btn2').removeClass("active")
+
                 $('.abouts3').fadeIn()
                 $('.abouts1').css({
                     "display" : "none"
