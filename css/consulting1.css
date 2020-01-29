@@ -1,21 +1,46 @@
 section .consul_section2{
     width: 100%;
-    height: 500px;
+    height: 1000px;
 }
-section .consul_section2 .intro{
+section .consul_section2 .consul_main1{
+    width: 100%;
+    height: 550px;
+}
+section .consul_section2 h2{
+    width: 100%;
+    color: #444;
+    font-weight: 300;
+    font-size: 2rem;
+    padding-top: 35px;
+    text-align: center;
+}
+section .consul_section2 .consul_main1 .consul_part1{
     float: left;
-    width: 60%;
-    height: 100%;
-    padding-top: 55px;
+    width: 65%;
+    margin-top: 50px;
     animation: misani1 3.7s;
+    position: relative;
+    z-index: 1;
 }
-section .consul_section2 .intro p{
-    margin-bottom: 20px;
+section .consul_section2 .consul_main1 .consul_part1 h3{
+    color: rgb(112, 112, 112);
+    font-weight: 100;
+    font-size: 1.6rem;
+    margin-bottom: 45px;
 }
-section .consul_section2 .consul_main{
+section .consul_section2 .consul_main1 .consul_part1 h3 span{
+    color: #444;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+section .consul_section2 .consul_main1 .consul_part1 p{
+    color: rgb(112, 112, 112);
+    line-height: 25px;
+    font-size: 0.9rem;
+}
+section .consul_section2 .consul_main1 .consul_img1{
     float: right;
     width: 35%;
-    height: 100%;
     padding-top: 60px;
     animation: misani1 3.7s;
 }
@@ -27,7 +52,71 @@ section .consul_section2 .consul_main{
         opacity: 1;
     }
 }
-section .consul_section2 .consul_main img{
+section .consul_section2 .consul_main1 .consul_img1 img{
     width: 100%;
-    height: 300px;
+    height: 320px;
+}
+section .consul_main1 .consul_bg1{
+    position: absolute;
+    top: 565px;
+    right: 50%;
+    margin-right: -180px;
+    width: 100%;
+    height: 270px;
+    background: #f0f0f0;
+}
+section .consul_section2 .consul_main2{
+    width: 100%;
+    height: 600px;
+}
+section .consul_section2 .consul_main2 .consul_part2{
+    float: right;
+    width: 65%;
+    margin-top: 50px;
+    animation: misani1 3.7s;
+    position: relative;
+    z-index: 1;
+}
+/* section .consul_section2 .consul_main2 .consul_part2 h3{
+    color: rgb(112, 112, 112);
+    font-weight: 100;
+    font-size: 1.6rem;
+    margin-bottom: 45px;
+}
+section .consul_section2 .consul_main2 .consul_part2 h3 span{
+    color: #444;
+    font-weight: 700;
+    font-size: 1.6rem;
+} */
+section .consul_section2 .consul_main2 .consul_part2 p{
+    color: rgb(112, 112, 112);
+    line-height: 25px;
+    font-size: 0.9rem;
+}
+section .consul_section2 .consul_main2 .consul_img2{
+    float: left;
+    width: 35%;
+    padding-top: 60px;
+    animation: misani1 3.7s;
+}
+@keyframes misani1{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+section .consul_section2 .consul_main2 .consul_img2 img{
+    width: 100%;
+    height: 320px;
+}
+section .consul_main1 .consul_bg2{
+    position: absolute;
+    top: 900px;
+    left: 50%;
+    margin-left: -180px;
+    width: 100%;
+    height: 270px;
+    background: #f0f0f0;
 }
