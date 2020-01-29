@@ -39,6 +39,17 @@ section .consul_section1 h3 a{
     text-decoration: none;
     transition: 0.1s ease-in;
 }
+section .consul_section1 h3.this_pg{
+    display: inline;
+    margin-right: 15px;
+    position: relative; 
+    color: rgb(146, 106, 21);
+    font-size: 1.1rem;
+    animation: misani1 3.7s;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    transition: 0.1s ease-in;
+}
 @keyframes misani1{
     0%{
         opacity: 0;
@@ -48,7 +59,7 @@ section .consul_section1 h3 a{
     }
 }
 section .consul_section1 h3 a:hover{
-    color: rgb(128, 115, 100);
+    color: rgb(146, 106, 21);
 }
 section .consul_section2 .intro p{
     word-break: keep-all;

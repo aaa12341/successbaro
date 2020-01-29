@@ -24,6 +24,21 @@ section .incu_section1 h2{
     animation: misani1 3.7s;
     letter-spacing: 1.5px;
 }
+section .incu_section1 h3{
+    display: inline;
+    margin-right: 15px;
+}
+section .incu_section1 h3.this_pg{
+    display: inline;
+    margin-right: 15px;
+    position: relative; 
+    color: rgb(146, 106, 21);
+    font-size: 1.1rem;
+    animation: misani1 3.7s;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    transition: 0.1s ease-in;
+}
 section .incu_section1 h3 a{
     color: rgba(255, 255, 255, 0.6);
     font-size: 1.1rem;
