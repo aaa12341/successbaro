@@ -8,7 +8,7 @@ section .hr_section1{
     height: 300px;
     background-image: url(../img/hr_pic.jpg);
     background-size: cover;
-    background-position:center;
+    background-position-y: 35%;
     background-repeat: no-repeat;
     position: relative;
     top:70px;
