@@ -36,17 +36,17 @@ html, body{
     color: rgb(241, 241, 241);
 }
 .main_section .nav_bar h1{
-    width: 30%;
+    width: 52%;
     height: 100%;
     float: left;
     vertical-align: middle;
 }
 .main_section .nav_bar h1 img{
-    width: 33%;
+    width: 20%;
 }
 .main_section .nav_bar ul{
     float: right;
-    width: 67%;
+    width: 47%;
     list-style: none;
 }
 .main_section .nav_bar ul li{
@@ -81,7 +81,7 @@ html, body{
     margin-bottom: 46px;
     font-size: 1.35rem;
     animation: misani1 3.7s;
-    letter-spacing: 8px;
+    letter-spacing: 7px;
     font-family: 'Baskervville', serif;
     font-weight: 600;
 }

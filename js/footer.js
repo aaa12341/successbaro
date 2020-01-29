@@ -1,10 +1,25 @@
 const FooterTag = document.getElementById('foot');
     FooterTag.innerHTML = ` <footer>
     <div class="wrap">
-        <p>(주)석세스바로</p>
-        <p>대표: 안경호 | 사업자등록번호: 111-11-111</p>
-        <p>주소: 서울특별시 용산구 한강대로 256, 7층(남영동, 수빌딩)</p>
-        <p>전화: 02-1111-1111 | 팩스: 02-1111-1111</p>
+        <a href="index.html">
+            <h1><img src="img/logo2.png" alt="로고"></h1>
+        </a>
+        <ul class="footnav">
+            <li><a href="about.html">About</a></li>
+            <li><a href="incubating1.html">Incubating</a></li>
+            <li><a href="consulting1.html">Consulting</a></li>
+            <li><a href="hr.html">HR Consulting</a></li>
+            <li><a href="service1.html">Service</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+        <ul class="foot_detail">
+            <li>(주)석세스바로</li>
+            <li>대표: 안경호</li>
+            <li>사업자등록번호: 111-11-111</li>
+            <li>주소: 서울특별시 용산구 한강대로 256, 7층(남영동, 수빌딩)</li>
+            <li>전화: 02-1111-1111</li>
+            <li>팩스: 02-1111-1111</li>
+        </ul>
         <p>Copyright © SuccessBaro ALL RIGHTS RESERVED.</p>
     </div>
 </footer>

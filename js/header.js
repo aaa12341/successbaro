@@ -3,7 +3,7 @@ const HeaderTag = document.getElementById('head');
     <div class="wrap">
         <div class="nav_bar">
             <a href="index.html">
-                <h1><img src="img/logo3.png" alt=""></h1>
+                <h1><img src="img/logo3.png" alt="로고"></h1>
             </a>
             <ul class="navul">
                 <li><a href="about.html">About</a></li>
@@ -18,7 +18,6 @@ const HeaderTag = document.getElementById('head');
 </header>
 <nav>
     <div class="wrap">
-        <!-- <div class="main_nav about_nav"></div> -->
         <div class="main_nav incu_nav">
             <ul>
                 <li><a href="incubating1.html">법인설립 컨설팅</a></li>

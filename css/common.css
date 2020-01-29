@@ -85,6 +85,7 @@ nav .main_nav ul li a{
     text-decoration: none;
     font-size: 0.815rem;
     transition: .2s ease;
+    letter-spacing: -0.2px;
 }
 nav .main_nav ul li a:hover{
     color:rgb(146, 106, 21);
@@ -99,12 +100,45 @@ nav .hr_nav{
 }
 footer{
     width: 100%;
-    height: 160px;
+    height: 180px;
     background-color: #303030;
     overflow: hidden;
     color: white;
+    text-align: center;
+}
+footer h1 img{
+    width: 10%;
+    margin-top: 5px;
+}
+footer ul.footnav li{
+    display: inline-block;
+    list-style: none;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+footer ul.footnav li a{
+    color:rgb(145, 145, 145);
+    text-decoration: none;
+    font-size: 0.815rem;
+    transition: .2s ease;
+    letter-spacing: -0.2px;
+}
+footer ul.footnav li a:hover{
+    color:rgb(146, 106, 21);
+}
+footer ul.foot_detail li{
+    display: inline-block;
+    list-style: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 15px;
+    font-size: 0.815rem;
+    color:rgb(145, 145, 145);
 }
 footer p{
+    color:rgb(145, 145, 145);
+    display: inline-block;
     font-size: 0.8rem;
     margin-top: 10px;
 }

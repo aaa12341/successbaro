@@ -118,6 +118,7 @@ section .about_section2 .partner_box1 h3{
     color: #444;
     word-break: keep-all;
     line-height: 2.5rem;
+    animation: misani1 3.7s;
 }
 section .about_section2 .partner_box2{
     width: 60%;
@@ -129,14 +130,6 @@ section .about_section2 .partner_box2{
 section .about_section2 .partner_box2 img{
     width: 70%;
     animation: misani1 3.7s;
-}
-@keyframes misani1{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
 }
 section .about_section3{
     width: 100%;
@@ -156,21 +149,12 @@ section .about_section3 span{
 section .about_section3 .role{
     width: 100%;
     height: 400px;
-    /* background-color: lavenderblush; */
 }
 section .about_section3 .role img{
     width: 100%;
     padding: 40px 40px 40px 0;
     animation: misani1 3.7s;
     float: left;
-}
-@keyframes misani1{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
 }
 section .about_section4{
     width: 100%;
@@ -190,40 +174,42 @@ section .about_section4 span{
 section .about_section4 .map{
     width: 100%;
     height: 400px;
-    /* background-color: lavenderblush; */
 }
 section .about_section4 .map img{
-    width: 50%;
-    padding: 40px 40px 40px 0;
+    width: 100%;
+    height: 350px;
     animation: misani1 3.7s;
-    float: left;
-}
-@keyframes misani1{
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
+    margin-top: 30px;
 }
 section .about_section4 .map .adress{
-    width: 50%;
-    display: inline-block;
-    padding: 40px 0 40px 20px;
-    color: #444;
+    width: 100%;
+    margin-top: 20px;
+    animation: misani1 3.7s;
 }
 section .about_section4 .map .adress p.company_name{
     width: 35%;
     color: #253b59;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
     padding-bottom: 10px;
-    /* border-bottom: 2px solid #80786E; */
+}
+section .about_section4 .map .adress .ad{
+    float: left;
+}
+section .about_section4 .map .adress .ad.adress1{
+    width: 35%;
+    margin-right: 100px;
+}
+section .about_section4 .map .adress .ad.adress2{
+    width: 35%;
+}
+section .about_section4 .map .adress .ad.adress3{
+    width: 20%;
 }
 section .about_section4 .map .adress h3{
     color: #444;
     font-size: 0.9rem;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 section .about_section4 .map .adress p{

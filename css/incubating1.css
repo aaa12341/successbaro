@@ -59,6 +59,7 @@ section .incu_section2 .intro p{
     line-height: 30px;
     margin-bottom: 10px;
     letter-spacing: 1px;
+    text-align: center;
 }
 section .incu_section2 .incu_main{
     width: 100%;
