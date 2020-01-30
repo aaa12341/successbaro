@@ -13,6 +13,7 @@ section .consul_section2 h2{
     font-size: 2rem;
     padding-top: 35px;
     text-align: center;
+    animation: misani1 3.7s;
 }
 section .consul_section2 .consul_main1 .consul_part1{
     float: left;
