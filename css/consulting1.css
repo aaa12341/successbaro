@@ -4,7 +4,7 @@ section .consul_section2{
 }
 section .consul_section2 .consul_main1{
     width: 100%;
-    height: 550px;
+    height: 620px;
 }
 section .consul_section2 h2{
     width: 100%;
@@ -17,7 +17,7 @@ section .consul_section2 h2{
 section .consul_section2 .consul_main1 .consul_part1{
     float: left;
     width: 68%;
-    margin-top: 50px;
+    margin-top: 65px;
     animation: misani1 3.7s;
     position: relative;
     z-index: 1;
@@ -26,7 +26,7 @@ section .consul_section2 .consul_main1 .consul_part1 h3{
     color: rgb(112, 112, 112);
     font-weight: 100;
     font-size: 1.6rem;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
 }
 section .consul_section2 .consul_main1 .consul_part1 h3 span{
     color: #444;
@@ -41,7 +41,7 @@ section .consul_section2 .consul_main1 .consul_part1 p{
 section .consul_section2 .consul_main1 .consul_img1{
     float: right;
     width: 31.6%;
-    padding-top: 60px;
+    padding-top: 70px;
     animation: misani1 3.7s;
 }
 @keyframes misani1{
@@ -54,11 +54,11 @@ section .consul_section2 .consul_main1 .consul_img1{
 }
 section .consul_section2 .consul_main1 .consul_img1 img{
     width: 82.5%;
-    height: 280px;
+    height: 290px;
 }
 section .consul_main1 .consul_bg1{
     position: absolute;
-    top: 600px;
+    top: 610px;
     right: 50%;
     margin-right: -220px;
     width: 100%;
@@ -67,12 +67,12 @@ section .consul_main1 .consul_bg1{
 }
 section .consul_section2 .consul_main2{
     width: 100%;
-    height: 600px;
+    height: 620px;
 }
 section .consul_section2 .consul_main2 .consul_part2{
     float: right;
-    width: 65%;
-    margin-top: 50px;
+    width: 68%;
+    margin-top: 65px;
     animation: misani1 3.7s;
     position: relative;
     z-index: 1;
@@ -81,7 +81,7 @@ section .consul_section2 .consul_main2 .consul_part2 h3{
     color: rgb(112, 112, 112);
     font-weight: 100;
     font-size: 1.6rem;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
 }
 section .consul_section2 .consul_main2 .consul_part2 h3 span{
     color: #444;
@@ -95,14 +95,14 @@ section .consul_section2 .consul_main2 .consul_part2 p{
 }
 section .consul_section2 .consul_main2 .consul_img2{
     float: left;
-    width: 35%;
-    padding-top: 60px;
+    width: 31%;
+    padding-top: 70px;
     animation: misani1 3.7s;
     padding-right: 20px;
 }
 section .consul_section2 .consul_main2 .consul_img2 img{
     width: 100%;
-    height: 320px;
+    height: 335px;
 }
 section .consul_section2 .consul_main2 .consul_bg2{
     position: absolute;
@@ -116,12 +116,12 @@ section .consul_section2 .consul_main2 .consul_bg2{
 }
 section .consul_section2 .consul_main3{
     width: 100%;
-    height: 600px;
+    height: 620px;
 }
 section .consul_section2 .consul_main3 .consul_part3{
     float: left;
-    width: 65%;
-    margin-top: 50px;
+    width: 62%;
+    margin-top: 65px;
     animation: misani1 3.7s;
     position: relative;
     z-index: 1;
@@ -130,7 +130,7 @@ section .consul_section2 .consul_main3 .consul_part3 h3{
     color: rgb(112, 112, 112);
     font-weight: 100;
     font-size: 1.6rem;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
 }
 section .consul_section2 .consul_main3 .consul_part3 h3 span{
     color: #444;
@@ -144,19 +144,19 @@ section .consul_section2 .consul_main3 .consul_part3 p{
 }
 section .consul_section2 .consul_main3 .consul_img3{
     float: right;
-    width: 35%;
-    padding-top: 60px;
+    width: 37%;
+    padding-top: 70px;
     animation: misani1 3.7s;
 }
 section .consul_section2 .consul_main3 .consul_img3 img{
-    width: 100%;
+    width: 85%;
     height: 320px;
 }
 section .consul_section2 .consul_main3 .consul_bg3{
     position: absolute;
-    top: 1800px;
+    top: 1875px;
     right: 50%;
-    margin-right: -180px;
+    margin-right: -155px;
     width: 100%;
     height: 270px;
     background: #f0f0f0;
@@ -168,7 +168,7 @@ section .consul_section2 .consul_main4{
 section .consul_section2 .consul_main4 .consul_part4{
     float: left;
     width: 65%;
-    margin-top: 50px;
+    margin-top: 45px;
     animation: misani1 3.7s;
     position: relative;
     z-index: 1;
@@ -177,7 +177,7 @@ section .consul_section2 .consul_main4 .consul_part4 h3{
     color: rgb(112, 112, 112);
     font-weight: 100;
     font-size: 1.6rem;
-    margin-bottom: 45px;
+    margin-bottom: 40px;
 }
 section .consul_section2 .consul_main4 .consul_part4 h3 span{
     color: #444;
