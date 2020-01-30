@@ -41,8 +41,7 @@ const HeaderTag = document.getElementById('head');
         <div class="main_nav ser_nav">
             <ul>
                 <li><a href="service1.html">ISO 인증 컨설팅</a></li>
-                <li><a href="service1.html">감사행정시스템 구축</a></li>
-                <li><a href="service1.html">상시감사시스템 구축</a></li>
+                <li><a href="service1.html">감사시스템 구축</a></li>
             </ul>
         </div>
     <div>
