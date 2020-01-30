@@ -26,6 +26,7 @@ section .incu_section1 h2{
 }
 section .incu_section1 h3{
     display: inline;
+    margin-right: 15px;
 }
 section .incu_section1 h3.this_pg{
     display: inline;

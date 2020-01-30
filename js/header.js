@@ -22,6 +22,8 @@ const HeaderTag = document.getElementById('head');
             <ul>
                 <li><a href="incubating1.html">법인설립 컨설팅</a></li>
                 <li><a href="incubating2.html">기업 Incubating</a></li>
+                <li><a href="incubating2.html">기업경영 구성요소</a></li>
+                <li><a href="incubating2.html">경영컨설팅 Tool</a></li>
             </ul>
         </div>
         <div class="main_nav consul_nav">
