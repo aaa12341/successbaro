@@ -33,7 +33,8 @@
                     <ul>
                         <li class="btn1 active">BARO's Partners</li>
                         <li class="btn2">Role of BARO</li>
-                        <li class="btn3">Directions</li>
+                        <li class="btn3">Business Area</li>
+                        <li class="btn4">Directions</li>
                     </ul>
                 </div>
             </div>
@@ -66,6 +67,16 @@
         <section class="abouts3">
             <div class="about_section4">
                 <div class="wrap">
+                    <h2>Business Area <span>|</span></h2>
+                    <div class="role">
+                        <img src="img/role.jpg" alt="석세스바로역할">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="abouts4">
+            <div class="about_section5">
+                <div class="wrap">
                     <h2>Directions <span>|</span></h2>
                     <div class="map">
                         <img src="img/map.jpg" alt="">
@@ -96,7 +107,7 @@
         $(document).ready(function(){
             $('.btn1').click(function(){
                 $(this).addClass("active")
-                $('.btn2, .btn3').removeClass("active")
+                $('.btn2, .btn3, .btn4').removeClass("active")
 
                 $('.abouts1').fadeIn()
                 $('.abouts2').css({
@@ -105,10 +116,13 @@
                 $('.abouts3').css({
                     "display" : "none"
                 })
+                $('.abouts4').css({
+                    "display" : "none"
+                })
             })
             $('.btn2').click(function(){
                 $(this).addClass("active")
-                $('.btn1, .btn3').removeClass("active")
+                $('.btn1, .btn3, .btn4').removeClass("active")
 
                 $('.abouts2').fadeIn()
                 $('.abouts1').css({
@@ -117,16 +131,37 @@
                 $('.abouts3').css({
                     "display" : "none"
                 })
+                $('.abouts4').css({
+                    "display" : "none"
+                })
             })
             $('.btn3').click(function(){
                 $(this).addClass("active")
-                $('.btn1, .btn2').removeClass("active")
+                $('.btn1, .btn2, .btn4').removeClass("active")
 
                 $('.abouts3').fadeIn()
                 $('.abouts1').css({
                     "display" : "none"
                 })
                 $('.abouts2').css({
+                    "display" : "none"
+                })
+                $('.abouts4').css({
+                    "display" : "none"
+                })
+            })
+            $('.btn4').click(function(){
+                $(this).addClass("active")
+                $('.btn1, .btn2, .btn3').removeClass("active")
+
+                $('.abouts4').fadeIn()
+                $('.abouts1').css({
+                    "display" : "none"
+                })
+                $('.abouts2').css({
+                    "display" : "none"
+                })
+                $('.abouts3').css({
                     "display" : "none"
                 })
             })
