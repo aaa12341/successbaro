@@ -26,7 +26,7 @@ const HeaderTag = document.getElementById('head');
         </div>
         <div class="main_nav consul_nav">
             <ul>
-                <li><a href="consulting1.html">정기경영자문</a></li>
+                <li><a href="consulting1.html">상시 경영자문</a></li>
                 <li><a href="consulting2.html">경영현황 관리체계</a></li>
                 <li><a href="consulting3.html">BI 기반 경영컨설팅</a></li>
                 <li><a href="consulting4.html">마케팅 프로세스 구축</a></li>

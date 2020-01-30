@@ -16,7 +16,7 @@ section .consul_section2 h2{
 }
 section .consul_section2 .consul_main1 .consul_part1{
     float: left;
-    width: 65%;
+    width: 68%;
     margin-top: 50px;
     animation: misani1 3.7s;
     position: relative;
@@ -40,7 +40,7 @@ section .consul_section2 .consul_main1 .consul_part1 p{
 }
 section .consul_section2 .consul_main1 .consul_img1{
     float: right;
-    width: 35%;
+    width: 31.6%;
     padding-top: 60px;
     animation: misani1 3.7s;
 }
@@ -53,14 +53,14 @@ section .consul_section2 .consul_main1 .consul_img1{
     }
 }
 section .consul_section2 .consul_main1 .consul_img1 img{
-    width: 90%;
+    width: 82.5%;
     height: 280px;
 }
 section .consul_main1 .consul_bg1{
     position: absolute;
     top: 600px;
     right: 50%;
-    margin-right: -180px;
+    margin-right: -220px;
     width: 100%;
     height: 270px;
     background: #f0f0f0;
