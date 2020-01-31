@@ -218,13 +218,6 @@ section .about_section5 .map .adress{
     margin-top: 20px;
     animation: misani1 3.7s;
 }
-section .about_section5 .map .adress p.company_name{
-    width: 35%;
-    color: #253b59;
-    font-size: 1.1rem;
-    font-weight: bold;
-    padding-bottom: 10px;
-}
 section .about_section5 .map .adress .ad{
     float: left;
 }
