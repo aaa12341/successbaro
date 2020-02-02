@@ -23,7 +23,6 @@ section .about_section1 .mission_box p{
     color: rgb(241, 241, 241);
     font-size: 1.3rem;
     margin-bottom: 20px;
-    /* font-family: 'Baskervville', serif; */
     letter-spacing: 1.2px;
     animation: misani1 3.7s;
 }
@@ -49,7 +48,118 @@ section .about_section1 .mission_box span{
         opacity: 1;
     }
 }
-section .menu_btn{
+section .about_section2{
+    width: 100%;
+    height: 100%;
+}
+section .about_section2 .main{
+    padding-top: 100px;
+    position: relative;
+    z-index: 1;
+}
+section .about_section2 .line{
+    width: 45px;
+    height: 4px;
+    background-color: #253b59;
+    margin: 0 auto;
+    margin-bottom: 7px;
+    border-radius: 3px;
+}
+section .about_section2 .main h2{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 80px;
+    color: #444;
+}
+section .about_section2 .about_main1{
+    width: 100%;
+    height: 900px;
+}
+section .about_section2 .about_main1 h3{
+    color: rgb(112, 112, 112);
+    font-weight: 100;
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+}
+section .about_section2 .about_main1 h3 span{
+    color: #444;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+section .about_section2 .about_bg1{
+    position: absolute;
+    top: 1000px;
+    right: 50%;
+    margin-right: 230px;
+    width: 330px;
+    height: 330px;
+    background: #f0f0f0;
+    border-radius: 100%;
+}
+section .about_section2 .about_main2{
+    width: 100%;
+    height: 870px;
+}
+section .about_section2 .about_main2 h2{
+    margin-bottom: 60px;
+}
+section .about_section2 .about_main2 .role{
+    width: 100%;
+    height: 400px;
+}
+section .about_section2 .about_main2 .role img{
+    width: 100%;
+    animation: misani1 3.7s;
+    float: left;
+}
+section .about_section2 .about_main3{
+    width: 100%;
+    height: 600px;
+}
+section .about_section2 .about_main4{
+    width: 100%;
+    height: 800px;
+}
+section .about_section2 .about_main4 .map{
+    width: 100%;
+    height: 400px;
+}
+section .about_section2 .about_main4 .map img{
+    width: 100%;
+    height: 350px;
+    animation: misani1 3.7s;
+}
+section .about_section2 .about_main4 .map .adress{
+    width: 100%;
+    margin-top: 20px;
+    animation: misani1 3.7s;
+}
+section .about_section2 .about_main4 .map .adress .ad{
+    float: left;
+}
+section .about_section2 .about_main4 .map .adress .ad.adress1{
+    width: 35%;
+    margin-right: 100px;
+}
+section .about_section2 .about_main4 .map .adress .ad.adress2{
+    width: 35%;
+}
+section .about_section2 .about_main4 .map .adress .ad.adress3{
+    width: 20%;
+}
+section .about_section2 .about_main4 .map .adress h3{
+    color: #444;
+    font-size: 0.9rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+section .about_section2 .about_main4 .map .adress p{
+    font-size: 0.9rem;
+    color: #444;
+} */
+/* section .menu_btn{
     width: 100%;
     display: inline-block;
     margin-top: 15px;
@@ -205,4 +315,4 @@ section .about_section5 .map .adress h3{
 section .about_section5 .map .adress p{
     font-size: 0.9rem;
     color: #444;
-}
+} */

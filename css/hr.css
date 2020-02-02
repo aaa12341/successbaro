@@ -127,7 +127,7 @@ section .hr_section2 .hr_main2 .intro2 .process{
     -webkit-box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
     -moz-box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
     box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
-    background-color: #67887E;
+    background-color: #238994;
 }
 section .hr_section2 .hr_main2 .intro2 .process.last{
     margin-right: 0;
@@ -152,13 +152,13 @@ section .hr_section2 .hr_main3 .intro3 .hr_area{
     line-height: 80px;
     font-size: 1.2rem;
     border-radius: 4px;
-    color: rgb(99, 99, 99);
+    color: rgb(78, 78, 78);
     font-weight: 600;
     margin-bottom: 20px;
     -webkit-box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
     -moz-box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
     box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
-    background-color: #D3DBD9;
+    background-color: #97C8CC;
 }
 section .hr_section2 .hr_main3 .intro3 .hr_area.last{
     margin-right: 0;
