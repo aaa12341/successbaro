@@ -20,19 +20,20 @@ const HeaderTag = document.getElementById('head');
     <div class="wrap">
         <div class="main_nav incu_nav">
             <ul>
+                <li><a href="incubating1.html">비즈니스 모델 디자인</a></li>
+                <li><a href="incubating1.html">바로 비즈니스 스쿨</a></li>
                 <li><a href="incubating1.html">법인설립 컨설팅</a></li>
-                <li><a href="incubating1.html">기업 Incubating</a></li>
-                <li><a href="incubating1.html">기업경영 구성요소</a></li>
-                <li><a href="incubating1.html">경영컨설팅 Tool</a></li>
             </ul>
         </div>
         <div class="main_nav consul_nav">
             <ul>
-                <li><a href="consulting1.html">상시 경영자문</a></li>
-                <li><a href="consulting1.html">경영현황 관리체계</a></li>
+                <li><a href="consulting1.html">경영 상시자문</a></li>
                 <li><a href="consulting1.html">BI 기반 경영컨설팅</a></li>
-                <li><a href="consulting1.html">마케팅 프로세스 구축</a></li>
+                <li><a href="consulting1.html">상시 경영자문 & <br>경영컨설팅 영역</a></li>
+                <li><a href="consulting1.html">컨설팅 수행 프로세스</a></li>
+                <li><a href="consulting1.html">경영현황 관리체계</a></li>
                 <li><a href="consulting1.html">경영전략 수립</a></li>
+                <li><a href="consulting1.html">마케팅 프로세스 구축</a></li>
             </ul>
         </div>
         <div class="main_nav hr_nav">

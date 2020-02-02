@@ -124,9 +124,9 @@ section .hr_section2 .hr_main2 .intro2 .process{
     border-radius: 4px;
     color: #f0f0f0;
     font-weight: 600;
-    -webkit-box-shadow: 0px 8px 10px 0px rgba(212,212,212,1);
-    -moz-box-shadow: 0px 8px 10px 0px rgba(212,212,212,1);
-    box-shadow: 0px 8px 10px 0px rgba(212,212,212,1);
+    -webkit-box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
+    -moz-box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
+    box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
     background-color: #67887E;
 }
 section .hr_section2 .hr_main2 .intro2 .process.last{
@@ -151,14 +151,13 @@ section .hr_section2 .hr_main3 .intro3 .hr_area{
     text-align: center;
     line-height: 80px;
     font-size: 1.2rem;
-    /* border: 1px solid rgb(202, 202, 202); */
     border-radius: 4px;
     color: rgb(99, 99, 99);
     font-weight: 600;
     margin-bottom: 20px;
-    -webkit-box-shadow: 0px 8px 10px 0px rgba(212,212,212,1);
-    -moz-box-shadow: 0px 8px 10px 0px rgba(212,212,212,1);
-    box-shadow: 0px 8px 10px 0px rgba(212,212,212,1);
+    -webkit-box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
+    -moz-box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
+    box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
     background-color: #D3DBD9;
 }
 section .hr_section2 .hr_main3 .intro3 .hr_area.last{
