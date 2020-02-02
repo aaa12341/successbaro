@@ -71,7 +71,7 @@ section .consul_section2 .consul_main1 .consul_img1 img{
 }
 section .consul_main1 .consul_bg1{
     position: absolute;
-    top: 700px;
+    top: 710px;
     right: 50%;
     margin-right: -380px;
     width: 100%;
