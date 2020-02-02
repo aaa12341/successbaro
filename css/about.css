@@ -103,41 +103,6 @@ section.abouts4{
     position: absolute;
     display: none;
 }
-section .about_section2 .partner_box1{
-    width: 40%;
-    height: 100%;
-    float: left;
-}
-section .about_section2 .partner_box1 h2{
-    margin-top: 60px;
-    font-size: 2rem;
-    margin-bottom: 40px;
-    color: #444;
-}
-section .about_section2 .partner_box1 span{
-    margin-top: 60px;
-    font-size: 2rem;
-    margin-bottom: 40px;
-    color: #80786E;
-}
-section .about_section2 .partner_box1 h3{
-    letter-spacing: 1.2px;
-    color: #444;
-    word-break: keep-all;
-    line-height: 2.5rem;
-    animation: misani1 3.7s;
-}
-section .about_section2 .partner_box2{
-    width: 60%;
-    height: 100%;
-    float: right;
-    text-align: center;
-    margin-top: 70px;
-}
-section .about_section2 .partner_box2 img{
-    width: 70%;
-    animation: misani1 3.7s;
-}
 section .about_section3{
     width: 100%;
     height: 600px;
