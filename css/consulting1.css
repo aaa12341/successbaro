@@ -11,7 +11,7 @@ section .consul_section2 h2{
     color: #444;
     font-weight: 300;
     font-size: 2rem;
-    padding-top: 35px;
+    padding-top: 100px;
     text-align: center;
     animation: misani1 3.7s;
 }
