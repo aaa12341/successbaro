@@ -21,7 +21,7 @@ const HeaderTag = document.getElementById('head');
         <div class="main_nav incu_nav">
             <ul>
                 <li><a href="incubating1.html">비즈니스 모델 디자인</a></li>
-                <li><a href="incubating1.html">바로 비즈니스 스쿨</a></li>
+                <li><a href="incubating1.html">포인트 경영스쿨</a></li>
                 <li><a href="incubating1.html">법인설립 컨설팅</a></li>
             </ul>
         </div>
