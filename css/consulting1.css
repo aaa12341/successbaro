@@ -151,50 +151,45 @@ section .consul_section2 .consul_main3 .consul_bg3{
 }
 section .consul_section2 .consul_main4{
     width: 100%;
-    height: 600px;
+    height: 1000px;
 }
 section .consul_section2 .consul_main4 .consul_part4{
-    float: left;
-    width: 65%;
+    width: 100%;
+    height: 800px;
     margin-top: 80px;
-    animation: misani1 3.7s;
     position: relative;
     z-index: 1;
 }
-section .consul_section2 .consul_main4 .consul_part4 h3{
-    color: rgb(112, 112, 112);
-    font-weight: 100;
-    font-size: 1.6rem;
-    margin-bottom: 40px;
-}
-section .consul_section2 .consul_main4 .consul_part4 h3 span{
-    color: #253b59;
-    font-weight: 700;
-    font-size: 1.6rem;
-}
-section .consul_section2 .consul_main4 .consul_part4 p{
-    color: rgb(112, 112, 112);
-    line-height: 28px;
-    font-size: 0.9rem;
-}
-section .consul_section2 .consul_main4 .consul_img4{
-    float: right;
-    width: 35%;
-    padding-top: 60px;
-    animation: misani1 3.7s;
-}
-section .consul_section2 .consul_main4 .consul_img4 img{
+section .consul_section2 .consul_main4 .consul_part4 .graph_part{
     width: 100%;
-    height: 320px;
+    height: 400px;
 }
-section .consul_section2 .consul_main4 .consul_bg4{
-    position: absolute;
-    top: 900px;
-    left: 50%;
-    margin-left: -180px;
-    width: 100%;
-    height: 270px;
-    background: #f6f6f6;
+section .consul_section2 .consul_main4 .consul_part4 .graph_part.first{
+    margin-left: 220px;
+}
+section .consul_section2 .consul_main4 .consul_part4 .graph_title{
+    width: 28%;
+    height: 250px;
+    text-align: center;
+    float: left;
+    line-height: 70px;
+    background-color: #f6f6f6;
+    margin-right: 77px;
+}
+section .consul_section2 .consul_main4 .consul_part4 .graph_title.first{
+    line-height: 25px;
+}
+section .consul_section2 .consul_main4 .consul_part4 .graph_title2{
+    width: 28%;
+    height: 250px;
+    text-align: center;
+    float: left;
+    line-height: 70px;
+    background-color: #f6f6f6;
+    margin-right: 77px;
+}
+section .consul_section2 .consul_main4 .consul_part4 .graph_title2.last{
+    margin-right: 0;
 }
 section .consul_section2 .consul_main5{
     width: 100%;
