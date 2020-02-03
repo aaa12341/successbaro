@@ -139,7 +139,6 @@ section .consul_section2 .consul_main3 .consul_part3{
     animation: misani1 3.7s;
     position: relative;
     z-index: 1;
-    background-color: lightsteelblue;
 }
 section .consul_section2 .consul_main3 .consul_bg3{
     position: absolute;
@@ -258,7 +257,6 @@ section .consul_section2 .consul_main6 .consul_part6{
     animation: misani1 3.7s;
     position: relative;
     z-index: 1;
-    background-color: lightsteelblue;
 }
 section .consul_section2 .consul_main7{
     width: 100%;

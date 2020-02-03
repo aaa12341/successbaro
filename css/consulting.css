@@ -15,7 +15,7 @@ section .consul_section1{
     margin-bottom: 70px;
 }
 section .consul_section1 h2{
-    height: 225px;
+    height: 212px;
     color: white;
     font-size: 2rem;
     position: relative; 
@@ -26,7 +26,7 @@ section .consul_section1 h2{
 section .consul_section1 h3{
     display: inline;
     margin-right: 15px;
-    line-height: 31px;
+    line-height: 32px;
 }
 section .consul_section1 h3 a{
     display: inline;
