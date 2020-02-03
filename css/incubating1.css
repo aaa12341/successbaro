@@ -68,7 +68,7 @@ section .incu_section2 h2{
     text-align: center;
     font-size: 2rem;
     font-weight: 300;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     color: #444;
 }
 section .incu_section2 main{
@@ -84,7 +84,7 @@ section .incu_section2 .line{
 }
 section .incu_section2 .incu_main1{
     width: 100%;
-    height: 900px;
+    height: 1300px;
 }
 section .incu_section2 .incu_main1 .intro{
     padding-top: 100px;
@@ -98,6 +98,24 @@ section .incu_section2 .incu_main1 .intro h2{
     font-weight: 300;
     margin-bottom: 80px;
     color: #444;
+}
+section .incu_section2 .incu_main1 .intro h3{
+    color: rgb(112, 112, 112);
+    font-weight: 100;
+    font-size: 1.6rem;
+}
+section .incu_section2 .incu_main1 .intro .line_fir{
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+section .incu_section2 .incu_main1 .intro .line_sec{
+    margin-bottom: 150px;
+    margin-left: 210px;
+}
+section .incu_section2 .incu_main1 .intro h3 span{
+    color: #253b59;
+    font-weight: 700;
+    font-size: 1.6rem;
 }
 section .incu_section2 .incu_main1 .tool_explain{
     width: 100%;
@@ -137,54 +155,42 @@ section .incu_section2 .incu_main1 .tool_explain2 .step{
 section .incu_section2 .incu_main1 .tool_explain2 .step.color{
     background-color: #D9CBBF;
 }
-/* section .incu_section2 .incu_main1 .tool_box{
+section .incu_section2 .incu_main1 .tool_box{
     width: 100%;
     height: 400px;
 }
 section .incu_section2 .incu_main1 .tool_box img{
     width: 100%;
-} */
-section .incu_section2 .incu_main1 .tool_box{
-    width: 19%;    
-    height: 300px;
-    border: 1px solid rgb(202, 202, 202);
-    display: inline-block;
-    overflow: hidden;
-}
-section .incu_section2 .incu_main1 .tool_box1{
-    width: 100%;
-    height: 150px;
-}
-section .incu_section2 .incu_main1 .tool_box1.fir{
-    border-bottom: 1px solid rgb(202, 202, 202);
-}
-section .incu_section2 .incu_main1 .tool_box2{
-    width: 48%;
-    height: 100px;
-    display: inline-block;
-    border: 1px solid rgb(202, 202, 202);
 }
 section .incu_section2 .incu_main1 .incu_bg1{
     position: absolute;
-    top: 587px;
-    left: 50%;
-    margin-left: -640px;
-    width: 48%;
-    height: 10%;
-}
-section .incu_section2 .incu_main1 .incu_bg1 img{
-    width: 100%;
+    top: 500px;
+    right: 50%;
+    margin-right: 300px;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background: #f6f6f6;
 }
 section .incu_section2 .incu_main1 .incu_bg2{
     position: absolute;
-    top: 595px;
-    right: 50%;
-    margin-right: -590px;
-    width: 48%;
-    height: 10%;
+    top: 650px;
+    left: 50%;
+    margin-left: 240px;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background: #f6f6f6;
 }
-section .incu_section2 .incu_main1 .incu_bg2 img{
-    width: 100%;
+section .incu_section2 .incu_main1 .incu_bg3{
+    position: absolute;
+    top: 740px;
+    right: 50%;
+    margin-right: 100px;
+    width: 150px;
+    height: 150px;
+    background: #f6f6f6;
+    border-radius: 100%;
 }
 section .incu_section2 .incu_main2{
     width: 100%;
@@ -207,9 +213,9 @@ section .incu_section2 .incu_main3 .intro{
     position: relative;
     z-index: 1;
 }
-section .incu_section2 .incu_main3 .incu_bg3{
+section .incu_section2 .incu_main3 .incu_bg4{
     position: absolute;
-    top: 2180px;
+    top: 2580px;
     right: 50%;
     margin-right: 300px;
     width: 300px;
@@ -217,9 +223,9 @@ section .incu_section2 .incu_main3 .incu_bg3{
     border-radius: 100%;
     background: #f6f6f6;
 }
-section .incu_section2 .incu_main3 .incu_bg4{
+section .incu_section2 .incu_main3 .incu_bg5{
     position: absolute;
-    top: 2350px;
+    top: 2850px;
     left: 50%;
     margin-left: 240px;
     width: 300px;
