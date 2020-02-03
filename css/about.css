@@ -82,7 +82,7 @@ section .about_section2 .about_main1 h3{
     color: rgb(112, 112, 112);
     font-weight: 100;
     font-size: 1.6rem;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
     text-align: center;
 }
 section .about_section2 .about_main1 h3 span{
@@ -99,7 +99,7 @@ section .about_section2 .about_main1 .about_num ul li{
     width: 19%;
     height: 100%;
     list-style-type: none;
-    color: #BB133E;
+    color: #D92B4B;
     margin-bottom: 15px;
     font-size: 2rem;
     font-weight: 900;
@@ -116,13 +116,12 @@ section .about_section2 .about_main1 .num_detail ul li{
     list-style-type: none;
     color: #253b59;
     margin-bottom: 15px;
-    font-size: 1.1rem;
     font-weight: 600;
     display: inline-block;
 }
 section .about_section2 .about_bg1{
     position: absolute;
-    top: 1155px;
+    top: 1170px;
     right: 50%;
     margin-right: 378px;
     width: 180px;
@@ -132,7 +131,7 @@ section .about_section2 .about_bg1{
 }
 section .about_section2 .about_bg2{
     position: absolute;
-    top: 1155px;
+    top: 1170px;
     right: 50%;
     margin-right: 145px;
     width: 180px;
@@ -142,7 +141,7 @@ section .about_section2 .about_bg2{
 }
 section .about_section2 .about_bg3{
     position: absolute;
-    top: 1155px;
+    top: 1170px;
     left: 50%;
     margin-left: -90px;
     width: 180px;
@@ -152,7 +151,7 @@ section .about_section2 .about_bg3{
 }
 section .about_section2 .about_bg4{
     position: absolute;
-    top: 1155px;
+    top: 1170px;
     left: 50%;
     margin-left: 140px;
     width: 180px;
@@ -162,7 +161,7 @@ section .about_section2 .about_bg4{
 }
 section .about_section2 .about_bg5{
     position: absolute;
-    top: 1155px;
+    top: 1170px;
     left: 50%;
     margin-left: 375px;
     width: 180px;
@@ -231,11 +230,11 @@ section .about_section2 .about_main4 .map .adress .ad.adress3{
 }
 section .about_section2 .about_main4 .map .adress h3{
     color: #253b59;
-    font-size: 0.95rem;
+    font-size: 1.1rem;
     margin-top: 20px;
     margin-bottom: 10px;
 }
 section .about_section2 .about_main4 .map .adress p{
-    font-size: 0.9rem;
-    color: #444;
+    font-size: 0.95rem;
+    color: rgb(112, 112, 112);
 }

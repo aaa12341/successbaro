@@ -19,7 +19,6 @@ section .consul_section1 h2{
     color: white;
     font-size: 2rem;
     position: relative; 
-    /* z-index:900; */
     line-height: 300px;
     animation: misani1 3.7s;
     letter-spacing: 1.5px;
@@ -27,6 +26,7 @@ section .consul_section1 h2{
 section .consul_section1 h3{
     display: inline;
     margin-right: 15px;
+    line-height: 31px;
 }
 section .consul_section1 h3 a{
     display: inline;
@@ -59,9 +59,4 @@ section .consul_section1 h3.this_pg{
 }
 section .consul_section1 h3 a:hover{
     color: rgb(146, 106, 21);
-}
-section .consul_section2 .intro p{
-    word-break: keep-all;
-    line-height: 30px;
-    letter-spacing: 1px;
 }
