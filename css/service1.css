@@ -102,7 +102,7 @@ section .service_section2 .service_main1 .intro p{
     word-break: keep-all;
     line-height: 30px;
     margin-bottom: 90px;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
 }
 section .service_section2 .service_main1 .service_img{
     background-color: #f5dada;

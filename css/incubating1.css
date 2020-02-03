@@ -84,7 +84,7 @@ section .incu_section2 .line{
 }
 section .incu_section2 .incu_main1{
     width: 100%;
-    height: 1300px;
+    height: 1230px;
 }
 section .incu_section2 .incu_main1 .intro{
     padding-top: 100px;
@@ -194,12 +194,34 @@ section .incu_section2 .incu_main1 .incu_bg3{
 }
 section .incu_section2 .incu_main2{
     width: 100%;
-    height: 850px;
+    height: 1300px;
+}
+section .incu_section2 .incu_main2 .intro{
+    width: 100%;
+    height: 400px;
+    margin-top: 80px;
+}
+section .incu_section2 .incu_main2 .intro h3{
+    color: rgb(112, 112, 112);
+    font-weight: 100;
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+    margin-top: 60px;
+}
+section .incu_section2 .incu_main2 .intro h3 span{
+    color: #253b59;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+section .incu_section2 .incu_main2 .intro p{
+    color: rgb(112, 112, 112);
+    line-height: 28px;
+    font-size: 0.95rem;
 }
 section .incu_section2 .incu_main2 .intro2{
     width: 100%;
     height: 600px;
-    margin-top: 80px;
+    margin-top: 40px;
     background-color: lightsteelblue;
 }
 section .incu_section2 .incu_main3{
@@ -267,9 +289,6 @@ section .incu_section2 .incu_main3 .intro2{
 section .incu_section2 .incu_main3 .intro2 .intro_box{
     width: 19%;
     height: 320px;
-    /* border-left: 1px solid rgb(202, 202, 202);
-    border-right: 1px solid rgb(202, 202, 202);
-    border-bottom: 1px solid rgb(202, 202, 202); */
     border-radius: 4px;
     display: inline-block;
     margin-right: 10px;
