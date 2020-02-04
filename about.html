@@ -78,23 +78,21 @@
                     <div class="main about_main4">
                         <div class="line"></div>
                         <h2>오시는 길</h2>
-                        <div class="map">
-                            <img src="img/map.jpg" alt="">
-                            <div class="adress">
-                                <div class="ad adress1">
-                                    <h3>주소</h3>
-                                    <p>서울특별시 용산구 한강대로 256, 7층(남영동, 수빌딩)</p>
-                                </div>
-                                <div class="ad adress2">
-                                    <h3>전화</h3>
-                                    <p>02-1111-1111</p>
-                                </div>
-                                <div class="ad adress3">
-                                    <h3>팩스</h3>
-                                    <p>02-1111-1111</p>
-                                </div>
+                        <div class="map" id="map"></div>
+                        <!-- <div class="adress">
+                            <div class="ad adress1">
+                                <h3>주소</h3>
+                                <p>서울특별시 용산구 한강대로 256, 7층(남영동, 수빌딩)</p>
                             </div>
-                        </div>
+                            <div class="ad adress2">
+                                <h3>전화</h3>
+                                <p>02-1111-1111</p>
+                            </div>
+                            <div class="ad adress3">
+                                <h3>팩스</h3>
+                                <p>02-1111-1111</p>
+                            </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -103,5 +101,21 @@
     <div class="foot" id="foot"></div>
     <script src="js/header.js"></script>
     <script src="js/footer.js"></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=1fe2ba8586b12f533217dd776c27e141"></script>
+
+    <script>
+        var container = document.getElementById('map');
+                    var options = {
+                        center: new kakao.maps.LatLng(37.541226, 126.973370),
+                        level: 3
+                    };
+                    var map = new kakao.maps.Map(container, options);
+                    var markerPosition = new kakao.maps.LatLng(37.541226, 126.973370);
+                    var marker = new kakao.maps.Marker({
+                        position: markerPosition
+                    });
+                    marker.setMap(map);
+
+    </script>
 </body>
 </html>

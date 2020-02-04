@@ -160,6 +160,15 @@ section .consul_section2 .consul_main4 .consul_part4{
     position: relative;
     z-index: 1;
 }
+section .consul_section2 .consul_main4 .consul_part4 .arrow{
+    width: 70px;
+    vertical-align: middle;
+    display: inline-block;
+}
+section .consul_section2 .consul_main4 .consul_part4 img{
+    width: 60%;
+    height: 60%;
+}
 section .consul_section2 .consul_main4 .consul_part4 .graph_part{
     width: 100%;
     height: 400px;
@@ -169,19 +178,20 @@ section .consul_section2 .consul_main4 .consul_part4 .graph_part.first{
 }
 section .consul_section2 .consul_main4 .consul_part4 .graph_title{
     width: 28%;
-    height: 250px;
+    height: 300px;
     text-align: center;
     float: left;
     line-height: 70px;
     background-color: #f6f6f6;
     margin-right: 77px;
 }
-section .consul_section2 .consul_main4 .consul_part4 .graph_title.first{
+section .consul_section2 .consul_main4 .consul_part4 .graph_part ul li{
+    list-style-type: none;
     line-height: 25px;
 }
 section .consul_section2 .consul_main4 .consul_part4 .graph_title2{
     width: 28%;
-    height: 250px;
+    height: 300px;
     text-align: center;
     float: left;
     line-height: 70px;
@@ -204,6 +214,7 @@ section .consul_section2 .consul_main5 .consul_part5{
     z-index: 1;
 }
 section .consul_section2 .consul_main5 .consul_part5 h3{
+    width: 85%;
     color: rgb(112, 112, 112);
     font-weight: 100;
     font-size: 1.6rem;
@@ -215,9 +226,11 @@ section .consul_section2 .consul_main5 .consul_part5 h3 span{
     font-size: 1.6rem;
 }
 section .consul_section2 .consul_main5 .consul_part5 p{
+    width: 85%;
     color: rgb(112, 112, 112);
     line-height: 28px;
     font-size: 0.95rem;
+    word-break: keep-all;
 }
 section .consul_section2 .consul_main5 .consul_img5{
     float: left;
@@ -228,7 +241,7 @@ section .consul_section2 .consul_main5 .consul_img5{
 }
 section .consul_section2 .consul_main5 .consul_img5 img{
     width: 100%;
-    height: 390px;
+    height: 365px;
 }
 section .consul_section2 .consul_main5 .consul_bg5{
     position: absolute;
