@@ -44,7 +44,7 @@ section .hr_section2 .hr_main1 .intro{
     height: 600px;
     padding-top: 100px;
     margin: 0 auto;
-    color: #444;
+    color: #333;
     position: relative;
     z-index: 1;
 }
@@ -60,7 +60,6 @@ section .hr_section2 .hr_main1 .hr_bg1{
 }
 section .hr_section2 .hr_main1 .intro p{
     word-break: keep-all;
-    color: rgb(112, 112, 112);
     line-height: 30px;
     font-size: 0.95rem;
 }
@@ -75,7 +74,7 @@ section .hr_section2 .hr_main1 .intro ul{
 section .hr_section2 .hr_main1 .intro li{
     width: 100%;
     list-style-type: none;
-    color: #253b59;
+    color: #BB5555;
 }
 section .hr_section2 .hr_main1 .intro li div{
     display: inline-block;
@@ -112,6 +111,7 @@ section .hr_section2 .hr_main2 .intro2 h2{
     font-size: 2rem;
     font-weight: 300;
     margin-bottom: 70px;
+    color: #444;
 }
 section .hr_section2 .hr_main2 .intro2 .process{
     display: inline-block;
@@ -127,7 +127,7 @@ section .hr_section2 .hr_main2 .intro2 .process{
     -webkit-box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
     -moz-box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
     box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
-    background-color: #238994;
+    background-color: #334863;
 }
 section .hr_section2 .hr_main2 .intro2 .process.last{
     margin-right: 0;
@@ -152,13 +152,13 @@ section .hr_section2 .hr_main3 .intro3 .hr_area{
     line-height: 80px;
     font-size: 1.2rem;
     border-radius: 4px;
-    color: rgb(78, 78, 78);
+    color: #333;
     font-weight: 600;
     margin-bottom: 20px;
     -webkit-box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
     -moz-box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
     box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
-    background-color: rgb(201, 225, 228);
+    background-color: #EBDED9;
 }
 section .hr_section2 .hr_main3 .intro3 .hr_area.last{
     margin-right: 0;

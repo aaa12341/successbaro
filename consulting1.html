@@ -5,27 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>석세스바로</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo4.png" />
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Baskervville&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/consulting.css">
     <link rel="stylesheet" href="css/consulting1.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/common.js"></script>
 </head>
 <body>
     <div id="wrap">
         <div class="head" id="head"></div>
+        <div id="top_btn"></div>
         <section>
             <div class="consul_section1">
                 <div class="wrap">
                     <h2>경영 상시자문</h2>
-                    <h3 class="this_pg">| 경영 상시자문</h3>
-                    <h3><a href="consulting1.html">| BI 기반 경영컨설팅</a></h3>
-                    <h3><a href="consulting1.html">| 상시 경영자문 & 경영컨설팅 영역</a></h3>
-                    <h3><a href="consulting1.html">| 컨설팅 수행 프로세스</a></h3>
+                    <h3 class="this_pg" id="con_btn1">| 경영 상시자문</h3>
+                    <h3 id="con_btn2">| BI 기반 경영컨설팅</h3>
+                    <h3 id="con_btn3">| 상시 경영자문 & 경영컨설팅 영역</h3>
+                    <h3 id="con_btn4">| 컨설팅 수행 프로세스</h3id="ser_btn2">
                     <br>
-                    <h3><a href="consulting1.html">| 경영현황 관리체계</a></h3>
-                    <h3><a href="consulting1.html">| 경영전략 수립</a></h3>
-                    <h3><a href="consulting1.html">| 마케팅 프로세스 구축</a></h3>
+                    <h3 id="con_btn5">| 경영현황 관리체계</h3>
+                    <h3 id="con_btn6">| 경영전략 수립</h3id="ser_btn2">
+                    <h3 id="con_btn7">| 마케팅 프로세스 구축</h3id="ser_btn2">
                 </div>
             </div>
         </section>
@@ -33,7 +36,7 @@
             <div class="consul_section2">
                 <div class="wrap">
                     <div class="consul_main1">
-                        <div class="intro">
+                        <div class="intro" id="con_intro1">
                             <div class="line"></div>
                             <h2>경영 상시자문</h2>
                         </div>
@@ -60,7 +63,7 @@
                     </div>
 
                     <div class="consul_main2">
-                        <div class="intro">
+                        <div class="intro" id="con_intro2">
                             <div class="line"></div>
                             <h2>BI 기반 경영컨설팅</h2>
                         </div>
@@ -84,7 +87,7 @@
                     </div>
 
                     <div class="consul_main3">
-                        <div class="intro">
+                        <div class="intro" id="con_intro3">
                             <div class="line"></div>
                             <h2>상시 경영자문 & 경영컨설팅 영역</h2>
                         </div>
@@ -95,7 +98,7 @@
                     </div>
 
                     <div class="consul_main4">
-                        <div class="intro">
+                        <div class="intro" id="con_intro4">
                             <div class="line"></div>
                             <h2>컨설팅 수행 프로세스</h2>
                         </div>
@@ -164,7 +167,7 @@
                     </div>
 
                     <div class="consul_main5">
-                        <div class="intro">
+                        <div class="intro" id="con_intro5">
                             <div class="line"></div>
                             <h2>경영현황 관리체계</h2>
                         </div>
@@ -173,7 +176,7 @@
                                 경영현황 분석 <span>데이터 제공</span> 및 맞춤형 IT <span>솔루션 공급</span>을 통한 
                                 <br>월 정기 경영회의 체계 구축
                             </h3>
-                            <p>석세스바로는 중소기업을 대상으로 경영현황 관리체계 구축 컨설팅을 수행하고 있습니다.
+                            <p>석세스바로는 중소기업을 대상으로 경영현황 관리체계 구축 컨설팅을 수행하고 있습니다.<br>
                                 경영 관리의 대부분은 정기적이고 반복적인 일입니다.
                                 이것은 다양하고 많은 데이터가 계속 생성되고 있다는 뜻이기도 합니다.
                                 경영 관리는 이 데이터를 측정하는 것에서부터 시작됩니다.
@@ -182,7 +185,7 @@
                                 중소기업의 경영 현실에서는 조직, 인력, IT, 예산 등 여러 가지 이유로
                                 측정과 관리에 제한 사항이 많습니다.
                                 석세스바로는  이런 중소기업이 원활하고 효율적인 경영 관리를 할 수 있도록 데이터의 측정과 분석을 바탕으로 
-                                정기적인 경영회의를 통해 경영진의 의사결정을 지원하고 있습니다.
+                                정기적인 경영회의를 통해 경영진의 의사결정을 지원하고 있습니다.<br>
                                 그 동안의 경험을 바탕으로 중소기업 경영 관리에 필요한 IT 솔루션을 맞춤형으로 개발 공급하고 있습니다.           
                             </p>
                         </div>
@@ -190,10 +193,11 @@
                             <img src="img/consul5.jpg" alt="경영현황 관리체계">
                         </div>
                         <div class="consul_bg5"></div>
+                        <div class="consul_bg51"></div>
                     </div>
 
                     <div class="consul_main6">
-                        <div class="intro">
+                        <div class="intro" id="con_intro6">
                             <div class="line"></div>
                             <h2>경영전략 수립</h2>
                         </div>
@@ -203,7 +207,7 @@
                     </div>
 
                     <div class="consul_main7">
-                        <div class="intro">
+                        <div class="intro" id="con_intro7">
                             <div class="line"></div>
                             <h2>마케팅 프로세스 구축</h2>
                         </div>
@@ -223,7 +227,6 @@
         <div class="foot" id="foot"></div>
     </div>
     <script src="js/header.min.js"></script>
-
     <script src="js/footer.min.js"></script>
 </body>
 </html>

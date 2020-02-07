@@ -5,19 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>석세스바로</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/logo4.png" />
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR|Baskervville&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/service1.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/common.js"></script>
 </head>
 <body>
     <div id="wrap">
         <div class="head" id="head"></div>
+        <div id="top_btn"></div>
         <section>
             <div class="service_section1">
                 <div class="wrap">
                     <h2>ISO 인증 컨설팅</h2>
-                    <h3><a href="service1.html">| 감사시스템 구축</a></h3>
+                    <h3 class="this_pg" id="ser_btn1">| ISO 인증 컨설팅</h3>
+                    <h3 id="ser_btn2">| 감사시스템 구축</h3>
                 </div>
             </div>
         </section>
@@ -25,12 +29,12 @@
             <div class="service_section2">
                 <div class="wrap">
                     <div class="service_main1">
-                        <div class="intro">  
+                        <div class="intro" id="ser_intro1">  
                             <div class="line"></div>
                             <h2>ISO 인증 컨설팅</h2>
                             <h3>ISO 인증이란?</h3>
                             <p>ISO 9001은 모든 산업에 적용이 가능하며 고객 만족과 품질 경쟁력을 확보해
-                                프로세스를 지속적으로 개선해 나가는 품질경영시스템으로<br>  
+                                프로세스를 지속적으로 개선해 나가는 품질경영시스템으로,<br>  
                                 실행의 적합성을 제3자 인증기관의 심사를 통하여 인증받는 제도로 국제표준화기구 
                                 (International organization for standardization)에서 제정한 품질경영시스템에 대한 국제규격입니다.
                                 <br> ISO 인증은 컨설팅사에서 받는 것이 아니라 인증기관으로 부터 받는 것입니다.<br>  
@@ -43,7 +47,7 @@
                         <div class="service_bg1"></div>
                     </div>
                     <div class="service_main2">
-                        <div class="intro2">
+                        <div class="intro2" id="ser_intro2">
                             <div class="line"></div>
                             <h2>감사시스템 구축</h2>
                             <div class="intro_box first">
@@ -78,7 +82,6 @@
         <div class="foot" id="foot"></div>
     </div>
     <script src="js/header.min.js"></script>
-
     <script src="js/footer.min.js"></script>
 </body>
 </html>
