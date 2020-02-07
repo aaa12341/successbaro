@@ -139,14 +139,14 @@ section .incu_section2 .incu_main1 .tool_explain2{
 section .incu_section2 .incu_main1 .tool_explain2 .step{
     width: 16%;
     height: 50px;
-    background-color: #ECE8E6;
+    background-color: #E6DCCF;
     line-height: 50px;
     text-align: center;
     display: inline-block;
     border-radius: 3px;
 }
 section .incu_section2 .incu_main1 .tool_explain2 .step.color{
-    background-color: #EBDED9;
+    background-color: #C2BAAE;
     color: #333;
 }
 section .incu_section2 .incu_main1 .tool_box{
@@ -338,18 +338,20 @@ section .incu_section2 .incu_main3 .incu_part31 .intro_box2 ul li{
     color: #333;
 }
 section .incu_section2 .incu_main3 .incu_part31 .intro_box.first_box .intro_box1{
-    background-color: #334863;
-    color: #f0f0f0;
+    background-color: #C2BAAE;
+    /* color: #f0f0f0; */
 }
 section .incu_section2 .incu_main3 .incu_part31 .intro_box.second_box .intro_box1{
-    background-color: #EBDED9;
+    color: #f0f0f0;
+    background-color: #635F59;
 }
 section .incu_section2 .incu_main3 .incu_part31 .intro_box.third_box .intro_box1{
-    background-color: #A64444;
+    background-color: #42403C;
     color: #f0f0f0;
 }
 section .incu_section2 .incu_main3 .incu_part31 .intro_box.last_box .intro_box1{
-    background-color: #D9D1D0;
+    background-color: #E6DCCF;
+    /* color: #f0f0f0; */
 }
 section .incu_section2 .incu_main3 .incu_part31 .intro_box.second_box ul li:nth-child(4){
     margin-bottom: -10px;
