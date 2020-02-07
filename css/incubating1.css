@@ -61,57 +61,50 @@ section .incu_section2{
     height: 100%;
     animation: misani1 3.7s;
 }
-section .incu_section2 h2{
-    width: 100%;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 300;
-    margin-bottom: 60px;
-    color: #444;
-}
-section .incu_section2 main{
+section .incu_section2 .intro{
     padding-top: 100px;
 }
-section .incu_section2 .line{
+section .incu_section2 .intro .line{
     width: 45px;
     height: 4px;
-    background-color: #253b59;
+    background-color: #BB5555;
     margin: 0 auto;
     margin-bottom: 7px;
     border-radius: 3px;
+}
+section .incu_section2 h2{
+    width: 100%;
+    color: #444;
+    font-weight: 300;
+    font-size: 2rem;
+    text-align: center;
 }
 section .incu_section2 .incu_main1{
     width: 100%;
     height: 1230px;
 }
-section .incu_section2 .incu_main1 .intro{
-    padding-top: 100px;
+section .incu_section2 .incu_main2 .incu_part1{
+    width: 100%;
+    height: 400px;
     position: relative;
     z-index: 1;
 }
-section .incu_section2 .incu_main1 .intro h2{
-    width: 100%;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 300;
-    margin-bottom: 80px;
-    color: #444;
-}
-section .incu_section2 .incu_main1 .intro h3{
-    color: rgb(112, 112, 112);
+section .incu_section2 .incu_main1 .incu_part1 h3{
+    color: #333;
     font-weight: 100;
     font-size: 1.6rem;
+    margin-top: 100px;
 }
-section .incu_section2 .incu_main1 .intro .line_fir{
+section .incu_section2 .incu_main1 .incu_part1 .line_fir{
     margin-left: 50px;
     margin-bottom: 100px;
 }
-section .incu_section2 .incu_main1 .intro .line_sec{
+section .incu_section2 .incu_main1 .incu_part1 .line_sec{
     margin-bottom: 150px;
     margin-left: 210px;
 }
-section .incu_section2 .incu_main1 .intro h3 span{
-    color: #253b59;
+section .incu_section2 .incu_main1 .incu_part1 h3 span{
+    color: #BB5555;
     font-weight: 700;
     font-size: 1.6rem;
 }
@@ -127,7 +120,7 @@ section .incu_section2 .incu_main1 .tool_explain img{
 section .incu_section2 .incu_main1 .tool_explain1{
     width: 19%;
     height: 50px;
-    background-color: #655E66;
+    background-color: #334863;
     color: #f0f0f0;
     display: inline-block;
     line-height: 50px;
@@ -140,18 +133,21 @@ section .incu_section2 .incu_main1 .tool_explain2{
     height: 50px;
     text-align: center;
     display: inline-block;
+    color: #333;
 }
 section .incu_section2 .incu_main1 .tool_explain2 .step{
     width: 16%;
     height: 50px;
-    background-color: #DCD8D7;
+    background-color: #ECE8E6;
+    /* color: #f0f0f0; */
     line-height: 50px;
     text-align: center;
     display: inline-block;
     border-radius: 3px;
 }
 section .incu_section2 .incu_main1 .tool_explain2 .step.color{
-    background-color: #D9CBBF;
+    background-color: #EBDED9;
+    color: #333;
 }
 section .incu_section2 .incu_main1 .tool_box{
     width: 100%;
@@ -192,38 +188,38 @@ section .incu_section2 .incu_main1 .incu_bg3{
 }
 section .incu_section2 .incu_main2{
     width: 100%;
-    height: 850px;
+    height: 900px;
+    padding-top: 100px;
 }
-section .incu_section2 .incu_main2 .intro{
+section .incu_section2 .incu_main2 .incu_part2{
     width: 100%;
     height: 400px;
-    margin-top: 80px;
     position: relative;
     z-index: 1;
 }
-section .incu_section2 .incu_main2 .intro h3{
-    color: rgb(112, 112, 112);
+section .incu_section2 .incu_main2 .incu_part2 h3{
+    color: #333;
     font-weight: 100;
     font-size: 1.4rem;
     margin-bottom: 40px;
     margin-top: 60px;
 }
-section .incu_section2 .incu_main2 .intro h3 span{
-    color: #253b59;
+section .incu_section2 .incu_main2 .incu_part2 h3 span{
+    color: #BB5555;
     font-weight: 700;
     font-size: 1.4rem;
 }
-section .incu_section2 .incu_main2 .intro p{
-    color: rgb(112, 112, 112);
+section .incu_section2 .incu_main2 .incu_part2 p{
+    color: #333;
     line-height: 28px;
     font-size: 0.95rem;
 }
-section .incu_section2 .incu_main2 .intro2{
+section .incu_section2 .incu_main2 .incu_part21{
     width: 100%;
-    height: 500px;
+    height: 300px;
     margin-top: 40px;
 }
-section .incu_section2 .incu_main2 .intro2 .intro2_graph{
+section .incu_section2 .incu_main2 .incu_part21 .intro2_graph{
     width: 15%;
     height: 200px;
     float: left;
@@ -233,15 +229,15 @@ section .incu_section2 .incu_main2 .intro2 .intro2_graph{
     margin-right: 65px;
     border-radius: 3px;
 }
-section .incu_section2 .incu_main2 .intro2 .intro2_graph.last{
+section .incu_section2 .incu_main2 .incu_part21 .intro2_graph.last{
     margin-right: 0;
 }
-section .incu_section2 .incu_main2 .intro2 .intro2_graph ul li{
+section .incu_section2 .incu_main2 .incu_part21 .intro2_graph ul li{
     list-style: none;
     text-align: center;
     height: 40px;
     line-height: 40px;
-    color: rgb(99, 99, 99);
+    color: #333;
 }
 section .incu_section2 .incu_main2 .incu_bg4{
     position: absolute;
@@ -266,11 +262,12 @@ section .incu_section2 .incu_main2 .incu_bg5{
 section .incu_section2 .incu_main3{
     width: 100%;
     height: 100%;
+    margin-top: 80px;
 }
-section .incu_section2 .incu_main3 .intro{
+section .incu_section2 .incu_main3 .incu_part3{
     width: 100%;
     height: 600px;
-    color: rgb(112, 112, 112);
+    color: #333;
     position: relative;
     z-index: 1;
 }
@@ -294,37 +291,30 @@ section .incu_section2 .incu_main3 .incu_bg7{
     border-radius: 100%;
     background: #f6f6f6;
 }
-section .incu_section2 .incu_main3 .intro h2{
-    width: 100%;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 300;
-    color: #444;
-}
-section .incu_section2 .incu_main3 .intro h3{
-    color: rgb(112, 112, 112);
+section .incu_section2 .incu_main3 .incu_part3 h3{
+    color: #333;
     font-weight: 100;
     font-size: 1.4rem;
     margin-top: 100px;
 }
-section .incu_section2 .incu_main3 .intro h3.intro_fir{
+section .incu_section2 .incu_main3 .incu_part3 h3.intro_fir{
     margin-left: 50px;
 }
-section .incu_section2 .incu_main3 .intro h3.intro_sec{
+section .incu_section2 .incu_main3 .incu_part3 h3.intro_sec{
     float: right;
     margin-right: 100px;
 }
-section .incu_section2 .incu_main3 .intro h3 span{
-    color: #253b59;
+section .incu_section2 .incu_main3 .incu_part3 h3 span{
+    color: #BB5555;
     font-weight: 700;
     font-size: 1.4rem;
 }
-section .incu_section2 .incu_main3 .intro2{
+section .incu_section2 .incu_main3 .incu_part31{
     width: 100%;
     height: 450px;
     text-align: center;
 }
-section .incu_section2 .incu_main3 .intro2 .intro_box{
+section .incu_section2 .incu_main3 .incu_part31 .intro_box{
     width: 19%;
     height: 320px;
     border-radius: 4px;
@@ -336,10 +326,10 @@ section .incu_section2 .incu_main3 .intro2 .intro_box{
     vertical-align: middle;
     margin-right: 10px;
 }
-section .incu_section2 .incu_main3 .intro2 .intro_box.last_box{
+section .incu_section2 .incu_main3 .incu_part31 .intro_box.last_box{
     margin-right: 0;
 }
-section .incu_section2 .incu_main3 .intro2 .intro_box1{
+section .incu_section2 .incu_main3 .incu_part31 .intro_box1{
     width: 100%;
     height: 50px;
     line-height: 50px;
@@ -347,46 +337,46 @@ section .incu_section2 .incu_main3 .intro2 .intro_box1{
     font-size: 1.2rem;
     font-weight: 600;
 }
-section .incu_section2 .incu_main3 .intro2 .intro_box2{
+section .incu_section2 .incu_main3 .incu_part31 .intro_box2{
     position: relative;
     width: 100%;
     height: 270px;
 }
-section .incu_section2 .incu_main3 .intro2 .intro_box2 ul{
+section .incu_section2 .incu_main3 .incu_part31 .intro_box2 ul{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
 }
-section .incu_section2 .incu_main3 .intro2 .intro_box2 ul li{
+section .incu_section2 .incu_main3 .incu_part31 .intro_box2 ul li{
     list-style: none;
     text-align: center;
     height: 30px;
     line-height: 30px;
-    color: rgb(99, 99, 99);
+    color: #333;
 }
-section .incu_section2 .incu_main3 .intro2 .intro_box.first_box .intro_box1{
-    /* background-color: #6878A6; */
-    background-color: #655E66;
+section .incu_section2 .incu_main3 .incu_part31 .intro_box.first_box .intro_box1{
+    background-color: #334863;
     color: #f0f0f0;
 }
-section .incu_section2 .incu_main3 .intro2 .intro_box.second_box .intro_box1{
-    /* background-color: #8E9EBF; */
-    background-color: #DCD8D7;
+section .incu_section2 .incu_main3 .incu_part31 .intro_box.second_box .intro_box1{
+    background-color: #EBDED9;
 }
-section .incu_section2 .incu_main3 .intro2 .intro_box.third_box .intro_box1{
-    /* background-color: #B0C1D9; */
-    background-color: #AA9C91;
+section .incu_section2 .incu_main3 .incu_part31 .intro_box.third_box .intro_box1{
+    background-color: #A64444;
+    color: #f0f0f0;
 }
-section .incu_section2 .incu_main3 .intro2 .intro_box.last_box .intro_box1{
-    /* background-color: #C1D0D9; */
-    background-color: #D9CBBF;
+section .incu_section2 .incu_main3 .incu_part31 .intro_box.last_box .intro_box1{
+    background-color: #D9D1D0;
 }
-section .incu_section2 .incu_main3 .intro2 .intro_box.third_box ul li:nth-child(2){
+section .incu_section2 .incu_main3 .incu_part31 .intro_box.second_box ul li:nth-child(4){
     margin-bottom: -10px;
 }
-section .incu_section2 .incu_main3 .intro2 img{
+section .incu_section2 .incu_main3 .incu_part31 .intro_box.third_box ul li:nth-child(2){
+    margin-bottom: -10px;
+}
+section .incu_section2 .incu_main3 .incu_part31 img{
     width: 40px;
     margin-right: 10px;
     vertical-align: middle;
