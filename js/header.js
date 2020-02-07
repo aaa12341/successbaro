@@ -20,9 +20,9 @@ const HeaderTag = document.getElementById('head');
     <div class="wrap">
         <div class="main_nav incu_nav">
             <ul>
-                <li id="incu_btn1">비즈니스 모델 디자인</li>
-                <li id="incu_btn2">포인트 경영스쿨</li>
-                <li id="incu_btn3">법인설립 컨설팅</li>
+                <li>비즈니스 모델 디자인</li>
+                <li>포인트 경영스쿨</li>
+                <li>법인설립 컨설팅</li>
             </ul>
         </div>
         <div class="main_nav consul_nav">
@@ -74,78 +74,5 @@ $(document).ready(function(){
     })
     $('.navul li:nth-child(5)').mouseleave(function(){
         $(this).html("<a href='service1.html'>Service</a>")
-    })
-
-    $("#incu_btn1").click(function(){
-        var introTag = $('#incu_intro1').offset()
-        $('html,body').animate({
-            scrollTop : introTag.top
-        })
-    })
-    $("#incu_btn2").click(function(){
-        var introTag = $('#incu_intro2').offset()
-        $('html,body').animate({
-            scrollTop : introTag.top
-        })
-    })
-    $("#incu_btn3").click(function(){
-        var introTag = $('#incu_intro3').offset()
-        $('html,body').animate({
-            scrollTop : introTag.top
-        })
-    })
-    $("#con_btn1").click(function(){
-        var introTag = $('#con_intro1').offset()
-        $('html,body').animate({
-            scrollTop : introTag.top
-        })
-    })
-    $("#con_btn2").click(function(){
-        var introTag = $('#con_intro2').offset()
-        $('html,body').animate({
-            scrollTop : introTag.top
-        }, 800)
-    })
-    $("#con_btn3").click(function(){
-        var introTag = $('#con_intro3').offset()
-        $('html,body').animate({
-            scrollTop : introTag.top
-        }, 800)
-    })
-    $("#con_btn4").click(function(){
-        var introTag = $('#con_intro4').offset()
-        $('html,body').animate({
-            scrollTop : introTag.top
-        }, 800)
-    })
-    $("#con_btn5").click(function(){
-        var introTag = $('#con_intro5').offset()
-        $('html,body').animate({
-            scrollTop : introTag.top
-        }, 800)
-    })
-    $("#con_btn6").click(function(){
-        var introTag = $('#con_intro6').offset()
-        $('html,body').animate({
-            scrollTop : introTag.top
-        }, 800)
-    })
-    $("#con_btn7").click(function(){
-        var introTag = $('#con_intro7').offset()
-        $('html,body').animate({
-            scrollTop : introTag.top
-        }, 800)
-    })
-    $("#ser_btn1").click(function(){
-        var introTag = $('#ser_intro1').offset()
-        $('html,body').animate({
-            scrollTop : introTag.top
-        }, 800)
-    })
-    $("#ser_btn2").click(function(){
-        var introTag = $('#ser_intro2').offset()
-        $('html,body').animate({
-            scrollTop : introTag.top
-        }, 800)
     })
 })
