@@ -83,7 +83,7 @@ section .incu_section2 .incu_main1{
     width: 100%;
     height: 1230px;
 }
-section .incu_section2 .incu_main2 .incu_part1{
+section .incu_section2 .incu_main1 .incu_part1{
     width: 100%;
     height: 400px;
     position: relative;
@@ -93,7 +93,7 @@ section .incu_section2 .incu_main1 .incu_part1 h3{
     color: #333;
     font-weight: 100;
     font-size: 1.6rem;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 section .incu_section2 .incu_main1 .incu_part1 .line_fir{
     margin-left: 50px;
@@ -139,7 +139,6 @@ section .incu_section2 .incu_main1 .tool_explain2 .step{
     width: 16%;
     height: 50px;
     background-color: #ECE8E6;
-    /* color: #f0f0f0; */
     line-height: 50px;
     text-align: center;
     display: inline-block;
@@ -189,7 +188,6 @@ section .incu_section2 .incu_main1 .incu_bg3{
 section .incu_section2 .incu_main2{
     width: 100%;
     height: 900px;
-    padding-top: 100px;
 }
 section .incu_section2 .incu_main2 .incu_part2{
     width: 100%;
@@ -202,7 +200,7 @@ section .incu_section2 .incu_main2 .incu_part2 h3{
     font-weight: 100;
     font-size: 1.4rem;
     margin-bottom: 40px;
-    margin-top: 60px;
+    margin-top: 80px;
 }
 section .incu_section2 .incu_main2 .incu_part2 h3 span{
     color: #BB5555;
@@ -216,7 +214,7 @@ section .incu_section2 .incu_main2 .incu_part2 p{
 }
 section .incu_section2 .incu_main2 .incu_part21{
     width: 100%;
-    height: 300px;
+    height: 250px;
     margin-top: 40px;
 }
 section .incu_section2 .incu_main2 .incu_part21 .intro2_graph{
@@ -241,7 +239,7 @@ section .incu_section2 .incu_main2 .incu_part21 .intro2_graph ul li{
 }
 section .incu_section2 .incu_main2 .incu_bg4{
     position: absolute;
-    top: 1750px;
+    top: 1790px;
     right: 50%;
     margin-right: 300px;
     width: 300px;
@@ -266,14 +264,14 @@ section .incu_section2 .incu_main3{
 }
 section .incu_section2 .incu_main3 .incu_part3{
     width: 100%;
-    height: 600px;
+    height: 400px;
     color: #333;
     position: relative;
     z-index: 1;
 }
 section .incu_section2 .incu_main3 .incu_bg6{
     position: absolute;
-    top: 2590px;
+    top: 2730px;
     right: 50%;
     margin-right: 300px;
     width: 300px;
@@ -283,7 +281,7 @@ section .incu_section2 .incu_main3 .incu_bg6{
 }
 section .incu_section2 .incu_main3 .incu_bg7{
     position: absolute;
-    top: 2760px;
+    top: 2880px;
     left: 50%;
     margin-left: 240px;
     width: 300px;
@@ -295,7 +293,7 @@ section .incu_section2 .incu_main3 .incu_part3 h3{
     color: #333;
     font-weight: 100;
     font-size: 1.4rem;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 section .incu_section2 .incu_main3 .incu_part3 h3.intro_fir{
     margin-left: 50px;
