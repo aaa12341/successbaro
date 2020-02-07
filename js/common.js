@@ -5,8 +5,20 @@ $(document).ready(function(){
             scrollTop : 00
         }, 800)
     })
-    $("#btn2").click(function(){
-        var introTag = $('.incu_main2').offset()
+    $("#incu_btn1").click(function(){
+        var introTag = $('#incu_intro1').offset()
+        $('html,body').animate({
+            scrollTop : introTag.top
+        }, 800)
+    })
+    $("#incu_btn2").click(function(){
+        var introTag = $('#incu_intro2').offset()
+        $('html,body').animate({
+            scrollTop : introTag.top
+        }, 800)
+    })
+    $("#incu_btn3").click(function(){
+        var introTag = $('#incu_intro3').offset()
         $('html,body').animate({
             scrollTop : introTag.top
         }, 800)

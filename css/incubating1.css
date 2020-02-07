@@ -25,23 +25,21 @@ section .incu_section1 h2{
 section .incu_section1 h3{
     display: inline;
     margin-right: 15px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.1rem;
+    position: relative; 
+    animation: misani1 3.7s;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    transition: 0.1s ease-in;
+    cursor: pointer;
 }
 section .incu_section1 h3.this_pg{
     display: inline;
     margin-right: 15px;
     position: relative; 
-    color: rgb(146, 106, 21);
+    color: #BB5555;
     font-size: 1.1rem;
-    animation: misani1 3.7s;
-    letter-spacing: 1.5px;
-    text-decoration: none;
-    transition: 0.1s ease-in;
-}
-section .incu_section1 h3 a{
-    display: inline;
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 1.1rem;
-    position: relative; 
     animation: misani1 3.7s;
     letter-spacing: 1.5px;
     text-decoration: none;
@@ -55,8 +53,8 @@ section .incu_section1 h3 a{
         opacity: 1;
     }
 }
-section .incu_section1 h3 a:hover{
-    color: rgb(146, 106, 21);
+section .incu_section1 h3:hover{
+    color: #BB5555;
 }
 section .incu_section2{
     width: 100%;
