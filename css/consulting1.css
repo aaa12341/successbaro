@@ -236,15 +236,15 @@ section .consul_section2 .consul_main5 .consul_bg51{
 }
 section .consul_section2 .consul_main6{
     width: 100%;
-    height: 700px;
+    height: 1000px;
 }
-section .consul_section2 .consul_main6 .consul_part6{
+section .consul_section2 .consul_main6 .consul_img6{
     width: 100%;    
-    height: 400px;
+    height: 800px;
     margin-top: 80px;
-    animation: misani1 3.7s;
-    position: relative;
-    z-index: 1;
+}
+section .consul_section2 .consul_main6 .consul_img6 img{
+    width: 100%;
 }
 section .consul_section2 .consul_main7{
     width: 100%;
