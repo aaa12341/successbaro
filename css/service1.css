@@ -50,11 +50,11 @@ section .service_section2{
     width: 100%;
     height: 100%;
     margin-bottom: 50px;
-    animation: misani1 3.7s;
 }
 section .service_section2 .service_main1{
     width: 100%;
     height: 1050px;
+    animation: misani1 3.7s;
 }
 section .service_section2 .service_main1 .intro{
     width: 100%;
