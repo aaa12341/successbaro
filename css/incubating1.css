@@ -34,17 +34,6 @@ section .incu_section1 h3{
     transition: 0.1s ease-in;
     cursor: pointer;
 }
-section .incu_section1 h3.this_pg{
-    display: inline;
-    margin-right: 15px;
-    position: relative; 
-    color: #BB5555;
-    font-size: 1.1rem;
-    animation: misani1 3.7s;
-    letter-spacing: 1.5px;
-    text-decoration: none;
-    transition: 0.1s ease-in;
-}
 @keyframes misani1{
     0%{
         opacity: 0;
