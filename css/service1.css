@@ -87,9 +87,9 @@ section .service_section2 .service_main1 .intro h2{
     width: 100%;
     text-align: center;
     font-size: 2rem;
-    font-weight: 300;
     margin-bottom: 40px;
-    color: #444;
+    font-weight: 600;
+    color: #222;
 }
 section .service_section2 .service_main1 .intro h3{
     font-size: 1.6rem;
@@ -118,9 +118,9 @@ section .service_section2 .service_main2 .intro2 h2{
     width: 100%;
     text-align: center;
     font-size: 2rem;
-    font-weight: 300;
     margin-bottom: 70px;
-    color: #444;
+    font-weight: 600;
+    color: #222;
 }
 section .service_section2 .service_main2 .intro2 .intro_box{
     width: 30%;

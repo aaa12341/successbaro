@@ -7,9 +7,9 @@ section .bg{
 section .about_section1{
     width: 100%;
     height: 845px;
-    background-image: url(../img/mission.jpg);
+    background-image: url(../img/mission1.jpg);
     background-size: cover;
-    background-position-y: 20%;
+    background-position-y: 30%;
     background-repeat: no-repeat;
 }
 section .about_section1 .mission_box{
@@ -25,6 +25,7 @@ section .about_section1 .mission_box p{
     margin-bottom: 20px;
     letter-spacing: 1.2px;
     animation: misani1 3.7s;
+    text-shadow: 6px 6px 15px rgba(0,0,0,0.5);
 }
 section .about_section1 .mission_box p.thanks{
     margin-bottom: 80px;
@@ -36,7 +37,6 @@ section .about_section1 .mission_box span{
     font-size: 1.4rem;
     font-weight: bolder;
     margin-bottom: 20px;
-    font-family: 'Baskervville', serif;
     animation: misani1 3.7s;
     margin-right: 5px;
 }
@@ -70,9 +70,9 @@ section .about_section2 .main h2{
     width: 100%;
     text-align: center;
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 600;
+    color: #222;
     margin-bottom: 80px;
-    color: #444;
 }
 section .about_section2 .about_main1{
     width: 100%;
