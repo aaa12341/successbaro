@@ -42,46 +42,44 @@
                             석세스바로는 아래의 <span>5가지 원칙</span>을 가지고 
                             상시자문과 경영컨설팅 프로젝트를 수행합니다.
                         </h3>
-                        <div class="main1_circle">
-                            <div class="about_circle">
-                                <ul>
-                                    <li class="num">1</li>
-                                    <li class="detail">이해관계자 관점</li>
-                                </ul>
-                                <ul>
-                                    <li class="num">2</li>
-                                    <li class="detail">프로세스 접근법</li>
-                                </ul>
-                                <ul>
-                                    <li class="num">3</li>
-                                    <li class="detail">증거기반 의사결정</li>
-                                </ul>
-                                <ul>
-                                    <li class="num">4</li>
-                                    <li class="detail">효과성과 효율성 추구</li>
-                                </ul>
-                                <ul>
-                                    <li class="num">5</li>
-                                    <li class="detail">법규 준수</li>
-                                </ul>
-                            </div>
+                        <div class="main1_circle" id="about_ani1">
+                            <ul class="circle1">
+                                <li class="num">1</li>
+                                <li class="detail">이해관계자 관점</li>
+                            </ul>
+                            <ul class="circle2">
+                                <li class="num">2</li>
+                                <li class="detail">프로세스 접근법</li>
+                            </ul>
+                            <ul class="circle3">
+                                <li class="num">3</li>
+                                <li class="detail">증거기반 의사결정</li>
+                            </ul>
+                            <ul class="circle4">
+                                <li class="num">4</li>
+                                <li class="detail">효과성과 효율성 추구</li>
+                            </ul>
+                            <ul class="last_circle">
+                                <li class="num">5</li>
+                                <li class="detail">법규 준수</li>
+                            </ul>
                         </div>
                     </div>
-                    <div class="main about_main2">
+                    <div class="main about_main2" id="about_ani2">
                         <div class="line"></div>
                         <h2>석세스바로 역할</h2>
                         <div class="role">
                             <img src="img/role.jpg" alt="석세스바로역할">
                         </div>
                     </div>
-                    <div class="main about_main3">
+                    <div class="main about_main3" id="about_ani3">
                         <div class="line"></div>
                         <h2>기업경영 구성요소</h2>
                         <div class="role2">
                             <img src="img/role2.jpg" alt="기업경영 구성요소">
                         </div>
                     </div>
-                    <div class="main about_main4">
+                    <div class="main about_main4" id="about_ani4">
                         <div class="line"></div>
                         <h2>오시는 길</h2>
                         <div class="map" id="map"></div>
@@ -107,7 +105,6 @@
     </div>
     <div class="foot" id="foot"></div>
     <script src="js/header.min.js"></script>
-
     <script src="js/footer.min.js"></script>
     <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=1fe2ba8586b12f533217dd776c27e141"></script>
 
@@ -124,6 +121,9 @@
                     });
                     marker.setMap(map);
 
+    </script>
+    <script>
+        about1()
     </script>
 </body>
 </html>

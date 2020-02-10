@@ -1,3 +1,16 @@
+function about1(){
+    $(window).scroll(function(){
+        var offsets = $(document).scrollTop();
+        if(offsets *3 > 1200){
+            $('#about_ani1 ul').css({
+                "animationName" : "up_fadein"
+            })
+            $('#about_ani2 div.role img').css({
+                "animationName" : "up_fadein"
+            })
+        }
+    })
+}
 function hr1(){
     $(window).scroll(function(){
         var offsets = $(document).scrollTop();

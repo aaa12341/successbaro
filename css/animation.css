@@ -1,3 +1,17 @@
+#about_ani1 ul{
+    opacity: 0;
+    transform: translateY(50px);
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+#about_ani2 div.role img{
+    opacity: 0;
+    transform: translateY(50px);
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
 #intro_ani div.process{
     opacity: 0;
     transform: translateY(50px);
@@ -28,6 +42,26 @@
         transform: translate(0px, 0px);
     }
 }
+#about_ani1 ul.circle1{
+    animation-delay: 0s;
+}
+#about_ani1 ul.circle2{
+    animation-delay: 0.2s;
+}
+#about_ani1 ul.circle3{
+    animation-delay: 0.4s;
+}
+#about_ani1 ul.circle4{
+    animation-delay: 0.6s;
+}
+#about_ani1 ul.last_circle{
+    animation-delay: 0.8s;
+}
+
+#about_ani2 div.role img{
+    animation-delay: 0.1s;
+}
+
 #intro_ani div.pro1{
     animation-delay: 0s;
 }
@@ -43,6 +77,7 @@
 #intro_ani div.pro5{
     animation-delay: 0.4s;
 }
+
 #intro_ani1 div.last1{
     animation-delay: 0s;
 }
@@ -73,6 +108,7 @@
 #intro_ani1 div.last10{
     animation-delay: 1.8s;
 }
+
 #ser_intro2 div.intro_box.first{
     animation-delay: 0s;
 }

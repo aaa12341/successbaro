@@ -328,7 +328,6 @@ section .incu_section2 .incu_main3 .incu_part31 .intro_box2 ul li{
 }
 section .incu_section2 .incu_main3 .incu_part31 .intro_box.first_box .intro_box1{
     background-color: #C2BAAE;
-    /* color: #f0f0f0; */
 }
 section .incu_section2 .incu_main3 .incu_part31 .intro_box.second_box .intro_box1{
     color: #f0f0f0;
@@ -340,7 +339,6 @@ section .incu_section2 .incu_main3 .incu_part31 .intro_box.third_box .intro_box1
 }
 section .incu_section2 .incu_main3 .incu_part31 .intro_box.last_box .intro_box1{
     background-color: #E6DCCF;
-    /* color: #f0f0f0; */
 }
 section .incu_section2 .incu_main3 .incu_part31 .intro_box.second_box ul li:nth-child(4){
     margin-bottom: -10px;
