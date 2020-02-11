@@ -19,6 +19,20 @@
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
 }
+#about_ani4 div.consul_contact ul li{
+    opacity: 0;
+    transform: translateX(-50px);
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+#about_ani5 div.all_map{
+    opacity: 0;
+    transform: translateY(50px);
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
 #intro_ani div.process{
     opacity: 0;
     transform: translateY(50px);
@@ -71,6 +85,32 @@
 
 #about_ani3 div.role2 img{
     animation-delay: 0.1s;
+}
+
+#about_ani4 div.consul_contact ul li.con_con1{
+    animation-delay: 0s;
+}
+#about_ani4 div.consul_contact ul li.con_con2{
+    animation-delay: 0.2s;
+}
+#about_ani4 div.consul_contact ul li.con_con3{
+    animation-delay: 0.4s;
+}
+#about_ani4 div.consul_contact ul li.con_con4{
+    animation-delay: 0.6s;
+}
+#about_ani4 div.consul_contact ul li.con_con5{
+    animation-delay: 0.8s;
+}
+#about_ani4 div.consul_contact ul li.con_con6{
+    animation-delay: 1s;
+}
+#about_ani4 div.consul_contact ul li.con_con7{
+    animation-delay: 1.2s;
+}
+
+#about_ani5 div.all_map{
+    animation-delay: 0.1ss;
 }
 
 #intro_ani div.pro1{

@@ -30,6 +30,28 @@ function about3(){
         }
     })
 }
+function about4(){
+    $(window).scroll(function(){
+        var offsets = $(document).scrollTop();
+        var about_main4 = $('.about_main4').offset();
+        if(offsets + 200> about_main4.top){
+            $('#about_ani4 div.consul_contact ul li').css({
+                "animationName" : "up_fadein"
+            })
+        }
+    })
+}
+function about5(){
+    $(window).scroll(function(){
+        var offsets = $(document).scrollTop();
+        var about_main5 = $('.about_main5').offset();
+        if(offsets + 200> about_main5.top){
+            $('#about_ani5 div.all_map').css({
+                "animationName" : "up_fadein"
+            })
+        }
+    })
+}
 function hr1(){
     $(window).scroll(function(){
         var offsets = $(document).scrollTop();
