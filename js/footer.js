@@ -14,11 +14,11 @@ const FooterTag = document.getElementById('foot');
         </ul>
         <ul class="foot_detail">
             <li>(주)석세스바로</li>
-            <li>대표: 안경호</li>
-            <li>사업자등록번호: 111-11-111</li>
+            <li>대표: 현정순</li>
+            <li>사업자등록번호: 627-87-01504</li>
             <li>주소: 서울특별시 용산구 한강대로 256, 7층(남영동, 수빌딩)</li>
-            <li>전화: 02-1111-1111</li>
-            <li>팩스: 02-1111-1111</li>
+            <li>전화: 010-2637-9115</li>
+            <li>팩스: 070-8250-2121</li>
         </ul>
         <p>Copyright © SuccessBaro ALL RIGHTS RESERVED.</p>
     </div>

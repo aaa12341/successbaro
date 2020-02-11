@@ -5,7 +5,26 @@ function about1(){
             $('#about_ani1 ul').css({
                 "animationName" : "up_fadein"
             })
+        }
+    })
+}
+function about2(){
+    $(window).scroll(function(){
+        var offsets = $(document).scrollTop();
+        var role = $('.role').offset();
+        if(offsets *2 > role.top){
             $('#about_ani2 div.role img').css({
+                "animationName" : "up_fadein"
+            })
+        }
+    })
+}
+function about3(){
+    $(window).scroll(function(){
+        var offsets = $(document).scrollTop();
+        var role2 = $('.role2').offset();
+        if(offsets + 350> role2.top){
+            $('#about_ani3 div.role2 img').css({
                 "animationName" : "up_fadein"
             })
         }

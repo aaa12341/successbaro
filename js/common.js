@@ -1,6 +1,31 @@
 $(document).ready(function(){
     getQueryString()
-    if(params.key == "incu2"){
+    if(params.key == "about1"){
+            var introTag = $('.about_main1').offset()
+            $('html,body').animate({
+                scrollTop : introTag.top
+            },0)
+    }else if(params.key == "about2"){
+        var introTag = $('.about_main2').offset()
+        $('html,body').animate({
+            scrollTop : introTag.top
+        },0)
+    }else if(params.key == "about3"){
+        var introTag = $('.about_main3').offset()
+        $('html,body').animate({
+            scrollTop : introTag.top
+        },0)
+    }else if(params.key == "about4"){
+        var introTag = $('.about_main4').offset()
+        $('html,body').animate({
+            scrollTop : introTag.top
+        },0)
+    }else if(params.key == "about5"){
+        var introTag = $('.about_main5').offset()
+        $('html,body').animate({
+            scrollTop : introTag.top
+        },0)
+    }else if(params.key == "incu2"){
             var introTag = $('#incu_intro2').offset()
             $('html,body').animate({
                 scrollTop : introTag.top
@@ -51,6 +76,12 @@ $(document).ready(function(){
     $(".fix_btn").click(function(){
         $('html,body').animate({
             scrollTop : 00
+        }, 800)
+    })
+    $("#incu_btn1").click(function(){
+        var introTag = $('#incu_intro1').offset()
+        $('html,body').animate({
+            scrollTop : introTag.top
         }, 800)
     })
     $("#incu_btn1").click(function(){

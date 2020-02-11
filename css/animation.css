@@ -12,6 +12,13 @@
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
 }
+#about_ani3 div.role2 img{
+    opacity: 0;
+    transform: translateY(50px);
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
 #intro_ani div.process{
     opacity: 0;
     transform: translateY(50px);
@@ -59,6 +66,10 @@
 }
 
 #about_ani2 div.role img{
+    animation-delay: 0.1s;
+}
+
+#about_ani3 div.role2 img{
     animation-delay: 0.1s;
 }
 

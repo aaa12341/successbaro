@@ -18,6 +18,15 @@ const HeaderTag = document.getElementById('head');
 </header>
 <nav>
     <div class="wrap">
+        <div class="main_nav about_nav">
+            <ul>
+                <li><a href="about.html?key=about1">업무수행 원칙</a></li>
+                <li><a href="about.html?key=about2">석세스바로 역할</a></li>
+                <li><a href="about.html?key=about3">기업경영 구성요소</a></li>
+                <li><a href="about.html?key=about4">컨설팅 상담신청</a></li>
+                <li><a href="about.html?key=about5">오시는 길</a></li>
+            </ul>
+        </div>
         <div class="main_nav incu_nav">
             <ul>
                 <li><a href="incubating1.html">비즈니스 모델 디자인</a></li>
