@@ -102,7 +102,7 @@ section .about_section2 .about_main1 .main1_circle ul{
     height: 210px;
     text-align: center;
     float: left;
-    background-color: #f6f6f6;
+    background-color: rgba(245, 243, 243, 0.7);
     border-radius: 100%;
     margin-right: 30px;
 }
@@ -165,14 +165,20 @@ section .about_section2 .about_main4 h3{
     color: #333;
     font-weight: 100;
     font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+section .about_section2 .about_main4 p{
+    color: #333;
+    font-weight: 600;
+    font-size: 1.2rem;
     margin-bottom: 90px;
     text-align: center;
-    line-height: 70px;
 }
-section .about_section2 .about_main4 h3 span{
+section .about_section2 .about_main4 p span{
     color: #BB5555;
-    font-weight: 700;
-    font-size: 1.6rem;
+    font-weight: 600;
+    font-size: 1.2rem;
     margin-bottom: 90px;
     text-align: center;
 }
@@ -182,21 +188,21 @@ section .about_section2 .about_main4 h2{
 section .about_section2 .about_main4 .consul_contact{
     width: 100%;
     height: 400px;
-    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
 }
 section .about_section2 .about_main4 .consul_contact ul{
     width: 100%;
-    text-align: center;
 }
 section .about_section2 .about_main4 .consul_contact ul li{
-    width: 10%;
+    width: 10.5%;
     height: 90px;
     list-style-type: none;
-    color: #f0f0f0;
+    color: #333;
     line-height: 90px;
-    background-color: #334863;
+    background-color: rgba(238, 236, 236, 0.7);
     float: left;
-    font-weight: 600;
+    font-weight: 700;
     border-radius: 4px;
 }
 section .about_section2 .about_main4 .consul_contact ul img{
