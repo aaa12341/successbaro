@@ -9,7 +9,7 @@ section .about_section1{
     height: 845px;
     background-image: url(../img/mission1.jpg);
     background-size: cover;
-    background-position-y: 20%;
+    background-position-y: 50%;
     background-repeat: no-repeat;
 }
 section .about_section1 .mission_box{
@@ -20,19 +20,19 @@ section .about_section1 .mission_box{
     transform: translate(-50%,-45%);
 }
 section .about_section1 .mission_box p{
-    color: rgba(255,255,255,0.8);
-    font-size: 1.4rem;
+    color: rgba(255,255,255,0.9);
+    font-size: 1.25rem;
     animation: misani1 3.7s;
-    text-shadow: 6px 6px 13px rgba(0,0,0,0.2);
+    text-shadow: 6px 6px 13px rgba(0,0,0,0.9);
     text-align: center;
     letter-spacing: 1px;
-    line-height: 55px;
+    line-height: 45px;
 }
 section .about_section1 .mission_box p.thanks{
     margin-bottom: 100px;
-    font-size: 6.25rem;
+    font-size: 5.4rem;
     font-family: 'Raleway', sans-serif;
-    color: rgba(255,255,255,0.8);
+    color: rgba(255,255,255,0.7);
     font-weight: 700;
 }
 section .about_section1 .mission_box span{
@@ -230,10 +230,10 @@ section .about_section2 .about_main5 .adress .ad{
     float: left;
 }
 section .about_section2 .about_main5 .adress .ad.adress1{
-    width: 35%;
+    width: 40%;
 }
 section .about_section2 .about_main5 .adress .ad.adress2{
-    width: 35%;
+    width: 30%;
 }
 section .about_section2 .about_main5 .adress .ad.adress3{
     width: 30%;

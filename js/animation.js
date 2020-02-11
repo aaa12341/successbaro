@@ -23,7 +23,7 @@ function about3(){
     $(window).scroll(function(){
         var offsets = $(document).scrollTop();
         var role2 = $('.role2').offset();
-        if(offsets + 350> role2.top){
+        if(offsets + 700> role2.top){
             $('#about_ani3 div.role2 img').css({
                 "animationName" : "up_fadein"
             })
