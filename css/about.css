@@ -159,97 +159,35 @@ section .about_section2 .about_main3 .role2 img{
 }
 section .about_section2 .about_main4{
     width: 100%;
-    height: 620px;
-}
-section .about_section2 .about_main4 h3{
-    color: #333;
-    font-weight: 100;
-    font-size: 1.6rem;
-    text-align: center;
-    margin-bottom: 20px;
-}
-section .about_section2 .about_main4 p{
-    color: #333;
-    font-weight: 600;
-    font-size: 1.2rem;
-    margin-bottom: 90px;
-    text-align: center;
-}
-section .about_section2 .about_main4 p span{
-    color: #BB5555;
-    font-weight: 600;
-    font-size: 1.2rem;
-    margin-bottom: 90px;
-    text-align: center;
-}
-section .about_section2 .about_main4 h2{
-    margin-bottom: 60px;
-}
-section .about_section2 .about_main4 .consul_contact{
-    width: 100%;
-    height: 400px;
-    text-align: center;
-    vertical-align: middle;
-}
-section .about_section2 .about_main4 .consul_contact ul{
-    width: 100%;
-}
-section .about_section2 .about_main4 .consul_contact ul li{
-    width: 10.5%;
-    height: 90px;
-    list-style-type: none;
-    color: #333;
-    line-height: 90px;
-    background-color: rgba(238, 236, 236, 0.7);
-    float: left;
-    font-weight: 700;
-    border-radius: 4px;
-}
-section .about_section2 .about_main4 .consul_contact ul img{
-    width: 30px;
-    float: left;
-    margin-right: 10px;
-    margin-left: 10px;
-    vertical-align: middle;
-}
-section .about_section2 .about_main4 .consul_contact li.br_contact{
-    line-height: 27px;
-    padding-top: 17px;
-}
-section .about_section2 .about_main4 .consul_contact ul.last_contact{
-    margin-right: 0;
-}
-section .about_section2 .about_main5{
-    width: 100%;
     height: 850px;
 }
-section .about_section2 .about_main5 .map{
+section .about_section2 .about_main4 .map{
     width: 100%;
     height: 400px;
 }
-section .about_section2 .about_main5 .adress{
+section .about_section2 .about_main4 .adress{
     width: 100%;
     margin-top: 40px;
     text-align: center;
 }
-section .about_section2 .about_main5 .adress .ad{
+section .about_section2 .about_main4 .adress .ad{
     float: left;
 }
-section .about_section2 .about_main5 .adress .ad.adress1{
+section .about_section2 .about_main4 .adress .ad.adress1{
     width: 40%;
 }
-section .about_section2 .about_main5 .adress .ad.adress2{
+section .about_section2 .about_main4 .adress .ad.adress2{
     width: 30%;
 }
-section .about_section2 .about_main5 .adress .ad.adress3{
+section .about_section2 .about_main4 .adress .ad.adress3{
     width: 30%;
 }
-section .about_section2 .about_main5 .adress h3{
+section .about_section2 .about_main4 .adress h3{
     color: #BB5555;
     font-size: 1.3rem;
     margin-bottom: 20px;
 }
-section .about_section2 .about_main5 .adress p{
+section .about_section2 .about_main4 .adress p{
     font-size: 1.1rem;
     color: #333;
 }

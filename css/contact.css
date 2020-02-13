@@ -1,0 +1,121 @@
+ssection .bg{ 
+    width:100%; 
+    height: 300px; 
+}
+section .contact_section1{
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/incu_pic.jpg);
+    background-size: cover;
+    background-position-y: 45%;
+    background-repeat: no-repeat;
+    position: relative;
+    top:70px;
+    margin-bottom: 70px;
+}
+section .contact_section1 h2{
+    height: 225px;
+    color: white;
+    font-size: 2rem;
+    position: relative; 
+    line-height: 300px;
+    animation: misani1 3.7s;
+    letter-spacing: 1.5px;
+}
+section .contact_section1 h3{
+    display: inline;
+    margin-right: 15px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.1rem;
+    position: relative; 
+    animation: misani1 3.7s;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    transition: 0.1s ease-in;
+    cursor: pointer;
+}
+@keyframes misani1{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+section .contact_section2{
+    width: 100%;
+    height: 100%;
+}
+section .contact_section2 .intro{
+    padding-top: 100px;
+}
+section .contact_section2 .intro .line{
+    width: 45px;
+    height: 4px;
+    background-color: #BB5555;
+    margin: 0 auto;
+    margin-bottom: 7px;
+    border-radius: 3px;
+}
+section .contact_section2 h2{
+    width: 100%;
+    font-weight: 600;
+    color: #222;
+    font-size: 2rem;
+    text-align: center;
+}
+section .contact_section2 .consul_contact{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    margin-top: 80px;
+}
+section .contact_section2 .consul_contact h3{
+    color: #333;
+    font-weight: 100;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+section .contact_section2 .consul_contact p{
+    color: #333;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 90px;
+    text-align: center;
+}
+section .contact_section2 .consul_contact p span{
+    color: #BB5555;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 90px;
+    text-align: center;
+}
+section .contact_section2 .consul_contact ul{
+    width: 100%;
+}
+section .contact_section2 .consul_contact ul li{
+    width: 10.5%;
+    height: 90px;
+    list-style-type: none;
+    color: #333;
+    line-height: 90px;
+    background-color: rgba(238, 236, 236, 0.7);
+    float: left;
+    font-weight: 700;
+    border-radius: 4px;
+}
+section .contact_section2 .consul_contact ul img{
+    width: 30px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+section .contact_section2 .consul_contact li.br_contact{
+    line-height: 27px;
+    padding-top: 17px;
+}
+section .contact_section2 .consul_contact ul.last_contact{
+    margin-right: 0;
+}

@@ -11,7 +11,7 @@ const HeaderTag = document.getElementById('head');
                 <li><a href="consulting1.html">Consulting</a></li>
                 <li><a href="hr.html">HR Consulting</a></li>
                 <li><a href="service1.html">Service</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
     </div>
