@@ -71,14 +71,14 @@ section .contact_section2 .consul_contact{
     margin-top: 80px;
 }
 section .contact_section2 .consul_contact h3{
-    color: #333;
+    color: #555;
     font-weight: 100;
     font-size: 1.6rem;
     text-align: center;
     margin-bottom: 20px;
 }
 section .contact_section2 .consul_contact p{
-    color: #333;
+    color: #2d3d47;
     font-weight: 600;
     font-size: 1.2rem;
     margin-bottom: 90px;
@@ -98,9 +98,9 @@ section .contact_section2 .consul_contact ul li{
     width: 10.5%;
     height: 90px;
     list-style-type: none;
-    color: #333;
+    color: #f0f0f0;
     line-height: 90px;
-    background-color: #ffbe88;
+    background-color: #507D91;
     float: left;
     font-weight: 700;
     border-radius: 4px;

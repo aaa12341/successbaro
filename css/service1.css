@@ -61,7 +61,8 @@ section .service_section2 .service_main1 .intro{
     height: 250px;
     padding-top: 100px;
     margin: 0 auto;
-    color: #333;
+    color: #2d3d47;
+
     position: relative;
     z-index: 1;
 }
@@ -127,9 +128,7 @@ section .service_section2 .service_main2 .intro2 .intro_box{
     height: 260px;
     border-radius: 4px;
     display: inline-block;
-    -webkit-box-shadow: 0px 2px 5px 0px rgba(212,212,212,1);
-    -moz-box-shadow: 0px 2px 5px 0px rgba(212,212,212,1);
-    box-shadow: 0px 2px 5px 0px rgba(212,212,212,1);
+    border: 0.5px solid #6ca9c5;
 }
 section .service_section2 .service_main2 .intro2 .intro_box.first{
     margin-right: 40px;
@@ -142,13 +141,12 @@ section .service_section2 .service_main2 .intro2 .intro_box1{
     text-align: center;
     font-size: 1.2rem;
     font-weight: 600;
-    background-color: #EBDED9;
-    color: #333;
-}
-section .service_section2 .service_main2 .intro2 .intro_box.first .intro_box1{
-    background-color: #334863;
+    background-color: #6ca9c5;
     color: #f0f0f0;
 }
+/* section .service_section2 .service_main2 .intro2 .intro_box.first .intro_box1{
+    background-color: #6ca9c5;
+} */
 section .service_section2 .service_main2 .intro2 .intro_box2 ul{
     width: 100%;
 }
@@ -157,7 +155,7 @@ section .service_section2 .service_main2 .intro2 .intro_box2 ul li{
     text-align: center;
     height: 60px;
     line-height: 60px;
-    color: #333;
+    color: #2d3d47;
 }
 section .service_section2 .service_main2 .intro2 .intro_box2 ul li:nth-child(1){
     margin-top: 10px;
