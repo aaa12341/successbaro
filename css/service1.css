@@ -128,11 +128,14 @@ section .service_section2 .service_main2 .intro2 .intro_box{
     height: 260px;
     border-radius: 4px;
     display: inline-block;
-    border: 0.5px solid #6ca9c5;
 }
 section .service_section2 .service_main2 .intro2 .intro_box.first{
     margin-right: 40px;
     margin-left: 220px;
+    border: 0.5px solid #7C98A1;
+}
+section .service_section2 .service_main2 .intro2 .intro_box.second{
+    border: 0.5px solid #e2dbd3;
 }
 section .service_section2 .service_main2 .intro2 .intro_box1{
     width: 100%;
@@ -141,12 +144,14 @@ section .service_section2 .service_main2 .intro2 .intro_box1{
     text-align: center;
     font-size: 1.2rem;
     font-weight: 600;
-    background-color: #6ca9c5;
-    color: #f0f0f0;
+    background-color: #ece8e4;
+    color: #2d3d47;
 }
-/* section .service_section2 .service_main2 .intro2 .intro_box.first .intro_box1{
-    background-color: #6ca9c5;
-} */
+section .service_section2 .service_main2 .intro2 .intro_box.first .intro_box1{
+    background-color: #7C98A1;
+    color: #f0f0f0;
+
+}
 section .service_section2 .service_main2 .intro2 .intro_box2 ul{
     width: 100%;
 }

@@ -223,7 +223,7 @@ section .consul_section2 .consul_main5 .consul_img5 img{
 }
 section .consul_section2 .consul_main5 .consul_bg5{
     position: absolute;
-    top: 3560px;
+    top: 3940px;
     left: 50%;
     margin-left: 230px;
     width: 300px;
@@ -255,11 +255,12 @@ section .consul_section2 .consul_main6 .consul_img6 img{
 }
 section .consul_section2 .consul_main7{
     width: 100%;
-    height: 1200px;
+    height: 1150px;
 }
 section .consul_section2 .consul_main7 .consul_part7{
     width: 100%;
     margin-top: 80px;
+    text-align: center;
     position: relative;
     z-index: 1;
 }
