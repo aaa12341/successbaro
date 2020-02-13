@@ -69,7 +69,8 @@ function hr1(){
 function service1(){
     $(window).scroll(function(){
         var offsets = $(document).scrollTop();
-        if(offsets > 1200){
+        var service_main2 = $('.service_main2').offset();
+        if(offsets + 600 > service_main2.top){
             $('#ser_intro2 div.intro_box').css({
                 "animationName" : "up_fadein"
             })

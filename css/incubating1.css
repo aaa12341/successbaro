@@ -110,7 +110,7 @@ section .incu_section2 .incu_main1 .tool_explain img{
 section .incu_section2 .incu_main1 .tool_explain1{
     width: 19%;
     height: 50px;
-    background-color: #334863;
+    background-color: #BB5555;
     color: #f0f0f0;
     display: inline-block;
     line-height: 50px;
@@ -128,14 +128,14 @@ section .incu_section2 .incu_main1 .tool_explain2{
 section .incu_section2 .incu_main1 .tool_explain2 .step{
     width: 16%;
     height: 50px;
-    background-color: #E6DCCF;
+    background-color: #faf4f4;
     line-height: 50px;
     text-align: center;
     display: inline-block;
     border-radius: 3px;
 }
 section .incu_section2 .incu_main1 .tool_explain2 .step.color{
-    background-color: #C2BAAE;
+    background-color: #e4ebfb;
     color: #333;
 }
 section .incu_section2 .incu_main1 .tool_box{
