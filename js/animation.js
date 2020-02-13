@@ -12,7 +12,7 @@ function about2(){
     $(window).scroll(function(){
         var offsets = $(document).scrollTop();
         var role = $('.role').offset();
-        if(offsets *2 > role.top){
+        if(offsets + 700 > role.top){
             $('#about_ani2 div.role img').css({
                 "animationName" : "up_fadein"
             })
@@ -23,7 +23,7 @@ function about3(){
     $(window).scroll(function(){
         var offsets = $(document).scrollTop();
         var role2 = $('.role2').offset();
-        if(offsets + 700> role2.top){
+        if(offsets + 800> role2.top){
             $('#about_ani3 div.role2 img').css({
                 "animationName" : "up_fadein"
             })
@@ -34,7 +34,7 @@ function about4(){
     $(window).scroll(function(){
         var offsets = $(document).scrollTop();
         var about_main4 = $('.about_main4').offset();
-        if(offsets + 200> about_main4.top){
+        if(offsets + 400> about_main4.top){
             $('#about_ani4 div.consul_contact ul li').css({
                 "animationName" : "up_fadein"
             })
