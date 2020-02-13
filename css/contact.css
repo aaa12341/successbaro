@@ -52,7 +52,7 @@ section .contact_section2 .intro{
 section .contact_section2 .intro .line{
     width: 45px;
     height: 4px;
-    background-color: #BB5555;
+    background-color: #6ca9c5;
     margin: 0 auto;
     margin-bottom: 7px;
     border-radius: 3px;
@@ -60,7 +60,7 @@ section .contact_section2 .intro .line{
 section .contact_section2 h2{
     width: 100%;
     font-weight: 600;
-    color: #222;
+    color: #2d3d47;
     font-size: 2rem;
     text-align: center;
 }
@@ -85,7 +85,7 @@ section .contact_section2 .consul_contact p{
     text-align: center;
 }
 section .contact_section2 .consul_contact p span{
-    color: #BB5555;
+    color: #6ca9c5;
     font-weight: 600;
     font-size: 1.2rem;
     margin-bottom: 90px;
@@ -100,7 +100,7 @@ section .contact_section2 .consul_contact ul li{
     list-style-type: none;
     color: #333;
     line-height: 90px;
-    background-color: rgba(238, 236, 236, 0.7);
+    background-color: #ffbe88;
     float: left;
     font-weight: 700;
     border-radius: 4px;

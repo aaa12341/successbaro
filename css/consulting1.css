@@ -13,7 +13,7 @@ section .consul_section2 .intro{
 section .consul_section2 .intro .line{
     width: 45px;
     height: 4px;
-    background-color: #BB5555;
+    background-color: #6ca9c5;
     margin: 0 auto;
     margin-bottom: 7px;
     border-radius: 3px;
@@ -21,7 +21,7 @@ section .consul_section2 .intro .line{
 section .consul_section2 h2{
     width: 100%;
     font-weight: 600;
-    color: #222;
+    color: #2d3d47;
     font-size: 2rem;
     text-align: center;
 }
@@ -32,7 +32,7 @@ section .consul_section2 h3{
     margin-bottom: 40px;
 }
 section .consul_section2 h3 span{
-    color: #BB5555;
+    color: #6ca9c5;
     font-weight: 700;
     font-size: 1.6rem;
 }

@@ -63,7 +63,7 @@ section .about_section2 .main{
 section .about_section2 .line{
     width: 45px;
     height: 4px;
-    background-color: #BB5555;
+    background-color: #6ca9c5;
     margin: 0 auto;
     margin-bottom: 7px;
     border-radius: 3px;
@@ -73,7 +73,7 @@ section .about_section2 .main h2{
     text-align: center;
     font-size: 2rem;
     font-weight: 600;
-    color: #222;
+    color: #2d3d47;
     margin-bottom: 80px;
 }
 section .about_section2 .about_main1{
@@ -89,7 +89,7 @@ section .about_section2 .about_main1 h3{
     text-align: center;
 }
 section .about_section2 .about_main1 h3 span{
-    color: #BB5555;
+    color: #6ca9c5;
     font-weight: 700;
     font-size: 1.6rem;
 }
@@ -102,7 +102,7 @@ section .about_section2 .about_main1 .main1_circle ul{
     height: 210px;
     text-align: center;
     float: left;
-    background-color: #f5f5f5;
+    border: 0.5px solid #8b6c55;
     border-radius: 100%;
     margin-right: 30px;
 }
@@ -113,7 +113,7 @@ section .about_section2 .about_main1 .main1_circle ul li.num{
     width: 100%;
     height: 70px;
     list-style-type: none;
-    color: #BB5555;
+    color: #6ca9c5;
     margin-bottom: 15px;
     font-size: 2rem;
     font-weight: 900;
@@ -183,7 +183,7 @@ section .about_section2 .about_main4 .adress .ad.adress3{
     width: 30%;
 }
 section .about_section2 .about_main4 .adress h3{
-    color: #BB5555;
+    color: #6ca9c5;
     font-size: 1.3rem;
     margin-bottom: 20px;
 }

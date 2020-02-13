@@ -44,7 +44,7 @@ section .service_section1 h3{
     }
 }
 section .service_section1 h3:hover{
-    color: #BB5555;
+    color: #6ca9c5;
 }
 section .service_section2{
     width: 100%;
@@ -78,7 +78,7 @@ section .service_section2 .service_main1 .service_bg1{
 section .service_section2 .line{
     width: 45px;
     height: 4px;
-    background-color: #BB5555;
+    background-color: #6ca9c5;
     margin: 0 auto;
     margin-bottom: 7px;
     border-radius: 3px;
@@ -88,13 +88,13 @@ section .service_section2 .service_main1 .intro h2{
     text-align: center;
     font-size: 2rem;
     margin-bottom: 40px;
-    font-weight: 600;
-    color: #222;
+    font-weight: 600;    
+    color: #2d3d47;
 }
 section .service_section2 .service_main1 .intro h3{
     font-size: 1.6rem;
     font-weight: 600;
-    color: #BB5555;
+    color: #6ca9c5;
     margin-bottom: 25px;
 }
 section .service_section2 .service_main1 .intro p{
@@ -120,7 +120,7 @@ section .service_section2 .service_main2 .intro2 h2{
     font-size: 2rem;
     margin-bottom: 70px;
     font-weight: 600;
-    color: #222;
+    color: #2d3d47;
 }
 section .service_section2 .service_main2 .intro2 .intro_box{
     width: 30%;

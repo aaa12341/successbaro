@@ -20,11 +20,6 @@ $(document).ready(function(){
         $('html,body').animate({
             scrollTop : introTag.top
         },0)
-    }else if(params.key == "about5"){
-        var introTag = $('.about_main5').offset()
-        $('html,body').animate({
-            scrollTop : introTag.top
-        },0)
     }else if(params.key == "incu2"){
             var introTag = $('#incu_intro2').offset()
             $('html,body').animate({
