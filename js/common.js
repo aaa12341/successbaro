@@ -165,3 +165,31 @@ function getQueryString(){
     console.log(params)
     return params;
    }
+
+$(document).ready(function(){
+
+	$(document).bind("contextmenu", function(e) {
+
+		return false;
+
+	});
+
+});
+
+$(document)[0].oncontextmenu = function() { return false; }
+
+$(document).mousedown(function(e) {
+
+	if( e.button == 2 ) {
+
+			alert('내용을 복사할 수 없습니다.');
+
+			return false;
+
+	} else {
+
+			return true;
+
+	}
+
+});
