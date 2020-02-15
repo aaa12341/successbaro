@@ -152,3 +152,29 @@ section .bdesign_section2 .bdesign_main2{
 section .bdesign_section2 .bdesign_main2 img{
     width: 95%;
 }
+ection .bdesign_section2 .bdesign_main3{
+    width: 100%;
+    height: 1000px;
+}
+section .bdesign_section2 .bdesign_main3 .bdesign_part3{
+    width: 100%;
+    text-align: center;
+}
+section .bdesign_section2 .bdesign_main3 .bdesign_part3 h3{
+    color: #2d3d47;
+    font-weight: 100;
+    font-size: 1.6rem;
+    margin-bottom: 40px;
+}
+section .bdesign_section2 .bdesign_main3 .bdesign_part3 h3 span{
+    color: #6ca9c5;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+section .bdesign_section2 .bdesign_main3 .bdesign_img3{
+    width: 100%;
+    height: 800px;
+}
+section .bdesign_section2 .bdesign_main3 .bdesign_img3 img{
+    width: 95%;
+}

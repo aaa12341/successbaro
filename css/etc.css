@@ -1,0 +1,313 @@
+section .bg{ 
+    width:100%; 
+    height: 300px; 
+}
+section .etc_section1{
+    width: 100%;
+    height: 300px;
+    background-image: url(../img/hr_pic.jpg);
+    background-size: cover;
+    background-position-y: 45%;
+    background-repeat: no-repeat;
+    position: relative;
+    top:70px;
+    margin-bottom: 70px;
+}
+section .etc_section1 h2{
+    height: 225px;
+    color: white;
+    font-size: 2rem;
+    position: relative; 
+    line-height: 300px;
+    animation: misani1 3.7s;
+    letter-spacing: 1.5px;
+}
+section .etc_section1 h3{
+    display: inline;
+    margin-right: 15px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.1rem;
+    position: relative; 
+    animation: misani1 3.7s;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    transition: 0.1s ease-in;
+    cursor: pointer;
+}
+section .etc_section1 h3:hover{
+    color: #6ca9c5;
+}
+@keyframes misani1{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+section .etc_section2{
+    width: 100%;
+    height: 100%;
+}
+section .etc_section2 .intro{
+    padding-top: 100px;
+}
+section .etc_section2 .line{
+    width: 45px;
+    height: 4px;
+    background-color: #6ca9c5;
+    margin: 0 auto;
+    margin-bottom: 7px;
+    border-radius: 3px;
+}
+section .etc_section2 h2{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2d3d47;
+    margin-bottom: 80px;
+}
+section .etc_section2 .etc_main1{
+    width: 100%;
+    height: 800px;
+}
+section .etc_section2 .etc_main1 .etc_part1{
+    width: 100%;
+    height: 250px;
+}
+section .etc_section2 .etc_main1 .etc_part1 h3{
+    color: #2d3d47;
+    font-weight: 100;
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+    margin-top: 80px;
+}
+section .etc_section2 .etc_main1 .etc_part1 h3 span{
+    color: #6ca9c5;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+section .etc_section2 .etc_main1 .etc_part1 p{    
+    color: #2d3d47;
+    line-height: 28px;
+    font-size: 0.95rem;
+}
+section .etc_section2 .etc_main1 .etc_part12{
+    width: 100%;
+    height: 250px;
+}
+section .etc_section2 .etc_main1 .etc_part12 img{
+    width: 95%;
+}
+section .etc_section2 .etc_main2{
+    width: 100%;
+    height: 1200px;
+}
+section .etc_section2 .etc_main2 .etc_part2{
+    width: 100%;
+    height: 400px;
+}
+section .etc_section2 .etc_main2 .etc_part2 h3{
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #6ca9c5;
+    margin-bottom: 25px;
+}
+section .etc_section2 .etc_main2 .etc_part2 p{
+    word-break: keep-all;
+    line-height: 30px;
+    margin-bottom: 90px;
+    font-size: 0.95rem;
+}
+section .etc_section2 .etc_main2 .etc_part2 img{
+    width: 60%;
+    margin-left: 250px;
+}
+section .etc_section2 .etc_main3{
+    width: 100%;
+    height: 650px;
+}
+section .etc_section2 .etc_main3 .etc_part3{
+    width: 100%;
+    height: 450px;
+}
+section .etc_section2 .etc_main3 .etc_part3 .intro_box{
+    width: 30%;
+    height: 260px;
+    border-radius: 4px;
+    display: inline-block;
+}
+section .etc_section2 .etc_main3 .etc_part3 .intro_box.first{
+    margin-right: 40px;
+    margin-left: 220px;
+    border: 0.5px solid #7C98A1;
+}
+section .etc_section2 .etc_main3 .etc_part3 .intro_box.second{
+    border: 0.5px solid #e2dbd3;
+}
+section .etc_section2 .etc_main3 .etc_part3 .intro_box1{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: #ece8e4;
+    color: #2d3d47;
+}
+section .etc_section2 .etc_main3 .etc_part3 .intro_box.first .intro_box1{
+    background-color: #7C98A1;
+    color: #f0f0f0;
+
+}
+section .etc_section2 .etc_main3 .etc_part3 .intro_box2 ul{
+    width: 100%;
+}
+section .etc_section2 .etc_main3 .etc_part3 .intro_box2 ul li{
+    list-style: none;
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    color: #2d3d47;
+}
+section .etc_section2 .etc_main3 .etc_part3 .intro_box2 ul li:nth-child(1){
+    margin-top: 10px;
+}
+section .etc_section2 .etc_main4{
+    width: 100%;
+    height: 100%;
+    margin-top: 80px;
+}
+section .etc_section2 .etc_main4 .etc_part4{
+    width: 100%;
+    height: 400px;
+    color: #2d3d47;
+    position: relative;
+    z-index: 1;
+}
+section .etc_section2 .etc_main4 .etc_part4 h3{
+    color: #2d3d47;
+    font-weight: 100;
+    font-size: 1.4rem;
+    margin-top: 80px;
+}
+section .etc_section2 .etc_main4 .etc_part4 h3.intro_fir{
+    margin-left: 50px;
+}
+section .etc_section2 .etc_main4 .etc_part4 h3.intro_sec{
+    float: right;
+    margin-right: 100px;
+}
+section .etc_section2 .etc_main4 .etc_part4 h3 span{
+    color: #6ca9c5;
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+section .etc_section2 .etc_main4 .etc_part41{
+    width: 100%;
+    height: 450px;
+    text-align: center;
+}
+section .etc_section2 .etc_main4 .etc_part41 .intro_box{
+    width: 19%;
+    height: 320px;
+    border-radius: 4px;
+    display: inline-block;
+    margin-right: 10px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+section .etc_section2 .etc_main4 .etc_part41 .intro_box.last_box{
+    margin-right: 0;
+}
+section .etc_section2 .etc_main4 .etc_part41 .intro_box1{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+section .etc_section2 .etc_main4 .etc_part41 .intro_box2{
+    position: relative;
+    width: 100%;
+    height: 270px;
+}
+section .etc_section2 .etc_main4 .etc_part41 .intro_box2 ul{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+section .etc_section2 .etc_main4 .etc_part41 .intro_box2 ul li{
+    list-style: none;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    color: #2d3d47;
+}
+section .etc_section2 .etc_main4 .etc_part41 .intro_box.first_box .intro_box1{
+    background-color: #AFC4CE;
+    color: #2d3d47;
+}
+section .etc_section2 .etc_main4 .etc_part41 .intro_box.first_box .fir_line{
+    border: 0.5px solid #AFC4CE;
+}
+section .etc_section2 .etc_main4 .etc_part41 .intro_box.second_box .intro_box1{
+    color: #f0f0f0;
+    background-color: #263B45;
+}
+section .etc_section2 .etc_main4 .etc_part41 .intro_box.second_box .sec_line{
+    border: 0.5px solid #263B45;
+}
+section .etc_section2 .etc_main4 .etc_part41 .intro_box.third_box .intro_box1{
+    background-color: #507D91;
+    color: #f0f0f0;
+}
+section .etc_section2 .etc_main4 .etc_part41 .intro_box.third_box .thir_line{
+    border: 0.5px solid #507D91;
+}
+section .etc_section2 .etc_main4 .etc_part41 .intro_box.last_box .intro_box1{
+    color: #f0f0f0;
+    background-color: #3B4245;
+}
+section .etc_section2 .etc_main4 .etc_part41 .intro_box.last_box .four_line{
+    border: 0.5px solid #3B4245;
+}
+section .etc_section2 .etc_main4 .etc_part41 .intro_box.second_box ul li:nth-child(4){
+    margin-bottom: -10px;
+}
+section .etc_section2 .etc_main4 .etc_part41 .intro_box.third_box ul li:nth-child(2){
+    margin-bottom: -10px;
+}
+section .etc_section2 .etc_main4 .etc_part41 img{
+    width: 40px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+section .etc_section2 .etc_main5{
+    width: 100%;
+    height: 400px;
+}
+section .etc_section2 .etc_main5 .etc_part5 .etc_consul{
+    display: inline-block;
+    width: 16%;
+    height: 80px;
+    margin-right: 50px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    color: #2d3d47;
+    font-weight: 600;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
+    -moz-box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
+    box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
+    background-color: #EDEAE6;
+}
+section .etc_section2 .etc_main5 .etc_part5 .etc_consul.last{
+    margin-right: 0;
+}

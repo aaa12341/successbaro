@@ -9,7 +9,7 @@ const HeaderTag = document.getElementById('head');
                 <li><a href="about.html">About</a></li>
                 <li><a href="hr.html">경영과 HR</a></li>
                 <li><a href="bdesign.html">Business Design</a></li>
-                <li><a href="levup.html">Level Up.etc</a></li>
+                <li><a href="etc.html">Etc.</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
@@ -38,17 +38,17 @@ const HeaderTag = document.getElementById('head');
             <ul>
                 <li><a href="bdesign.html?key=bdesign1">비즈니스 모델 디자인</a></li>
                 <li><a href="bdesign.html?key=bdesign2">경영전략 수립</a></li>
-                <li><a href="bdesign.html?key=bdesign3">년간사업계획 수립</a></li>
+                <li><a href="bdesign.html?key=bdesign2">년간사업계획 수립</a></li>
                 <li><a href="bdesign.html?key=bdesign4">마케팅프로세스</a></li>
             </ul>
         </div>
-        <div class="main_nav levup_nav">
+        <div class="main_nav etc_nav">
             <ul>
-                <li><a href="levup.html?key=levup1">포인트 경영스쿨</a></li>
-                <li><a href="levup.html?key=levup2">ISO 인증 컨설팅</a></li>
-                <li><a href="levup.html?key=levup3">감사시스템 구축</a></li>
-                <li><a href="levup.html?key=levup4">법인설립 컨설팅</a></li>
-                <li><a href="levup.html?key=levup5">기타 컨설팅</a></li>
+                <li><a href="etc.html?key=etc1">포인트 경영스쿨</a></li>
+                <li><a href="etc.html?key=etc2">ISO 인증 컨설팅</a></li>
+                <li><a href="etc.html?key=etc3">감사시스템 구축</a></li>
+                <li><a href="etc.html?key=etc4">법인설립 컨설팅</a></li>
+                <li><a href="etc.html?key=etc5">기타 컨설팅</a></li>
             </ul>
         </div>
     <div>
