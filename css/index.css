@@ -35,7 +35,7 @@ html, body{
     z-index:1000;
 }
 .main_section .nav_bar h1{
-    width: 52%;
+    width: 59%;
     height: 100%;
     float: left;
     vertical-align: middle;
@@ -45,7 +45,7 @@ html, body{
 }
 .main_section .nav_bar ul{
     float: right;
-    width: 47%;
+    width: 41%;
     list-style: none;
 }
 .main_section .nav_bar ul li{

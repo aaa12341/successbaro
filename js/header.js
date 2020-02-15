@@ -9,7 +9,7 @@ const HeaderTag = document.getElementById('head');
                 <li><a href="about.html">About</a></li>
                 <li><a href="incubating1.html">Incubating</a></li>
                 <li><a href="consulting1.html">Consulting</a></li>
-                <li><a href="hr.html">HR Consulting</a></li>
+                <li><a href="hr1.html">HR Consulting</a></li>
                 <li><a href="service1.html">Service</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>

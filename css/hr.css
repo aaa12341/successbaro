@@ -1,4 +1,4 @@
-section .bg{
+section .bg{ 
     width:100%; 
     height: 300px; 
 }
@@ -7,7 +7,7 @@ section .hr_section1{
     height: 300px;
     background-image: url(../img/hr_pic.jpg);
     background-size: cover;
-    background-position-y: 15%;
+    background-position-y: 45%;
     background-repeat: no-repeat;
     position: relative;
     top:70px;
@@ -22,6 +22,18 @@ section .hr_section1 h2{
     animation: misani1 3.7s;
     letter-spacing: 1.5px;
 }
+section .hr_section1 h3{
+    display: inline;
+    margin-right: 15px;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1.1rem;
+    position: relative; 
+    animation: misani1 3.7s;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    transition: 0.1s ease-in;
+    cursor: pointer;
+}
 @keyframes misani1{
     0%{
         opacity: 0;
@@ -30,17 +42,19 @@ section .hr_section1 h2{
         opacity: 1;
     }
 }
+section .hr_section1 h3:hover{
+    color: #6ca9c5;
+}
 section .hr_section2{
     width: 100%;
     height: 100%;
-    animation: misani1 3.7s;
 }
 section .hr_section2 .hr_main1{
     width: 100%;
     height: 1400px;
     padding-top: 100px;
 }
-section .hr_section2 .hr_main1 .line{
+section .hr_section2 .line{
     width: 45px;
     height: 4px;
     background-color: #6ca9c5;
@@ -48,135 +62,72 @@ section .hr_section2 .hr_main1 .line{
     margin-bottom: 7px;
     border-radius: 3px;
 }
-section .hr_section2 .hr_main1 h2{
+section .hr_section2 h2{
     width: 100%;
     text-align: center;
     font-size: 2rem;
     font-weight: 600;
     color: #2d3d47;
+    margin-bottom: 80px;
 }
-section .hr_section2 .hr_main1 .intro{
+section .hr_section2 .hr_main1 .intro1{
     width: 100%;
-    height: 550px;
-    padding-top: 80px;
+    height: 450px;
     margin: 0 auto;
     color: #333;
     position: relative;
     z-index: 1;
 }
-section .hr_section2 .hr_main1 .hr_bg1{
-    position: absolute;
-    top: 460px;
-    right: 50%;
-    margin-right: 270px;
-    width: 20%;
-    height: 35%;
-    border-radius: 100%;
-    background: #f6f6f6;
-}
-section .hr_section2 .hr_main1 .intro p{
+section .hr_section2 .hr_main1 .intro1 p{
     word-break: keep-all;
     line-height: 30px;
     font-size: 0.95rem;
 }
-section .hr_section2 .hr_main1 .intro ul{
+section .hr_section2 .hr_main1 .intro1 ul{
     width: 100%;
     margin-top: 20px;
     margin-bottom: 30px;
 }
-section .hr_section2 .hr_main1 .intro li{
+section .hr_section2 .hr_main1 .intro1 li{
     width: 100%;
     list-style-type: none;
     color: #6ca9c5;
 }
-section .hr_section2 .hr_main1 .intro li div{
+section .hr_section2 .hr_main1 .intro1 li div{
     display: inline-block;
     font-size: 1.125rem;
     font-weight: 600;
 }
-section .hr_section2 .hr_main1 .intro li div:nth-child(1){
+section .hr_section2 .hr_main1 .intro1 li div:nth-child(1){
     margin-left: 35px;
     margin-right: 10px;
     margin-bottom: 10px;
     font-size: 1.6rem;
     font-weight: 600;
 }
-section .hr_section2 .hr_main1 .intro li .hr_2nd{
+section .hr_section2 .hr_main1 .intro1 li .hr_2nd{
     padding-top: 20px;
     vertical-align: middle;
 }
 section .hr_section2 .hr_main1 img{
     width: 95%;
 }
-section .hr_section2 .hr_main2{
-    width: 100%;
-    height: 370px;
+section .hr_section2 .hr_main2 .intro2{
+    float: left;
+    width: 68%;
+    animation: misani1 3.7s;
+    position: relative;
+    z-index: 1;
 }
-section .hr_section2 .hr_main2 .arrow{
-    width: 70px;
-    vertical-align: middle;
-    display: inline-block;
+section .hr_section2 .hr_main2 .hr_img1{
+    float: right;
+    width: 30%;
+    padding-top: 90px;
+    animation: misani1 3.7s;
+    position: relative;
+    z-index: 1;
 }
-section .hr_section2 .hr_main2 img{
-    width: 60%;
-    height: 60%;
-}
-section .hr_section2 .hr_main2 .intro2 h2{
-    width: 100%;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 300;
-    margin-bottom: 70px;
-    color: #2d3d47;
-}
-section .hr_section2 .hr_main2 .intro2 .process{
-    display: inline-block;
-    width: 12.3%;
-    height: 80px;
-    text-align: center;
-    line-height: 80px;
-    margin-right: 30px;
-    font-size: 1.2rem;
-    border-radius: 4px;
-    color: #f0f0f0;
-    font-weight: 600;
-    -webkit-box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
-    -moz-box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
-    box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
-    background-color: #507D91;
-}
-section .hr_section2 .hr_main2 .intro2 .process.last{
-    margin-right: 0;
-}
-section .hr_section2 .hr_main3{
-    width: 100%;
-    height: 400px;
-}
-section .hr_section2 .hr_main3 .intro3 h2{
-    width: 100%;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 300;
-    margin-bottom: 70px;
-    color: #2d3d47;
-}
-section .hr_section2 .hr_main3 .intro3 .hr_area{
-    display: inline-block;
-    width: 16%;
-    height: 80px;
-    margin-right: 50px;
-    text-align: center;
-    line-height: 80px;
-    font-size: 1.2rem;
-    border-radius: 4px;
-    color: #2d3d47;
-    font-weight: 600;
-    margin-bottom: 20px;
-    -webkit-box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
-    -moz-box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
-    box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
-    background-color: #EDEAE6;
-}
-section .hr_section2 .hr_main3 .intro3 .hr_area.last{
-    margin-right: 0;
+section .hr_section2 .hr_main2 .hr_img1 img{
+    width: 82.5%;
+    height: 290px;
 }
