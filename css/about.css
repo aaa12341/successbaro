@@ -20,20 +20,29 @@ section .about_section1 .mission_box{
     transform: translate(-50%,-45%);
 }
 section .about_section1 .mission_box p{
-    color: rgba(255,255,255,0.9);
-    font-size: 1.25rem;
+    color: rgba(255,255,255,0.8);
+    /* font-size: 0.98rem; */
     animation: misani1 3.7s;
     text-shadow: 6px 6px 13px rgba(0,0,0,0.9);
     text-align: center;
     letter-spacing: 1px;
     line-height: 45px;
 }
-section .about_section1 .mission_box p.thanks{
-    margin-bottom: 100px;
+section .about_section1 .mission_box p.mission{
+    margin-bottom: 55px;
     font-size: 5.4rem;
     font-family: 'Raleway', sans-serif;
     color: rgba(255,255,255,0.7);
     font-weight: 700;
+}
+section .about_section1 .mission_box p.mission2{
+    margin-bottom: 200px;
+    font-size: 1.5rem;
+    color: rgba(255,255,255,0.8);
+    font-weight: 700;
+}
+section .about_section1 .mission_box p.mission4{
+    margin-bottom: -18px;
 }
 section .about_section1 .mission_box span{
     color: #253b59;

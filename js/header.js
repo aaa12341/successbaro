@@ -6,11 +6,11 @@ const HeaderTag = document.getElementById('head');
                 <h1><img src="img/logo3.png" alt="로고"></h1>
             </a>
             <ul class="navul">
-                <li><a href="about.html">About</a></li>
+                <li class="ab_navul"><a href="about.html">About</a></li>
                 <li><a href="hr.html">경영과 HR</a></li>
-                <li><a href="bdesign.html">Business Design</a></li>
-                <li><a href="etc.html">Etc.</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li class="bd_navul"><a href="bdesign.html">Business Design</a></li>
+                <li class="etc_navul"><a href="etc.html">Etc.</a></li>
+                <li class="cont_navul"><a href="contact.html">Contact</a></li>
             </ul>
         </div>
     </div>
