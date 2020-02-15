@@ -78,7 +78,7 @@ function contact1(){
     $(window).scroll(function(){
         var offsets = $(document).scrollTop();
         if(offsets * 4 > 300){
-            $('#contact1 div.consul_contact ul li').css({
+            $('.consul_contact ul li').css({
                 "animationName" : "up_fadein"
             })
         }
