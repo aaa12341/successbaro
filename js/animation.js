@@ -41,32 +41,39 @@ function about4(){
         }
     })
 }
-function hr1(){
+function hr4(){
     $(window).scroll(function(){
         var offsets = $(document).scrollTop();
-        var hrManin2 = $('.hr_main2').offset();
-        if(offsets + 800> hrManin2.top){
+        var hr_part4 = $('.hr_part4').offset();
+        if(offsets + 800> hr_part4.top){
                 $('#intro_ani div.process').css({
-                    "animationName" : "up_fadein"
-                })
-                $('#intro_ani1 div.hr_area').css({
                     "animationName" : "up_fadein"
                 })
             }
     })
 }
-function service1(){
+function etc3(){
     $(window).scroll(function(){
         var offsets = $(document).scrollTop();
-        var service_main2 = $('.service_main2').offset();
-        if(offsets + 600 > service_main2.top){
-            $('#ser_intro2 div.intro_box').css({
+        var etc_part3 = $('.etc_part3').offset();
+        if(offsets + 600 > etc_part3.top){
+            $('#etc3_ani div.intro_box').css({
                 "animationName" : "up_fadein"
             })
         }
     })
 }
-
+function etc5(){
+    $(window).scroll(function(){
+        var offsets = $(document).scrollTop();
+        var etc_part5 = $('.etc_part5').offset();
+        if(offsets + 600 > etc_part5.top){
+            $('.etc_part5 div.etc_consul').css({
+                "animationName" : "up_fadein"
+            })
+        }
+    })
+}
 function contact1(){
     $(window).scroll(function(){
         var offsets = $(document).scrollTop();

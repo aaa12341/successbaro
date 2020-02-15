@@ -33,21 +33,14 @@
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
 }
-#intro_ani1 div.hr_area{
-    opacity: 0;
-    transform: translateX(-50px);
-    animation-fill-mode: forwards;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-}
-#ser_intro2 div.intro_box{
+#etc3_ani div.intro_box{
     opacity: 0;
     transform: translateY(50px);
     animation-fill-mode: forwards;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
 }
-#contact1 div.consul_contact ul li{
+.etc_part5 div.etc_consul{
     opacity: 0;
     transform: translateX(-50px);
     animation-fill-mode: forwards;
@@ -107,42 +100,27 @@
     animation-delay: 0.4s;
 }
 
-#intro_ani1 div.last1{
+#etc3_ani div.intro_box.first{
     animation-delay: 0s;
 }
-#intro_ani1 div.last2{
-    animation-delay: 0.2s;
-}
-#intro_ani1 div.last3{
-    animation-delay: 0.4s;
-}
-#intro_ani1 div.last4{
-    animation-delay: 0.6s;
-}
-#intro_ani1 div.last5{
-    animation-delay: 0.8s;
-}
-#intro_ani1 div.last6{
-    animation-delay: 1s;
-}
-#intro_ani1 div.last7{
-    animation-delay: 1.2s;
-}
-#intro_ani1 div.last8{
-    animation-delay: 1.4s;
-}
-#intro_ani1 div.last9{
-    animation-delay: 1.6s;
-}
-#intro_ani1 div.last10{
-    animation-delay: 1.8s;
+#etc3_ani div.intro_box.second{
+    animation-delay: 0.1s;
 }
 
-#ser_intro2 div.intro_box.first{
+.etc_part5 div.last1{
     animation-delay: 0s;
 }
-#ser_intro2 div.intro_box.second{
-    animation-delay: 0.1s;
+.etc_part5 div.last2{
+    animation-delay: 0.2s;
+}
+.etc_part5 div.last3{
+    animation-delay: 0.4s;
+}
+.etc_part5 div.last4{
+    animation-delay: 0.6s;
+}
+.etc_part5 div.last5{
+    animation-delay: 0.8s;
 }
 
 #contact1 div.consul_contact ul li.con_con1{

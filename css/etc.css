@@ -68,13 +68,17 @@ section .etc_section2 h2{
     color: #2d3d47;
     margin-bottom: 80px;
 }
+section .etc_section2 h3{
+    text-align: center;
+    word-break: keep-all;
+}
 section .etc_section2 .etc_main1{
     width: 100%;
     height: 800px;
 }
 section .etc_section2 .etc_main1 .etc_part1{
     width: 100%;
-    height: 250px;
+    height: 180px;
 }
 section .etc_section2 .etc_main1 .etc_part1 h3{
     color: #2d3d47;
@@ -92,6 +96,8 @@ section .etc_section2 .etc_main1 .etc_part1 p{
     color: #2d3d47;
     line-height: 28px;
     font-size: 0.95rem;
+    text-align: center;
+    word-break: keep-all;
 }
 section .etc_section2 .etc_main1 .etc_part12{
     width: 100%;
@@ -102,7 +108,7 @@ section .etc_section2 .etc_main1 .etc_part12 img{
 }
 section .etc_section2 .etc_main2{
     width: 100%;
-    height: 1200px;
+    height: 1050px;
 }
 section .etc_section2 .etc_main2 .etc_part2{
     width: 100%;
@@ -119,6 +125,8 @@ section .etc_section2 .etc_main2 .etc_part2 p{
     line-height: 30px;
     margin-bottom: 90px;
     font-size: 0.95rem;
+    text-align: center;
+    word-break: keep-all;
 }
 section .etc_section2 .etc_main2 .etc_part2 img{
     width: 60%;
@@ -126,7 +134,7 @@ section .etc_section2 .etc_main2 .etc_part2 img{
 }
 section .etc_section2 .etc_main3{
     width: 100%;
-    height: 650px;
+    height: 500px;
 }
 section .etc_section2 .etc_main3 .etc_part3{
     width: 100%;
@@ -141,10 +149,10 @@ section .etc_section2 .etc_main3 .etc_part3 .intro_box{
 section .etc_section2 .etc_main3 .etc_part3 .intro_box.first{
     margin-right: 40px;
     margin-left: 220px;
-    border: 0.5px solid #7C98A1;
+    border: 0.5px solid #507D91;
 }
 section .etc_section2 .etc_main3 .etc_part3 .intro_box.second{
-    border: 0.5px solid #e2dbd3;
+    border: 0.5px solid #AFC4CE;
 }
 section .etc_section2 .etc_main3 .etc_part3 .intro_box1{
     width: 100%;
@@ -153,13 +161,12 @@ section .etc_section2 .etc_main3 .etc_part3 .intro_box1{
     text-align: center;
     font-size: 1.2rem;
     font-weight: 600;
-    background-color: #ece8e4;
-    color: #2d3d47;
+    background-color: #AFC4CE;
+    color: #f0f0f0;
 }
 section .etc_section2 .etc_main3 .etc_part3 .intro_box.first .intro_box1{
-    background-color: #7C98A1;
+    background-color: #507D91;
     color: #f0f0f0;
-
 }
 section .etc_section2 .etc_main3 .etc_part3 .intro_box2 ul{
     width: 100%;
@@ -176,12 +183,12 @@ section .etc_section2 .etc_main3 .etc_part3 .intro_box2 ul li:nth-child(1){
 }
 section .etc_section2 .etc_main4{
     width: 100%;
-    height: 100%;
+    height: 800px;
     margin-top: 80px;
 }
 section .etc_section2 .etc_main4 .etc_part4{
     width: 100%;
-    height: 400px;
+    height: 200px;
     color: #2d3d47;
     position: relative;
     z-index: 1;
@@ -192,13 +199,6 @@ section .etc_section2 .etc_main4 .etc_part4 h3{
     font-size: 1.4rem;
     margin-top: 80px;
 }
-section .etc_section2 .etc_main4 .etc_part4 h3.intro_fir{
-    margin-left: 50px;
-}
-section .etc_section2 .etc_main4 .etc_part4 h3.intro_sec{
-    float: right;
-    margin-right: 100px;
-}
 section .etc_section2 .etc_main4 .etc_part4 h3 span{
     color: #6ca9c5;
     font-weight: 700;
@@ -206,7 +206,7 @@ section .etc_section2 .etc_main4 .etc_part4 h3 span{
 }
 section .etc_section2 .etc_main4 .etc_part41{
     width: 100%;
-    height: 450px;
+    height: 300px;
     text-align: center;
 }
 section .etc_section2 .etc_main4 .etc_part41 .intro_box{
@@ -289,13 +289,13 @@ section .etc_section2 .etc_main4 .etc_part41 img{
 }
 section .etc_section2 .etc_main5{
     width: 100%;
-    height: 400px;
+    height: 500px;
 }
 section .etc_section2 .etc_main5 .etc_part5 .etc_consul{
     display: inline-block;
-    width: 16%;
+    width: 18%;
     height: 80px;
-    margin-right: 50px;
+    margin-right: 20px;
     text-align: center;
     line-height: 80px;
     font-size: 1.2rem;
