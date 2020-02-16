@@ -49,30 +49,24 @@ header .navul .main_ul{
     position: absolute;
 }
 header .navul .ab_navul{
-    width: 200px;
-    left: 20%;
+    left: 25%;
 }
 header .navul .hr_navul{
-    width: 200px;
-    left: 38%;
+    left: 42%;
 }
 header .navul .bd_navul{
-    width: 200px;
-    left: 57%;
+    left: 59%;
 }
 header .navul .etc_navul{
-    width: 200px;
-    left: 75%;
+    left: 81%;
 }
 header .navul .cont_navul{
-    width: 200px;
-    left: 90%;
+    left: 93%;
 }
 header .navul .nav_title{
     line-height: 70px;
     cursor: pointer;
     font-size: 0.875rem;
-    text-align: center;
 }
 header .navul .nav_title a{
     color: #333;
@@ -84,18 +78,17 @@ header .navul .nav_title a:hover{
     color: #6ca9c5;
 }
 header .navul .main_nav{
-    margin-top: 20px;
+    margin-top: 10px;
     display: none;
 }
 header .navul .main_nav ul li{
     list-style: none;
     line-height: 30px;
-    text-align: center;
 }
 header .navul .main_nav ul li a{
     color: #333;
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     transition: .3s ease;
 }
 header .navul .main_nav ul li a:hover{
@@ -104,7 +97,7 @@ header .navul .main_nav ul li a:hover{
 }
 header .nav_box{
     width: 100%;
-    height: 300px;
+    height: 260px;
     background-color: rgba(255,255,255,0.9);
     padding-top: 70px;
     position: absolute;
