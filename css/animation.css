@@ -40,6 +40,34 @@
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
 }
+.bdesign_main2 img{
+    opacity: 0;
+    transform: translateY(50px);
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+.bdesign_main3 img{
+    opacity: 0;
+    transform: translateY(50px);
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+.etc_main1 img{
+    opacity: 0;
+    transform: translateY(50px);
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+.etc_main2 img{
+    opacity: 0;
+    transform: translateY(50px);
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
 #etc3_ani div.intro_box{
     opacity: 0;
     transform: translateY(50px);
@@ -125,16 +153,32 @@
     animation-delay: 0s;
 }
 #bd_ani1 div.tool_explain2 div#step2{
-    animation-delay: 0.1s;
-}
-#bd_ani1 div.tool_explain2 div#step3{
     animation-delay: 0.2s;
 }
+#bd_ani1 div.tool_explain2 div#step3{
+    animation-delay: 0.4s;
+}
 #bd_ani1 div.tool_explain2 div#step4{
-    animation-delay: 0.3s;
+    animation-delay: 0.6s;
 }
 #bd_ani1 div.tool_explain2 div#step5{
-    animation-delay: 0.4s;
+    animation-delay: 0.8s;
+}
+
+.bdesign_main2 img{
+    animation-delay: 0s;
+}
+
+.bdesign_main3 img{
+    animation-delay: 0s;
+}
+
+.etc_main1 img{
+    animation-delay: 0s;
+}
+
+.etc_main2 img{
+    animation-delay: 0s;
 }
 
 #etc3_ani div.intro_box.first{

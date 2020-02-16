@@ -41,6 +41,17 @@ function about4(){
         }
     })
 }
+function hr4(){
+    $(window).scroll(function(){
+        var offsets = $(document).scrollTop();
+        var hr_part4 = $('.hr_part4').offset();
+        if(offsets + 800> hr_part4.top){
+                $('#intro_ani div.process').css({
+                    "animationName" : "up_fadein"
+                })
+            }
+    })
+}
 function bd1(){
     $(document).ready(function(){
         $('#bd_ani1 div.tool_explain2 div').css({
@@ -51,24 +62,45 @@ function bd1(){
 function bd2(){
     $(window).scroll(function(){
         var offsets = $(document).scrollTop();
-        console.log(offsets)
-        // var bdesign_main1 = $('.bdesign_main1').offset();
-        if(offsets *2 < 100){
-                $('#bd_ani1 div.tool_explain2 div').css({
+        var bdesign_main2 = $('.bdesign_main2').offset();
+        if(offsets *2 > bdesign_main2.top){
+                $('.bdesign_main2 img').css({
                     "animationName" : "up_fadein"
                 })
             }
     })
 }
-function hr4(){
+function bd3(){
     $(window).scroll(function(){
         var offsets = $(document).scrollTop();
-        var hr_part4 = $('.hr_part4').offset();
-        if(offsets + 800> hr_part4.top){
-                $('#intro_ani div.process').css({
+        var bdesign_main3 = $('.bdesign_main3').offset();
+        if(offsets + 300 > bdesign_main3.top){
+                $('.bdesign_main3 img').css({
                     "animationName" : "up_fadein"
                 })
             }
+    })
+}
+function etc1(){
+    $(window).scroll(function(){
+        var offsets = $(document).scrollTop();
+        var etc_main1 = $('.etc_main1').offset();
+        if(offsets *2 > etc_main1.top){
+            $('.etc_main1 img').css({
+                "animationName" : "up_fadein"
+            })
+        }
+    })
+}
+function etc2(){
+    $(window).scroll(function(){
+        var offsets = $(document).scrollTop();
+        var etc_main2 = $('.etc_main2').offset();
+        if(offsets +500 > etc_main2.top){
+            $('.etc_main2 img').css({
+                "animationName" : "up_fadein"
+            })
+        }
     })
 }
 function etc3(){
@@ -105,12 +137,9 @@ function etc5(){
     })
 }
 function contact1(){
-    $(window).scroll(function(){
-        var offsets = $(document).scrollTop();
-        if(offsets * 4 > 300){
+    $(window).ready(function(){
             $('.consul_contact ul li').css({
                 "animationName" : "up_fadein"
             })
-        }
     })
 }

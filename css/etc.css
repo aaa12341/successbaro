@@ -48,6 +48,7 @@ section .etc_section1 h3:hover{
 section .etc_section2{
     width: 100%;
     height: 100%;
+    color: #2d3d47;
 }
 section .etc_section2 .intro{
     padding-top: 100px;
@@ -65,7 +66,6 @@ section .etc_section2 h2{
     text-align: center;
     font-size: 2rem;
     font-weight: 600;
-    color: #2d3d47;
     margin-bottom: 80px;
 }
 section .etc_section2 h3{
@@ -81,7 +81,6 @@ section .etc_section2 .etc_main1 .etc_part1{
     height: 180px;
 }
 section .etc_section2 .etc_main1 .etc_part1 h3{
-    color: #2d3d47;
     font-weight: 100;
     font-size: 1.4rem;
     margin-bottom: 40px;
@@ -92,11 +91,9 @@ section .etc_section2 .etc_main1 .etc_part1 h3 span{
     font-weight: 700;
     font-size: 1.4rem;
 }
-section .etc_section2 .etc_main1 .etc_part1 p{    
-    color: #2d3d47;
+section .etc_section2 .etc_main1 .etc_part1 p{ 
     line-height: 28px;
     font-size: 0.95rem;
-    text-align: center;
     word-break: keep-all;
 }
 section .etc_section2 .etc_main1 .etc_part12{
@@ -176,7 +173,6 @@ section .etc_section2 .etc_main3 .etc_part3 .intro_box2 ul li{
     text-align: center;
     height: 60px;
     line-height: 60px;
-    color: #2d3d47;
 }
 section .etc_section2 .etc_main3 .etc_part3 .intro_box2 ul li:nth-child(1){
     margin-top: 10px;
@@ -189,12 +185,10 @@ section .etc_section2 .etc_main4{
 section .etc_section2 .etc_main4 .etc_part4{
     width: 100%;
     height: 200px;
-    color: #2d3d47;
     position: relative;
     z-index: 1;
 }
 section .etc_section2 .etc_main4 .etc_part4 h3{
-    color: #2d3d47;
     font-weight: 100;
     font-size: 1.4rem;
     margin-top: 80px;
@@ -246,11 +240,9 @@ section .etc_section2 .etc_main4 .etc_part41 .intro_box2 ul li{
     text-align: center;
     height: 30px;
     line-height: 30px;
-    color: #2d3d47;
 }
 section .etc_section2 .etc_main4 .etc_part41 .intro_box.first_box .intro_box1{
     background-color: #AFC4CE;
-    color: #2d3d47;
 }
 section .etc_section2 .etc_main4 .etc_part41 .intro_box.first_box .fir_line{
     border: 0.5px solid #AFC4CE;
@@ -300,7 +292,6 @@ section .etc_section2 .etc_main5 .etc_part5 .etc_consul{
     line-height: 80px;
     font-size: 1.2rem;
     border-radius: 4px;
-    color: #2d3d47;
     font-weight: 600;
     margin-bottom: 20px;
     -webkit-box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);

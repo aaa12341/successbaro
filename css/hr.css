@@ -77,7 +77,7 @@ section .hr_section2 .hr_main1 .hr_part1{
     height: 450px;
     margin: 0 auto;
     color: #333;
-    text-align: center;
+    /* text-align: center; */
 }
 section .hr_section2 .hr_main1 .hr_part1 p{
     word-break: keep-all;
