@@ -110,7 +110,7 @@ section .contact_section2 .consul_contact ul img{
     float: left;
     margin-right: 10px;
     margin-left: 10px;
-    vertical-align: middle;
+    margin-top: 25px;
 }
 section .contact_section2 .consul_contact li.br_contact{
     line-height: 27px;
