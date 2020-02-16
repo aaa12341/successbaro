@@ -33,9 +33,23 @@
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
 }
+#bd_ani1 div.tool_explain2 div{
+    opacity: 0;
+    transform: translateX(-50px);
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
 #etc3_ani div.intro_box{
     opacity: 0;
     transform: translateY(50px);
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+.etc_part41 div.intro_box{
+    opacity: 0;
+    transform: translateX(-50px);
     animation-fill-mode: forwards;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
@@ -107,11 +121,40 @@
     animation-delay: 0.4s;
 }
 
+#bd_ani1 div.tool_explain2 div#step1{
+    animation-delay: 0s;
+}
+#bd_ani1 div.tool_explain2 div#step2{
+    animation-delay: 0.1s;
+}
+#bd_ani1 div.tool_explain2 div#step3{
+    animation-delay: 0.2s;
+}
+#bd_ani1 div.tool_explain2 div#step4{
+    animation-delay: 0.3s;
+}
+#bd_ani1 div.tool_explain2 div#step5{
+    animation-delay: 0.4s;
+}
+
 #etc3_ani div.intro_box.first{
     animation-delay: 0s;
 }
 #etc3_ani div.intro_box.second{
     animation-delay: 0.1s;
+}
+
+.etc_part41 div.intro_box.first_box{
+    animation-delay: 0s;
+}
+.etc_part41 div.intro_box.second_box{
+    animation-delay: 0.1s;
+}
+.etc_part41 div.intro_box.third_box{
+    animation-delay: 0.2s;
+}
+.etc_part41 div.intro_box.last_box{
+    animation-delay: 0.3s;
 }
 
 .etc_part5 div.last1{

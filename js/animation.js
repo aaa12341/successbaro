@@ -41,6 +41,30 @@ function about4(){
         }
     })
 }
+function bd1(){
+    $(window).scroll(function(){
+        var offsets = $(document).scrollTop();
+        console.log(offsets)
+        // var bdesign_main1 = $('.bdesign_main1').offset();
+        if(offsets *2 < 100){
+                $('#bd_ani1 div.tool_explain2 div').css({
+                    "animationName" : "up_fadein"
+                })
+            }
+    })
+}
+function bd2(){
+    $(window).scroll(function(){
+        var offsets = $(document).scrollTop();
+        console.log(offsets)
+        // var bdesign_main1 = $('.bdesign_main1').offset();
+        if(offsets *2 < 100){
+                $('#bd_ani1 div.tool_explain2 div').css({
+                    "animationName" : "up_fadein"
+                })
+            }
+    })
+}
 function hr4(){
     $(window).scroll(function(){
         var offsets = $(document).scrollTop();
@@ -58,6 +82,17 @@ function etc3(){
         var etc_part3 = $('.etc_part3').offset();
         if(offsets + 600 > etc_part3.top){
             $('#etc3_ani div.intro_box').css({
+                "animationName" : "up_fadein"
+            })
+        }
+    })
+}
+function etc4(){
+    $(window).scroll(function(){
+        var offsets = $(document).scrollTop();
+        var etc_part41 = $('.etc_part41').offset();
+        if(offsets + 600 > etc_part41.top){
+            $('.etc_part41 div.intro_box').css({
                 "animationName" : "up_fadein"
             })
         }
