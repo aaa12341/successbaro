@@ -5,13 +5,25 @@ const HeaderTag = document.getElementById('head');
             <a href="index.html">
                 <h1><img src="img/logo3.png" alt="로고"></h1>
             </a>
-            <ul class="navul">
-                <li class="ab_navul"><a href="about.html">About</a></li>
-                <li><a href="hr.html">경영과 HR</a></li>
-                <li class="bd_navul"><a href="bdesign.html">Business Design</a></li>
-                <li class="etc_navul"><a href="etc.html">Etc.</a></li>
-                <li class="cont_navul"><a href="contact.html">Contact</a></li>
-            </ul>
+            <div class="navul">
+                <div class="ab_navul">
+                    <div class="nav_title"><a href="about.html">About</a></div>
+                    <div class="main_nav about_nav">
+                        <ul>
+                            <li><a href="about.html?key=about1">업무수행 원칙</a></li>
+                            <li><a href="about.html?key=about2">석세스바로 역할</a></li>
+                            <li><a href="about.html?key=about3">기업경영 구성요소</a></li>
+                            <li><a href="about.html?key=about4">오시는 길</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div >
+                    <div class="nav_title"><a href="about.html">경영과 HR</a></div>
+                    <a href="hr.html">경영과 HR</a></div>
+                <div class="bd_navul"><a href="bdesign.html">Business Design</a></div>
+                <div class="etc_navul"><a href="etc.html">Etc.</a></div>
+                <div class="cont_navul"><a href="contact.html">Contact</a></div>
+            </div>
         </div>
     </div>
 </header>

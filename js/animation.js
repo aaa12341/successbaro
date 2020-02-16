@@ -42,15 +42,10 @@ function about4(){
     })
 }
 function bd1(){
-    $(window).scroll(function(){
-        var offsets = $(document).scrollTop();
-        console.log(offsets)
-        // var bdesign_main1 = $('.bdesign_main1').offset();
-        if(offsets *2 < 100){
-                $('#bd_ani1 div.tool_explain2 div').css({
-                    "animationName" : "up_fadein"
-                })
-            }
+    $(document).ready(function(){
+        $('#bd_ani1 div.tool_explain2 div').css({
+            "animationName" : "up_fadein"
+        })
     })
 }
 function bd2(){

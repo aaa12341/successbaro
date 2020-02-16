@@ -39,18 +39,18 @@ header .nav_bar{
     color: rgb(241, 241, 241);
 }
 header .nav_bar h1{
-    width: 20%;
+    width: 14%;
     height: 100%;
     float: left;
 }
 header .nav_bar h1 img{
-    width: 70%;
+    width: 100%;
 }
-header .nav_bar ul{
+header .navul{
     float: right;
-    width: 65%;
+    width: 80%;
     height: 70px;
-    list-style: none;
+    position: relative;
 }
 header .nav_bar ul li{
     width: 16%;
