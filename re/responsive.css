@@ -1,0 +1,21 @@
+@media (max-width: 1600px) {
+    html,body{font-size: 14px;}
+    div.main_section .nav_bar h1{width: 12%;}
+    div.main_section .wrap{max-width: 1200px;}
+}
+
+@media (max-width: 1440px) {}
+
+@media (max-width: 1200px) {
+    html,body{font-size: 12px;}
+    div.main_section .nav_bar h1{width: 15%;}
+    div.main_section .wrap{max-width: 1024px;}
+    div.main_section .nav_bar ul{display: none;}
+    div.main_section ul.mo_nav{display: block}
+
+
+}
+
+@media (max-width: 1024px) {
+
+}

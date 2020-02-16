@@ -1,0 +1,18 @@
+div.main_section{width: 100%; height: 100vh; background-image: url(../img/main1.jpg);}
+div.main_section .wrap{max-width: 1600px;}
+div.main_section .bg{background-color:rgba(0, 0, 0, 0.3); width:100%; height: 100vh; position: absolute;}
+div.main_section .nav_bar{width: 100%; height: 80px; position: relative; z-index: 999; line-height: 80px;}
+div.main_section .nav_bar h1{width: 9%; float: left; vertical-align: top; height: auto; height: 0px;}
+div.main_section .nav_bar ul{float: right;}
+div.main_section .nav_bar ul li{display: inline-block; margin-left: 40px; font-size: 1.1rem;}
+div.main_section .nav_bar ul li a{color: rgba(255,255,255,0.8); transition: .3s;}
+div.main_section .nav_bar ul li a:hover{color: #253b59;font-weight: bold;}
+div.main_section ul.mo_nav{display: none; padding-top: 15px;}
+div.main_section ul.mo_nav li{display: block; height: 5px; background-color: white; width: 35px; margin-bottom: 4px; border-radius: 2px;}
+div.main_section .center_box{position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); padding: 65px; text-align: center;}
+div.main_section .center_box p{color: rgba(255,255,255,0.8);  font-family: 'Raleway', sans-serif; text-shadow: 6px 6px 13px rgba(0,0,0,0.5); font-weight: bold;}
+div.main_section .center_box p.mission1{margin-bottom: 50px; font-size: 1.35rem;}
+div.main_section .center_box p.mission2{margin-bottom: 50px;font-size: 2.63rem;letter-spacing: 2px;}
+div.main_section .center_box p.mission3,div.main_section .center_box p.mission4{font-size: 6rem; letter-spacing: 6px;}
+div.main_section .center_box .start_btn{width: 120px; height: 45px; background-color: #BB5555; border-radius: 40px; text-align: center; line-height: 45px; margin: 20px auto; margin-top: 100px;}
+div.main_section .center_box .start_btn a{color: white;}
