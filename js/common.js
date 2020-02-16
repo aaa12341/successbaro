@@ -188,7 +188,6 @@ function getQueryString(){
     window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (str, key, value) {
         params[key] = value;
     });
-    console.log(params)
     return params;
    }
 
