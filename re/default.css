@@ -8,7 +8,8 @@ div.main_section .nav_bar ul li{display: inline-block; margin-left: 40px; font-s
 div.main_section .nav_bar ul li a{color: rgba(255,255,255,0.8); transition: .3s;}
 div.main_section .nav_bar ul li a:hover{color: #253b59;font-weight: bold;}
 div.main_section ul.mo_nav{display: none; padding-top: 15px;}
-div.main_section ul.mo_nav li{display: block; height: 5px; background-color: white; width: 35px; margin-bottom: 4px; border-radius: 2px;}
+div.main_section ul.mo_nav li{display: block; height: 4px; background-color: white; width: 35px; margin-bottom: 6px; border-radius: 2px;}
+div.main_section ul.mo_nav li:nth-child(2){width: 20px}
 div.main_section .center_box{position: absolute; left: 50%; top: 50%; transform: translate(-50%,-50%); padding: 65px; text-align: center;}
 div.main_section .center_box p{color: rgba(255,255,255,0.8);  font-family: 'Raleway', sans-serif; text-shadow: 6px 6px 13px rgba(0,0,0,0.5); font-weight: bold;}
 div.main_section .center_box p.mission1{margin-bottom: 50px; font-size: 1.35rem;}
