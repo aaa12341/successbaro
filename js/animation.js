@@ -71,6 +71,20 @@ function hr5(){
                 $('.hr_part5 img').css({
                     "animationName" : "up_fadein"
                 })
+                $('.hr_part5 div.graph_part').css({
+                    "animationName" : "up_fadein"
+                })
+            }
+    })
+}
+function hr6(){
+    $(window).scroll(function(){
+        var offsets = $(document).scrollTop();
+        var graph_part = $('.graph_part').offset();
+        if(offsets + 600 > graph_part.top){
+                $('.graph_part div.part').css({
+                    "animationName" : "up_fadein"
+                })
             }
     })
 }

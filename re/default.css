@@ -70,15 +70,15 @@ div.section .hr_section2 .hr_main4 .hr_part4 .process{display: inline-block;widt
 div.section .hr_section2 .hr_main4 .hr_part4 .process p{width: 100%;font-size: 1.4rem;line-height: 60px;}
 div.section .hr_section2 .hr_main4 .hr_part4 .process .num{width: 100%;height: 40px;color: #F7926F;font-size: 1.1rem;margin-top: 20px;}
 div.section .hr_section2 .hr_main4 .hr_part4 .process.last{margin-right: 0;}
-div.section .hr_section2 .hr_main5{width: 100%;height: 1780px;}
+div.section .hr_section2 .hr_main5{width: 100%;height: 1750px;}
 div.section .hr_section2 .hr_main5 .hr_part5 .graph_part{width: 100%;height: 380px;margin-top: 60px;}
-div.section .hr_section2 .hr_main5 .hr_part5 .graph_part.first{margin-left: 205px;}
-div.section .hr_section2 .hr_main5 .hr_part5 .graph_title{width: 32%;height: 360px;text-align: center;float: left;line-height: 70px;border: 0.5px solid #BAD1DB;border-radius: 5px;margin-right: 20px;}
-div.section .hr_section2 .hr_main5 .hr_part5 h2{width: 100%;height: 70px;margin-bottom: 0;color: #6ca9c5;}
-div.section .hr_section2 .hr_main5 .hr_part5 h3{width: 100%;height: 70px;font-weight: bold;font-size: 1.4rem;}
-div.section .hr_section2 .hr_main5 .hr_part5 .graph_part ul li{line-height: 30px;font-size: 0.9rem;}
-div.section .hr_section2 .hr_main5 .hr_part5 .graph_title2{width: 32%;height: 360px;text-align: center;float: left;line-height: 70px;border-radius: 3px;border: 0.5px solid #BAD1DB;margin-right: 20px;}
-div.section .hr_section2 .hr_main5 .hr_part5 .graph_title2.last{margin-right: 0;}
+div.section .hr_section2 .hr_main5 .hr_part5 .graph_part .part{width: 49%;height: 220px;margin-bottom: 20px;float: left;margin-right: 15px;}
+div.section .hr_section2 .hr_main5 .hr_part5 .graph_part .part.last{margin-right: 0;}
+div.section .hr_section2 .hr_main5 .hr_part5 .graph_part .part .num{width: 25%;height: 100%;line-height: 220px;font-weight: bold;color: #f0f0f0;float: left;background-color: #6ca9c5;font-size: 1.4rem;text-align: center;}
+div.section .hr_section2 .hr_main5 .hr_part5 .graph_part .part .detail{width: 74%;height: 100%;display: inline-block;border: 0.5px solid #6ca9c5;padding-top: 15px;padding-left: 20px;}
+div.section .hr_section2 .hr_main5 .hr_part5 .graph_part .part .detail h3{font-size: 1.5rem;font-weight: bold;margin-bottom: 10px;color: #6ca9c5;}
+div.section .hr_section2 .hr_main5 .hr_part5 .graph_part ul li{list-style-type: none;}
+
 
 /* bdesign */
 div.section .section1.bdesign{background-image: url(../img/etc_pic.jpg);background-position-y: 75%;}
