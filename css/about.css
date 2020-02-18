@@ -15,7 +15,8 @@ section .about_section1 .mission_box p{
     color: rgba(255,255,255,0.8);
     animation: misani1 3.7s;
     text-shadow: 6px 6px 13px rgba(0,0,0,0.9);
-    letter-spacing: 1px;font-size: 1.125rem;
+    letter-spacing: 1px;
+    font-size: 1.05rem;
 }
 section .about_section1 .mission_box p.mission{
     padding-top: 350px;
