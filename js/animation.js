@@ -41,12 +41,34 @@ function about4(){
         }
     })
 }
+function hr1(){
+    $(window).scroll(function(){
+        var offsets = $(document).scrollTop();
+        var hr_main1 = $('.hr_main1').offset();
+        if(offsets *2> hr_main1.top){
+                $('.hr_main1 img').css({
+                    "animationName" : "up_fadein"
+                })
+            }
+    })
+}
 function hr4(){
     $(window).scroll(function(){
         var offsets = $(document).scrollTop();
         var hr_part4 = $('.hr_part4').offset();
         if(offsets + 800> hr_part4.top){
                 $('#intro_ani div.process').css({
+                    "animationName" : "up_fadein"
+                })
+            }
+    })
+}
+function hr5(){
+    $(window).scroll(function(){
+        var offsets = $(document).scrollTop();
+        var hr_part5 = $('.hr_part5').offset();
+        if(offsets + 600 > hr_part5.top){
+                $('.hr_part5 img').css({
                     "animationName" : "up_fadein"
                 })
             }

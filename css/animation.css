@@ -26,7 +26,21 @@
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
 }
+.hr_main1 img{
+    opacity: 0;
+    transform: translateY(50px);
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
 #intro_ani div.process{
+    opacity: 0;
+    transform: translateX(-50px);
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+.hr_part5 img{
     opacity: 0;
     transform: translateX(-50px);
     animation-fill-mode: forwards;
@@ -133,6 +147,10 @@
     animation-delay: 0s;
 }
 
+.hr_main1 img{
+    animation-delay: 0s;
+}
+
 #intro_ani div.pro1{
     animation-delay: 0s;
 }
@@ -148,6 +166,11 @@
 #intro_ani div.pro5{
     animation-delay: 0.4s;
 }
+
+.hr_part5 img{
+    animation-delay: 0s;
+}
+
 
 #bd_ani1 div.tool_explain2 div#step1{
     animation-delay: 0s;
