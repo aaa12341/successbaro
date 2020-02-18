@@ -13,8 +13,7 @@ section .section1 h2{
     height: 225px;
     color: white;
     font-size: 2rem;
-    position: relative; 
-    z-index: 100;
+    position: relative;
     line-height: 300px;
     animation: misani1 3.7s;
     letter-spacing: 1.5px;
@@ -29,7 +28,6 @@ section .section1 h3{
     letter-spacing: 1.5px;
     text-decoration: none;
     transition: 0.1s ease-in;
-    z-index: 100;
     cursor: pointer;
 }
 section .section1 h3:hover{
@@ -88,7 +86,6 @@ section .etc_section2 .etc_main1 .etc_part1 h3 span{
     color: #6ca9c5;
     font-weight: 700;
     font-size: 1.6rem;
-
 }
 section .etc_section2 .etc_main1 .etc_part1 p{ 
     line-height: 28px;
@@ -184,8 +181,6 @@ section .etc_section2 .etc_main4{
 section .etc_section2 .etc_main4 .etc_part4{
     width: 100%;
     height: 200px;
-    position: relative;
-    z-index: 1;
 }
 section .etc_section2 .etc_main4 .etc_part4 h3{
     font-weight: 100;
@@ -220,7 +215,7 @@ section .etc_section2 .etc_main4 .etc_part41 .intro_box1{
     line-height: 50px;
     text-align: center;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: bold;
 }
 section .etc_section2 .etc_main4 .etc_part41 .intro_box2{
     position: relative;

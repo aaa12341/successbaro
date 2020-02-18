@@ -1,22 +1,15 @@
-/* section .bg{ 
-    width:100%; 
-    height: 370px; 
-    background-color: rgba(8, 8, 8, 0.4);
-    position: absolute;
-    z-index: 1;
-} */
-section .bdesign_section1{
+section .section1{
     width: 100%;
     height: 300px;
-    background-image: url(../img/section_pic.jpg);
+    background-image: url(../img/bd_pic.jpg);
     background-size: cover;
-    background-position-y: 45%;
+    background-position-y: 75%;
     background-repeat: no-repeat;
     position: relative;
     top:70px;
     margin-bottom: 70px;
 }
-section .bdesign_section1 h2{
+section .section1 h2{
     height: 225px;
     color: white;
     font-size: 2rem;
@@ -24,9 +17,8 @@ section .bdesign_section1 h2{
     line-height: 300px;
     animation: misani1 3.7s;
     letter-spacing: 1.5px;
-    z-index: 100;
 }
-section .bdesign_section1 h3{
+section .section1 h3{
     display: inline;
     margin-right: 15px;
     color: rgba(255, 255, 255, 0.6);
@@ -37,9 +29,8 @@ section .bdesign_section1 h3{
     text-decoration: none;
     transition: 0.1s ease-in;
     cursor: pointer;
-    z-index: 100;
 }
-section .bdesign_section1 h3:hover{
+section .section1 h3:hover{
     color: #6ca9c5;
 }
 @keyframes misani1{
@@ -50,7 +41,7 @@ section .bdesign_section1 h3:hover{
         opacity: 1;
     }
 }
-section .bdesign_section2{
+section .section2{
     width: 100%;
     height: 100%;
     color: #2d3d47;
@@ -142,14 +133,14 @@ section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_box{
     height: 400px;
 }
 section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_box img{
-    width: 99%;
+    width: 100%;
 }
 section .bdesign_section2 .bdesign_main2{
     width: 100%;
-    height: 840px;
+    height: 900px;
 }
 section .bdesign_section2 .bdesign_main2 img{
-    width: 95%;
+    width: 100%;
 }
 ection .bdesign_section2 .bdesign_main3{
     width: 100%;
@@ -170,5 +161,5 @@ section .bdesign_section2 .bdesign_main3 .bdesign_part3 h3 span{
     font-size: 1.6rem;
 }
 section .bdesign_section2 .bdesign_main3 img{
-    width: 95%;
+    width: 100%;
 }

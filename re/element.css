@@ -135,9 +135,11 @@ section .section2{
     height: 100%;
 }
 section .section2 h3{
+    text-align: center;
     font-weight: 100;
     font-size: 1.6rem;
     margin-top: 80px;
+    word-break: keep-all;
 }
 section .section2 h3 span{
     color: #6ca9c5;
