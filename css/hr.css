@@ -1,10 +1,10 @@
-section .bg{ 
+/* section .bg{ 
     width:100%; 
     height: 370px; 
     background-color: rgba(8, 8, 8, 0.4);
     position: absolute;
     z-index: 1;
-}
+} */
 section .hr_section1{
     width: 100%;
     height: 300px;

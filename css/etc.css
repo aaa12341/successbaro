@@ -1,4 +1,4 @@
-section .etc_section1{
+section .section1{
     width: 100%;
     height: 300px;
     background-image: url(../img/etc_pic.jpg);
@@ -9,7 +9,7 @@ section .etc_section1{
     top:70px;
     margin-bottom: 70px;
 }
-section .etc_section1 h2{
+section .section1 h2{
     height: 225px;
     color: white;
     font-size: 2rem;
@@ -19,7 +19,7 @@ section .etc_section1 h2{
     animation: misani1 3.7s;
     letter-spacing: 1.5px;
 }
-section .etc_section1 h3{
+section .section1 h3{
     display: inline;
     margin-right: 15px;
     color: rgba(255, 255, 255, 0.6);
@@ -32,7 +32,7 @@ section .etc_section1 h3{
     z-index: 100;
     cursor: pointer;
 }
-section .etc_section1 h3:hover{
+section .section1 h3:hover{
     color: #6ca9c5;
 }
 @keyframes misani1{
@@ -43,7 +43,7 @@ section .etc_section1 h3:hover{
         opacity: 1;
     }
 }
-section .etc_section2{
+section .section2{
     width: 100%;
     height: 100%;
     color: #2d3d47;
@@ -80,14 +80,15 @@ section .etc_section2 .etc_main1 .etc_part1{
 }
 section .etc_section2 .etc_main1 .etc_part1 h3{
     font-weight: 100;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin-bottom: 40px;
     margin-top: 80px;
 }
 section .etc_section2 .etc_main1 .etc_part1 h3 span{
     color: #6ca9c5;
     font-weight: 700;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+
 }
 section .etc_section2 .etc_main1 .etc_part1 p{ 
     line-height: 28px;
@@ -100,7 +101,7 @@ section .etc_section2 .etc_main1 .etc_part12{
     margin-top: 100px;
 }
 section .etc_section2 .etc_main1 .etc_part12 img{
-    width: 95%;
+    width: 100%;
 }
 section .etc_section2 .etc_main2{
     width: 100%;
@@ -121,7 +122,6 @@ section .etc_section2 .etc_main2 .etc_part2 p{
     line-height: 30px;
     margin-bottom: 90px;
     font-size: 0.95rem;
-    text-align: center;
     word-break: keep-all;
 }
 section .etc_section2 .etc_main2 .etc_part2 img{
@@ -189,13 +189,13 @@ section .etc_section2 .etc_main4 .etc_part4{
 }
 section .etc_section2 .etc_main4 .etc_part4 h3{
     font-weight: 100;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     margin-top: 80px;
 }
 section .etc_section2 .etc_main4 .etc_part4 h3 span{
     color: #6ca9c5;
-    font-weight: 700;
-    font-size: 1.4rem;
+    font-weight: 700;    
+    font-size: 1.6rem;
 }
 section .etc_section2 .etc_main4 .etc_part41{
     width: 100%;
@@ -296,7 +296,7 @@ section .etc_section2 .etc_main5 .etc_part5 .etc_consul{
     -webkit-box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
     -moz-box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
     box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);
-    background-color: #EDEAE6;
+    background-color: #AFC4CE;
 }
 section .etc_section2 .etc_main5 .etc_part5 .etc_consul.last{
     margin-right: 0;

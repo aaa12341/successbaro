@@ -1,6 +1,6 @@
 section .about_section1{
     width: 100%;
-    height: 845px;
+    height: 100vh;
     background-image: url(../img/mission1.jpg);
     background-size: cover;
     background-position-y: 50%;
@@ -15,11 +15,11 @@ section .about_section1 .mission_box p{
     color: rgba(255,255,255,0.8);
     animation: misani1 3.7s;
     text-shadow: 6px 6px 13px rgba(0,0,0,0.9);
-    letter-spacing: 1px;
+    letter-spacing: 1px;font-size: 1.125rem;
 }
 section .about_section1 .mission_box p.mission{
-    padding-top: 300px;
-    margin-bottom: 50px;
+    padding-top: 350px;
+    margin-bottom: 40px;
     font-size: 5.4rem;
     font-family: 'Raleway', sans-serif;
     color: rgba(255,255,255,0.8);
@@ -47,7 +47,7 @@ section .about_section2{
     height: 100%;
     color: #2d3d47;
 }
-section .about_section2 .main{
+section .about_section2 .intro{
     padding-top: 100px;
 }
 section .about_section2 .line{
@@ -58,7 +58,7 @@ section .about_section2 .line{
     margin-bottom: 7px;
     border-radius: 3px;
 }
-section .about_section2 .main h2{
+section .about_section2 h2{
     width: 100%;
     text-align: center;
     font-size: 2rem;
