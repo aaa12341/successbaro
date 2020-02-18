@@ -119,6 +119,7 @@ section .about_section2 .about_main1 .main1_circle ul li.detail{
 section .about_section2 .about_main2{
     width: 100%;
     height: 920px;
+    background-color: #faf9f9;
 }
 section .about_section2 .about_main2 h2{
     margin-bottom: 60px;

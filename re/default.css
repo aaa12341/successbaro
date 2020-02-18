@@ -37,7 +37,7 @@ div.section .about_section2 .about_main1 .main1_circle ul{width: 210px;height: 2
 div.section .about_section2 .about_main1 .main1_circle ul.last_circle{margin-right: 0;}
 div.section .about_section2 .about_main1 .main1_circle ul li.num{width: 100%;height: 70px; color: #6ca9c5;margin-bottom: 15px;font-size: 2rem;font-weight: bold;line-height: 140px;}
 div.section .about_section2 .about_main1 .main1_circle ul li.detail{width: 100%;height: 70px;margin-bottom: 15px;font-weight: bold;line-height: 70px;font-size: 1.05rem;}
-div.section .about_section2 .about_main2{width: 100%;height: 920px;}
+div.section .about_section2 .about_main2{width: 100%;height: 920px;background-color: #faf9f9;}
 div.section .about_section2 .about_main2 h2{margin-bottom: 60px;}
 div.section .about_section2 .about_main2 .role,section .about_section2 .about_main3 .role2{width: 100%;height: 400px;}
 div.section .about_section2 .about_main3{width: 100%;height: 880px;}
@@ -57,10 +57,10 @@ div.div.section .section1.hr{background-image: url(../img/hr_pic.jpg);}
 div.section .hr_section2 .hr_main1{width: 100%;height: 1300px;}
 div.section .hr_section2 .hr_main1 .hr_part1 h3{margin-bottom: 40px;}
 div.section .hr_section2 .hr_main1 .hr_part1 p{margin-bottom: 80px;}
-div.section .hr_section2 .hr_main2{width: 100%;height: 550px;}
+div.section .hr_section2 .hr_main2{width: 100%;height: 550px;background-color: #faf9f9;}
 div.section .hr_section2 .hr_main2 .hr_part2{width: 100%;height: 300px;}
 div.section .hr_section2 .hr_main2 .hr_part2 h3{margin-bottom: 40px;}
-div.section .hr_section2 .hr_main3{width: 100%;height: 550px;}
+div.section .hr_section2 .hr_main3{width: 100%;height: 550px;background-color: #f0f0f0;}
 div.section .hr_section2 .hr_main3 .hr_part3{width: 100%;height: 330px;}
 div.section .hr_section2 .hr_main3 .hr_part3 h3{margin-bottom: 40px;}
 div.section .hr_section2 .hr_main4{width: 100%;height: 400px;}
@@ -92,7 +92,7 @@ div.section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain2{width
 div.section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain2 .step{width: 16%;height: 50px;background-color: #D4D0CD;line-height: 50px;text-align: center;display: inline-block;border-radius: 3px;}
 div.section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain2 .step.color{background-color: #ece8e4;}
 div.section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_box{width: 100%;height: 400px;}
-div.section .bdesign_section2 .bdesign_main2{width: 100%;height: 900px;}
+div.section .bdesign_section2 .bdesign_main2{width: 100%;height: 900px;background-color: #faf9f9;}
 div.section .bdesign_section2 .bdesign_main3{width: 100%;height: 1100px;}
 div.section .bdesign_section2 .bdesign_main3 .bdesign_part3{width: 100%;text-align: center;}
 div.section .bdesign_section2 .bdesign_main3 .bdesign_part3 h3{margin-bottom: 40px;}
@@ -103,12 +103,12 @@ div.section .etc_section2 .etc_main1{width: 100%;height: 800px;}
 div.section .etc_section2 .etc_main1 .etc_part1{width: 100%;height: 180px;}
 div.section .etc_section2 .etc_main1 .etc_part1 h3{margin-bottom: 40px;}
 div.section .etc_section2 .etc_main1 .etc_part12{width: 100%;height: 250px;margin-top: 100px;}
-div.section .etc_section2 .etc_main2{width: 100%;height: 1050px;}
+div.section .etc_section2 .etc_main2{width: 100%;height: 1050px;background-color: #faf9f9;}
 div.section .etc_section2 .etc_main2 .etc_part2{width: 100%;height: 400px;}
 div.section .etc_section2 .etc_main2 .etc_part2 h3{font-weight: bold;margin-bottom: 25px;}
 div.section .etc_section2 .etc_main2 .etc_part2 p{line-height: 30px;margin-bottom: 90px;}
 div.section .etc_section2 .etc_main2 .etc_part2 img{width: 60%;margin-left: 250px;}
-div.section .etc_section2 .etc_main3{width: 100%;height: 500px;}
+div.section .etc_section2 .etc_main3{width: 100%;height: 650px;background-color: #f0f0f0;}
 div.section .etc_section2 .etc_main3 .etc_part3{width: 100%;height: 450px;}
 div.section .etc_section2 .etc_main3 .etc_part3 .intro_box{width: 30%;height: 260px;border-radius: 4px;display: inline-block;}
 div.section .etc_section2 .etc_main3 .etc_part3 .intro_box.first{margin-right: 40px;margin-left: 220px;border: 0.5px solid #507D91;}
@@ -137,7 +137,7 @@ div.section .etc_section2 .etc_main4 .etc_part41 .intro_box.last_box .intro_box1
 div.section .etc_section2 .etc_main4 .etc_part41 .intro_box.last_box .four_line{border: 0.5px solid #3B4245;}
 div.section .etc_section2 .etc_main4 .etc_part41 .intro_box.third_box ul li:nth-child(2),div.section .etc_section2 .etc_main4 .etc_part41 .intro_box.second_box ul li:nth-child(4){margin-bottom: -10px;}
 div.section .etc_section2 .etc_main4 .etc_part41 img{width: 40px;margin-right: 10px;vertical-align: middle;}
-div.section .etc_section2 .etc_main5{width: 100%;height: 500px;}
+div.section .etc_section2 .etc_main5{width: 100%;height: 500px;background-color: #faf9f9;}
 div.section .etc_section2 .etc_main5 .etc_part5 .etc_consul{display: inline-block;width: 18%;height: 80px;margin-right: 20px;text-align: center;line-height: 80px;font-size: 1.2rem;border-radius: 4px;font-weight: bold;margin-bottom: 20px;-webkit-box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);-moz-box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);background-color: #AFC4CE;}
 div.section .etc_section2 .etc_main5 .etc_part5 .etc_consul.last{margin-right: 0;}
 
