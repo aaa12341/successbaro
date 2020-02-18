@@ -1,4 +1,4 @@
-section .hr_section1{
+section .section1{
     width: 100%;
     height: 300px;
     background-image: url(../img/hr_pic.jpg);
@@ -9,7 +9,7 @@ section .hr_section1{
     top:70px;
     margin-bottom: 70px;
 }
-section .hr_section1 h2{
+section .section1 h2{
     height: 225px;
     color: white;
     font-size: 2rem;
@@ -18,7 +18,7 @@ section .hr_section1 h2{
     animation: misani1 3.7s;
     letter-spacing: 1.5px;
 }
-section .hr_section1 h3{
+section .section1 h3{
     display: inline;
     margin-right: 15px;
     color: rgba(255, 255, 255, 0.6);
@@ -30,7 +30,7 @@ section .hr_section1 h3{
     transition: 0.1s ease-in;
     cursor: pointer;
 }
-section .hr_section1 h3:hover{
+section .section1 h3:hover{
     color: #6ca9c5;
 }
 @keyframes misani1{
@@ -41,9 +41,10 @@ section .hr_section1 h3:hover{
         opacity: 1;
     }
 }
-section .hr_section2{
+section .section2{
     width: 100%;
     height: 100%;
+    color: #2d3d47;
 }
 section .hr_section2 .intro{
     padding-top: 100px;
@@ -61,57 +62,40 @@ section .hr_section2 h2{
     text-align: center;
     font-size: 2rem;
     font-weight: 600;
-    color: #2d3d47;
     margin-bottom: 80px;
 }
 section .hr_section2 .hr_main1{
     width: 100%;
     height: 1300px;
 }
-section .hr_section2 .hr_main1 .hr_part1{
-    width: 100%;
-    height: 450px;
-    margin: 0 auto;
-    color: #333;
-    /* text-align: center; */
-}
-section .hr_section2 .hr_main1 .hr_part1 p{
-    word-break: keep-all;
-    line-height: 30px;
-    font-size: 0.95rem;
-}
-section .hr_section2 .hr_main1 .hr_part1 ul{
-    width: 100%;
-    margin-top: 20px;
-    margin-bottom: 30px;
-}
-section .hr_section2 .hr_main1 .hr_part1 li{
-    width: 100%;
-    list-style-type: none;
-    color: #6ca9c5;
-}
-section .hr_section2 .hr_main1 .hr_part1 li div{
-    display: inline-block;
-    font-size: 1.125rem;
-    font-weight: 600;
-}
-section .hr_section2 .hr_main1 .hr_part1 li div:nth-child(1){
-    margin-left: 35px;
-    margin-right: 10px;
-    margin-bottom: 10px;
+section .hr_section2 .hr_main1 .hr_part1 h3{
+    font-weight: 100;
     font-size: 1.6rem;
-    font-weight: 600;
+    margin-bottom: 40px;
+    margin-top: 80px;
+    text-align: center;
 }
-section .hr_section2 .hr_main1 .hr_part1 li .hr_2nd{
-    padding-top: 20px;
-    vertical-align: middle;
+section .hr_section2 .hr_main1 .hr_part1 h3 span{
+    color: #6ca9c5;
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+section .hr_section2 .hr_main1 .hr_part1 p{ 
+    line-height: 28px;
+    font-size: 0.95rem;
+    word-break: keep-all;
+    margin-bottom: 80px;
 }
 section .hr_section2 .hr_main1 img{
-    width: 95%;
+    width: 100%;
+}
+section .hr_section2 .hr_main2{
+    width: 100%;
+    height: 550px;
 }
 section .hr_section2 .hr_main2 .hr_part2{
     width: 100%;
-    height: 380px;
+    height: 300px;
 }
 section .hr_section2 .hr_main2 .hr_part2 h3{
     color: #2d3d47;
@@ -131,16 +115,20 @@ section .hr_section2 .hr_main2 .hr_part2 p{
     font-size: 0.95rem;
     word-break: keep-all;
 }
+section .hr_section2 .hr_main3{
+    width: 100%;
+    height: 550px;
+}
 section .hr_section2 .hr_main3 .hr_part3{
     width: 100%;
     height: 330px;
-    text-align: center;
 }
 section .hr_section2 .hr_main3 .hr_part3 h3{
     color: #2d3d47;
     font-weight: 100;
     font-size: 1.6rem;
     margin-bottom: 40px;
+    text-align: center;
 }
 section .hr_section2 .hr_main3 .hr_part3 span{
     color: #6ca9c5;
@@ -155,8 +143,7 @@ section .hr_section2 .hr_main3 .hr_part3 p{
 }
 section .hr_section2 .hr_main4{
     width: 100%;
-    height: 350px;
-    margin-bottom: 80px;
+    height: 400px;
 }
 section .hr_section2 .hr_main4 .hr_part4 .arrow{
     width: 70px;
@@ -188,8 +175,7 @@ section .hr_section2 .hr_main4 .hr_part4 .process.last{
 }
 section .hr_section2 .hr_main5{
     width: 100%;
-    height: 1700px;
-    margin-bottom: 80px;
+    height: 1780px;
 }
 section .hr_section2 .hr_main5 img{
     width: 100%;

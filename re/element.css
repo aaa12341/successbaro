@@ -150,4 +150,5 @@ section .section2 p{
     word-break: keep-all;
     font-size: 0.95rem;
     word-break: keep-all;
+    line-height: 28px;
 }
