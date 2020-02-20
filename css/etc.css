@@ -103,7 +103,7 @@ section .etc_section2 .etc_main1 .etc_part12 img{
 section .etc_section2 .etc_main2{
     width: 100%;
     height: 1050px;
-    background-color: #faf9f9;
+    background-color: #f5f5f5;
 }
 section .etc_section2 .etc_main2 .etc_part2{
     width: 100%;
@@ -129,7 +129,7 @@ section .etc_section2 .etc_main2 .etc_part2 img{
 section .etc_section2 .etc_main3{
     width: 100%;
     height: 650px;
-    background-color: #f7f7f7;
+    background-color: #f8f8f8;
 }
 section .etc_section2 .etc_main3 .etc_part3{
     width: 100%;
