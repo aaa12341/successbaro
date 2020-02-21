@@ -8,8 +8,8 @@ div.main_section .nav_bar ul{width: 36%;float: right;}
 div.main_section .nav_bar ul li{display: inline-block; margin-left: 40px;}
 div.main_section .nav_bar ul li a{color: rgba(255,255,255,0.8); transition: .3s;}
 div.main_section .nav_bar ul li a:hover{color: #253b59;}
-div.main_section ul.mo_nav{display: none; padding-top: 15px;}
-div.main_section ul.mo_nav li{display: block; height: 4px; background-color: white; width: 35px; margin-bottom: 6px; border-radius: 2px;}
+div.main_section ul.mo_nav{display: none; padding-top: 30px;}
+div.main_section ul.mo_nav li{display: block; height: 2px; background-color: white; width: 30px; margin-bottom: 5px; border-radius: 2px;}
 div.main_section ul.mo_nav li:nth-child(2){width: 20px}
 div.main_section .center_box{height: 530px;position: absolute; left: 50%; top: 30%; transform: translate(-50%,-30%); padding: 95px; text-align: center;}
 div.main_section .center_box p{color: rgba(255,255,255,0.8);  font-family: 'Raleway', sans-serif; text-shadow: 6px 6px 13px rgba(0,0,0,0.5); font-weight: bold;animation: misani1 3.7s;}
