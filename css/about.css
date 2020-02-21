@@ -3,7 +3,7 @@ section .about_section1{
     height: 100vh;
     background-image: url(../img/mission1.jpg);
     background-size: cover;
-    background-position-y: 50%;
+    background-position:center;
     background-repeat: no-repeat;
 }
 section .about_section1 .mission_box{
