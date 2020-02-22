@@ -63,7 +63,7 @@ html, body{
     font-family: 'Noto Sans KR', sans-serif;
     letter-spacing: 1px;
     font-size: 16px;
-    color: #253b59;
+    color: #111111;
 }
 .wrap{
     max-width: 1200px;
@@ -74,7 +74,7 @@ section .bg{
     height: 300px; 
 }
 img{width: 100%;}
-a{text-decoration: none; color: #253b59;}
+a{text-decoration: none; color: #111111;}
 section .intro{
     padding-top: 100px;
 }

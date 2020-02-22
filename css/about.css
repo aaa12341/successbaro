@@ -46,7 +46,7 @@ section .about_section1 .mission_box p.mission3{
 section .about_section2{
     width: 100%;
     height: 100%;
-    color: #2d3d47;
+    color: #111111;
 }
 section .about_section2 .intro{
     padding-top: 100px;
@@ -152,6 +152,7 @@ section .about_section2 .about_main4{
 section .about_section2 .about_main4 .map{
     width: 100%;
     height: 400px;
+    background-color: lavender;
 }
 section .about_section2 .about_main4 .adress{
     width: 100%;
