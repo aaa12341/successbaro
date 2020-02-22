@@ -66,7 +66,7 @@ const HeaderTag = document.getElementById('head');
 </header>
 `
 $(document).ready(function(){
-    $('header').mouseenter(function(){
+    $('header').on("mouseenter focus",function(){
         $('.nav_box').stop().slideDown(function(){
             $('.main_nav').delay(100).show()
         })
