@@ -86,13 +86,6 @@ section .line{
     margin-bottom: 7px;
     border-radius: 3px;
 }
-section h2{
-    width: 100%;
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 600;
-    margin-bottom: 80px;
-}
 section .section1{
     width: 100%;
     height: 300px;
@@ -132,6 +125,13 @@ section .section1 h3:hover{
 section .section2{
     width: 100%;
     height: 100%;
+}
+section .section2 h2{
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 80px;
 }
 section .section2 h3{
     text-align: center;
