@@ -20,7 +20,6 @@
     header .navul .main_nav ul li a{font-size: 1rem;}
     section .wrap{max-width: 1024px;}
     section .about_section1 .mission_box p.mission{padding-top: 360px;}
-    
 }
 
 @media (max-width: 1024px) {
@@ -49,7 +48,6 @@
     div.main_section .center_box p.mission2{font-size: 2.4rem;}
     div.main_section .center_box p.mission3,div.main_section .center_box p.mission4{font-size: 5rem;}
     section .about_section1 .mission_box p.mission3,section .about_section1 .mission_box p.mission4{font-size: 1.1rem;}
-    
 }
 
 @media (max-width: 480px) {
@@ -64,7 +62,6 @@
     section .about_section1 .mission_box p.mission{font-size: 3.2rem;padding-top: 200px;margin-bottom: 20px;}
     section .about_section1 .mission_box p.mission2{font-size: 1.2rem;margin-bottom: 100px;}
     section .about_section1 .mission_box p.mission3,section .about_section1 .mission_box p.mission4{font-size: 1rem;}
-
 }
 @media (max-width: 375px) {
     div.main_section .center_box p.mission1{font-size: 1.08rem;}
@@ -75,4 +72,5 @@
     section .about_section1 .mission_box p.mission3,section .about_section1 .mission_box p.mission4{font-size: 0.95rem;}
 }
 @media (max-width: 360px) {
+
 }
