@@ -17,11 +17,11 @@ header .navul .etc_navul{left: 81%;}
 header .navul .cont_navul{left: 93%;}
 header .navul .nav_title{line-height: 70px;cursor: pointer;}
 header .navul .nav_title a{color: #333;text-decoration: none;transition: .3s ease;}
-header .navul .nav_title a:hover{font-weight: 700;color: #6ca9c5;}
+header .navul .nav_title a:hover{font-weight: bold;color: #6ca9c5;}
 header .navul .main_nav{margin-top: 10px;display: none;}
 header .navul .main_nav ul li{list-style: none;line-height: 30px;}
 header .navul .main_nav ul li a{color: #333;text-decoration: none;font-size: 0.8rem;transition: .3s ease;}
-header .navul .main_nav ul li a:hover{font-weight: 700;color: #6ca9c5;}
+header .navul .main_nav ul li a:hover{font-weight: bold;color: #6ca9c5;}
 header .nav_box{width: 100%;height: 190px;background-color: rgba(255,255,255,0.9);padding-top: 70px;position: absolute;left: 0;z-index: -1;display: none;}
 header ul.mo_nav{float:right;display: none; padding-top: 30px;}
 header ul.mo_nav li{display: block; height: 3px; background-color: black; width: 30px; margin-bottom: 5px; border-radius: 2px;}
