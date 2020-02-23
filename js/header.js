@@ -62,11 +62,11 @@ const HeaderTag = document.getElementById('head');
                 </div>
                 
             </div>
-            <!-- <ul class="mo_nav">
+            <ul class="mo_nav">
                     <li></li>
                     <li></li>
                     <li></li>
-            </ul> -->
+            </ul>
         </div>
         <div class="nav_box"></div>
     </div>
