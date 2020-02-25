@@ -145,6 +145,13 @@ section .section2 h3 span{
     font-weight: 700;
     font-size: 1.6rem;
 }
+section .section2 h3 span.br_span{
+    color: #111;
+    font-weight: 100;
+    font-size: 1.6rem;
+    word-break: keep-all;
+    display: block;
+}
 section .section2 p{
     word-break: keep-all;
     font-size: 0.95rem;
