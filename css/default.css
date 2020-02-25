@@ -82,7 +82,7 @@ section .about_section2 .about_main2 .role,section .about_section2 .about_main3 
 section .about_section2 .about_main3{width: 100%;height: 880px;}
 section .about_section2 .about_main3 h2{margin-bottom: 40px;}
 section .about_section2 .about_main4{width: 100%;height: 860px;}
-section .about_section2 .about_main4 .map{width: 100%;height: 400px;background-color: cornflowerblue;}
+section .about_section2 .about_main4 .map{width: 100%;height: 400px;}
 section .about_section2 .about_main4 .adress{width: 100%;height: 200px;text-align: center;}
 section .about_section2 .about_main4 .adress img{width: 12%;margin-bottom: 20px;margin-top: 40px;}
 section .about_section2 .about_main4 .adress p{font-size: 1.1rem;}
