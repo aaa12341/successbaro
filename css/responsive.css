@@ -155,6 +155,7 @@
     section .hr_section2 .hr_main4 .hr_part4 .process p{line-height: 10px;}
     section .hr_section2 .hr_main4 .hr_part4 .process .num{margin-bottom: -10px;}
     section .hr_section2 .hr_main5{height: 1730px;}
+    section .section1.bdesign h3#bdesign_btn3{margin-right: 30px;}
 
 
 }
@@ -169,6 +170,8 @@
     section .section1.hr h3#hr_btn3{margin-right: 45px;}
     section .hr_section2 .hr_main2{height: 700px;}
     section .hr_section2 .hr_main3{height: 720px;}
+    section .section1.bdesign h3#bdesign_btn3{margin-right: 15px;}
+    section .section1.bdesign h3#bdesign_btn2{margin-right: 120px;}
 
 }
 
