@@ -184,12 +184,13 @@ section .etc_section2 .etc_main5 .etc_part5 .etc_consul.last{margin-right: 0;}
 
 /* contact */
 section .section1.contact{background-image: url(../img/contact_pic.jpg);background-position-y: 55%;}
-section .contact_section2 .consul_contact{width: 100%;height: 580px;text-align: center;}
+section .contact_section2 .consul_contact{width: 100%;height: 460px;text-align: center;}
 section .contact_section2 .consul_contact h3{font-size: 1.4rem;margin-bottom: 15px;}
 section .contact_section2 .consul_contact p{font-weight: bold;font-size: 1.5rem;margin-bottom: 80px;}
 section .contact_section2 .consul_contact p span{color: #6ca9c5;font-weight: bold;font-size: 1.5rem;}
 section .contact_section2 .consul_contact ul{width: 100%;}
-section .contact_section2 .consul_contact ul li{width: 23%;height: 100px;color: #f0f0f0;border: 5px solid rgb(255, 255, 255);background-color: rgba(243, 243, 243, 0.8);float: left;margin-right: 28px;margin-bottom: 28px;border-radius: 5px;}
+section .contact_section2 .consul_contact ul li{width: 23%;height: 100px;color: #f0f0f0;border: 5px solid rgb(241, 241, 241);background-color: rgba(245, 245, 245, 0.8);display: inline-block;margin-right: 20px;margin-bottom: 20px;border-radius: 5px;}
 section .contact_section2 .consul_contact ul li.last{margin-right: 0;}
 section .contact_section2 .consul_contact ul li h2{width: 100%;height: 15px;color: #F7926F;text-align: left;font-size: 0.95rem;padding-left: 15px;padding-top: 10px;margin-bottom: 20px;}
 section .contact_section2 .consul_contact ul li h3{width: 100%;color: #2d3d47;font-size: 1.2rem;font-weight: bold;}
+section .contact_section2 .consul_contact li h3 span.ct_span{width: 100%;color: #2d3d47;font-size: 1.2rem;font-weight: bold;}
