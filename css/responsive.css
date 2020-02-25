@@ -70,6 +70,7 @@
     div.main_section ul.mo_nav{width: 9%;}
     div.main_section .center_box p.mission2{font-size: 2.4rem;}
     div.main_section .center_box p.mission3,div.main_section .center_box p.mission4{font-size: 5rem;}
+    footer{height: 220px;}
     section .about_section1 .mission_box p.mission3,section .about_section1 .mission_box p.mission4{font-size: 1.1rem;}
     section .about_section2 .about_main1{height: 630px;}
     section .about_section2 .about_main1 h3{font-size: 1.4rem; line-height: 25px;}
@@ -80,7 +81,7 @@
 }
 
 @media (max-width: 480px) {
-    div.main_section ul.mo_nav{width: 13%;}
+    div.main_section ul.mo_nav{width: 16%;}
     section .about_section1{height: 500px;}
     section .about_section1 .mission_box p.mission{font-size: 3.2rem;padding-top: 200px;margin-bottom: 20px;}
     section .about_section1 .mission_box p.mission2{font-size: 1.2rem;margin-bottom: 100px;}
@@ -102,6 +103,7 @@
     section .about_section1 .mission_box p.mission3,section .about_section1 .mission_box p.mission4{font-size: 1rem;}
     section .about_section2 .about_main2{height: 480px;}
     section .about_section2 .about_main3{height: 410px;}
+    section .about_section2 .about_main4{height: 855px;}
 }
 
 @media (max-width: 375px) {
