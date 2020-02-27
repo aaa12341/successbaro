@@ -27,8 +27,8 @@
     section .about_section2 .about_main1 .main1_circle ul{width: 180px;height: 180px;}
     section .about_section2 .about_main1 .main1_circle ul li.num{margin-bottom: 10px;line-height: 130px;}
     section .about_section2 .about_main1 .main1_circle ul li.detail{line-height: 60px;}
-    section .section1{height: 250px;}
-    section .section1 h2{height: 170px;line-height: 250px;}
+    section .section1{height: 210px;}
+    section .section1 h2{height: 140px;line-height: 210px;}
     section .section1 h3{font-size: 1.2rem;}
     section .hr_section2 .hr_main1{height: 1200px;}
     section .hr_section2 .hr_main1 .hr_part1 h3{font-size: 1.7rem;}
@@ -50,6 +50,7 @@
     section .bdesign_section2 .bdesign_main1 .bdesign_part1 h3{line-height: 25px;}
     section .bdesign_section2 .bdesign_main1 .bdesign_part1 h3{font-size: 1.7rem;}
     section .bdesign_section2 .bdesign_main1 .bdesign_part1 h3 span{font-size: 1.7rem;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain2 img{margin: 0 10px;}
     section .bdesign_section2 .bdesign_main2{height: 800px;}
     section .bdesign_section2 .bdesign_main3{height: 950px;}
     section .bdesign_section2 .bdesign_main3 .bdesign_part3 h3{font-size: 1.7rem;}
@@ -76,15 +77,15 @@
     section .about_section2 .about_main2{height: 830px;}
     section .about_section2 .about_main3{height: 780px;}
     section .about_section2 .about_main4 .adress img{min-width: 120px;}
+    section .hr_section2 .hr_main4{height: 450px;}
     section .hr_section2 .hr_main5{height: 1560px;}
-    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain img{display: none;}
-    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain2 .step{margin-right: 40px;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain2 img{margin: 0 6px;}
     section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain2 .step.last{margin-right: 0;}
     section .bdesign_section2 .bdesign_main1{height: 930px;}
     section .contact_section2 .consul_contact{height: 420px;}
 }
 
-@media (max-width: 865px) {
+@media (max-width: 866px) {
     div.main_section .nav_bar ul{display: none;}
     div.main_section ul.mo_nav{display: block;width: 8%;}
     div.main_section .center_box p.mission1 span{display: block;margin-top: 5px;}
@@ -108,8 +109,10 @@
     section .bdesign_section2 .bdesign_main1{height: 870px;}
     section .bdesign_section2 .bdesign_main1 .bdesign_part1 h3{font-size: 1.6rem;}
     section .bdesign_section2 .bdesign_main1 .bdesign_part1 h3 span{font-size: 1.6rem;}
-    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain2{width: 78%;}
-    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain2 .step{width: 15%;margin-right: 25px;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain img{display: none;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain2{width: 79%;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain2 .step{width: 16%;margin-right: 25px;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain2 .step.last{margin-right: 0;}
     section .bdesign_section2 .bdesign_main2{height: 700px;}
     section .bdesign_section2 .bdesign_main3{height: 830px;}
     section .bdesign_section2 .bdesign_main3 .bdesign_part3 h3{font-size: 1.6rem;}
@@ -135,6 +138,7 @@
     section .about_section2 .about_main1 .main1_circle ul{width: 33%;height: 70px;}
     section .about_section2 .about_main2{height: 680px;}
     section .about_section2 .about_main3{height: 620px;}
+    section .hr .pad{padding-right: 223px;}
     section .hr_section2 .hr_main1 .hr_part1 h3{font-size: 1.6rem;}
     section .hr_section2 .hr_main1 .hr_part1 h3 span{font-size: 1.6rem;}
     section .hr_section2 .hr_main1 .hr_part1 p{font-size: 1.1rem;}
@@ -144,26 +148,31 @@
     section .hr_section2 .hr_main3 .hr_part3 h3{font-size: 1.6rem;}
     section .hr_section2 .hr_main3 .hr_part3 h3 span{font-size: 1.6rem;}
     section .hr_section2 .hr_main3 .hr_part3 p{font-size: 1.1rem;}
-    section .hr_section2 .hr_main4 .hr_part4 .process{width: 100px;height: 100px;line-height: 100px;margin: 0 20px;border-radius: 2px;}
-    section .hr_section2 .hr_main4 .hr_part4 .process p{line-height: 20px;}
+    section .hr_section2 .hr_main4{height: 670px;}
+    section .hr_section2 .hr_main4 .hr_part4 .process{width: 100%;height: 80px;border-radius: 0;line-height: 80px;margin-bottom: 10px;margin-left: 0;margin-right: 0;}
+    section .hr_section2 .hr_main4 .hr_part4 .process p{line-height: 10px;}
+    section .hr_section2 .hr_main4 .hr_part4 .process .num{margin-bottom: -10px;}
     section .hr_section2 .hr_main5{height: 1870px;}
     section .hr_section2 .hr_main5 .hr_part5 .graph_part ul li{font-size: 1.2rem;}
-    section .hr_section2 .hr_main5 .hr_part5 .graph_part .part{width: 100%;height: 210px;margin-bottom: 20px;}
+    section .hr_section2 .hr_main5 .hr_part5 .graph_part .part{width: 100%;height: 210px;margin-bottom: 20px;margin-right: 0;}
     section .hr_section2 .hr_main5 .hr_part5 .graph_part .part .num{font-size: 1.6rem;}
     section .bdesign_section2 .bdesign_main1{height: 810px;}
     section .bdesign_section2 .bdesign_main1 .bdesign_part1 h3{font-size: 1.4rem;}
     section .bdesign_section2 .bdesign_main1 .bdesign_part1 h3 span{font-size: 1.4rem;}
-    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain1{font-size: 1.1rem;}
-    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain2{width: 77%;}
-    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain2 .step{width: 16%;margin-right: 5px;font-size: 1.1rem;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain2 .step{margin-right: 15px;}
     section .bdesign_section2 .bdesign_main2{height: 670px;}
     section .bdesign_section2 .bdesign_main3{height: 780px;}
     section .bdesign_section2 .bdesign_main3 .bdesign_part3 h3{font-size: 1.4rem;}
     section .bdesign_section2 .bdesign_main3 .bdesign_part3 h3 span{font-size: 1.4rem;}
-    section .contact_section2 .consul_contact ul li h2{text-align: center;padding-left: 0;padding-top: 15px;margin-bottom: 30px;}
+    section .contact_section2 .consul_contact{height: 650px;}
+    section .contact_section2 .consul_contact ul li{width: 100%;height: 60px;margin-bottom: 5px;margin-right: 0;}
+    section .contact_section2 .consul_contact ul li h2{float:left;width:30%;height: 100%;text-align: center;}
     section .contact_section2 .consul_contact li h3 span.ct_span{display: block;}
 }
-
+@media (max-width: 605px) {
+    section .hr .pad{padding-right: 64px;}
+    section .bdesign .pad{padding-right: 147px;}
+}
 @media (max-width: 480px) {
     div.main_section ul.mo_nav{width: 16%;}
     section .about_section1{height: 500px;}
@@ -179,8 +188,8 @@
     section .about_section2 .about_main1 .main1_circle ul li.detail{width: 85%;text-align:center;font-size: 1.25rem;}
     section .about_section2 .about_main2{height: 520px;}
     section .about_section2 .about_main3{height: 470px;}
-    section .section1 h3{line-height: 25px;}
-    section .section1.hr h3#hr_btn3{margin-right: 110px;}
+    section .hr .pad{padding-right: 10px;}
+    section .bdesign .pad{padding-right: 25px;}
     section .hr_section2 .hr_main1 .hr_part1 h3{font-size: 1.4rem;}
     section .hr_section2 .hr_main1 .hr_part1 h3 span{font-size: 1.4rem;}
     section .hr_section2 .hr_main1 .hr_part1 p{font-size: 1rem;}
@@ -193,17 +202,18 @@
     section .hr_section2 .hr_main3 .hr_part3 h3 span{font-size: 1.4rem;}
     section .hr_section2 .hr_main3 .hr_part3 p{font-size: 1rem;}
     section .hr_section2 .hr_main4{height: 650px;}
-    section .hr_section2 .hr_main4 .hr_part4 .process{width: 100%;height: 80px;line-height: 80px;margin-bottom: 10px;margin-left: 0;}
-    section .hr_section2 .hr_main4 .hr_part4 .process p{line-height: 10px;}
-    section .hr_section2 .hr_main4 .hr_part4 .process .num{margin-bottom: -10px;}
     section .hr_section2 .hr_main5{height: 1730px;}
-    section .section1.bdesign h3#bdesign_btn3{margin-right: 30px;}
-    section .bdesign_section2 .bdesign_main1{height: 760px;}
-    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain1{font-size: 0.8rem;}
-    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain2 .step{margin-right: 0;font-size: 0.9rem;}
+    section .bdesign_section2 .bdesign_main1{height: 700px;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 h3{font-size: 1.2rem;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 h3 span{font-size: 1.2rem;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain{margin-bottom: 15px;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain1{font-size: 0.8rem;height: 40px;line-height: 40px;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain2{height: 40px;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain2 .step{height: 40px;font-size: 0.9rem;line-height: 40px;margin-right: 10px;}
     section .bdesign_section2 .bdesign_main2{height: 500px;}
     section .bdesign_section2 .bdesign_main3{height: 600px;}
-    section .bdesign_section2 .bdesign_main3 .bdesign_part3 h3{line-height: 25px;}
+    section .bdesign_section2 .bdesign_main3 .bdesign_part3 h3{font-size: 1.2rem;line-height: 25px;}
+    section .bdesign_section2 .bdesign_main3 .bdesign_part3 h3 span{font-size: 1.2rem;}
     section .contact_section2 .consul_contact h3{font-size: 1.2rem;}
     section .contact_section2 .consul_contact p{font-size: 1.2rem;} 
     section .contact_section2 .consul_contact p span{font-size: 1.2rem;}
@@ -211,7 +221,9 @@
     section .contact_section2 .consul_contact ul li h3{font-size: 0.95rem;}
     section .contact_section2 .consul_contact li h3 span.ct_span{font-size: 0.95rem;}
 }
-
+@media (max-width: 432px) {
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain2{width: 78%;}
+}
 @media (max-width: 414px) {
     section .about_section1 .mission_box p.mission{font-size: 3.2rem;padding-top: 200px;margin-bottom: 20px;}
     section .about_section1 .mission_box p.mission2{font-size: 1.2rem;margin-bottom: 100px;}
@@ -219,18 +231,14 @@
     section .about_section2 .about_main2{height: 480px;}
     section .about_section2 .about_main3{height: 410px;}
     section .about_section2 .about_main4{height: 855px;}
-    section .section1.hr h3#hr_btn3{margin-right: 45px;}
+    section .section1 h3{font-size: 1.1rem;}
     section .hr_section2 .hr_main2{height: 700px;}
     section .hr_section2 .hr_main3{height: 720px;}
-    section .section1.bdesign h3#bdesign_btn3{margin-right: 15px;}
-    section .section1.bdesign h3#bdesign_btn2{margin-right: 120px;}
-    section .bdesign_section2 .bdesign_main1{height: 720px;}
-    section .bdesign_section2 .bdesign_main1 .bdesign_part1 h3{font-size: 1.2rem;}
-    section .bdesign_section2 .bdesign_main1 .bdesign_part1 h3 span{font-size: 1.2rem;}
+    section .bdesign_section2 .bdesign_main1{height: 680px;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain1{font-size: 0.7rem;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain2 .step{width: 18%;font-size: 0.8rem;margin-right: 3px;}
     section .bdesign_section2 .bdesign_main2{height: 480px;}
     section .bdesign_section2 .bdesign_main3{height: 580px;}
-    section .bdesign_section2 .bdesign_main3 .bdesign_part3 h3{font-size: 1.2rem;}
-    section .bdesign_section2 .bdesign_main3 .bdesign_part3 h3 span{font-size: 1.2rem;}
 }
 
 @media (max-width: 375px) {
@@ -243,12 +251,10 @@
     section .about_section2 .about_main2{height: 440px;}
     section .about_section2 .about_main3{height: 370px;}
     section .section1 h3{font-size: 1.1rem;}
-    section .section1.hr h3#hr_btn3{margin-right: 27px;}
     section .hr_section2 .hr_main2{height: 730px;}
     section .hr_section2 .hr_main3{height: 750px;}
     section .hr_section2 .hr_main5{height: 1680px;}
-    section .section1.bdesign h3#bdesign_btn2{margin-right: 100px;}
-    section .bdesign_section2 .bdesign_main1{width: 100%;height: 780px;}
+    section .bdesign_section2 .bdesign_main1{height: 670px;}
     section .bdesign_section2 .bdesign_main2{height: 400px;}
     section .bdesign_section2 .bdesign_main3{height: 570px;}
 }
