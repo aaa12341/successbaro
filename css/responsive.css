@@ -114,7 +114,7 @@
 
 @media (max-width: 865px) {
     div.main_section .nav_bar ul{display: none;}
-    div.main_section ul.mo_nav{display: block;width: 8%;}
+    div.main_section ul.ham_nav{display: block;width: 8%;}
     div.main_section .center_box p.mission1 span{display: block;margin-top: 5px;}
     div.main_section .center_box p.mission1{font-size: 1.2rem;}
     div.main_section .center_box p.mission2{font-size: 2.5rem;}

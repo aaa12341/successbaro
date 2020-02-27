@@ -62,11 +62,14 @@ const HeaderTag = document.getElementById('head');
                 </div>
                 
             </div>
-            <ul class="mo_nav">
-                    <li></li>
-                    <li></li>
-                    <li></li>
+            <ul class="ham_nav">
+                <li></li>
+                <li></li>
+                <li></li>
             </ul>
+            <div class="ham_main"> 
+                
+            </div>
         </div>
         <div class="nav_box"></div>
     </div>
