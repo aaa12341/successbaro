@@ -1,9 +1,9 @@
 const FooterTag = document.getElementById('foot');
     FooterTag.innerHTML = ` <footer>
     <div class="wrap">
-        <a href="index.html">
-            <h1><img src="img/logo2.png" alt="로고"></h1>
-        </a>
+        <h1>
+            <a href="index.html"><img src="img/logo2.png" alt="로고"></a>
+        </h1>
         <ul class="footnav">
             <li><a href="about.html">About</a></li>
             <li><a href="hr.html">경영과 HR</a></li>
