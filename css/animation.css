@@ -82,7 +82,7 @@
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
 }
-.etc_main2 img{
+.etc_part2 img{
     opacity: 0;
     transform: translateY(50px);
     animation-fill-mode: forwards;
@@ -222,7 +222,7 @@
     animation-delay: 0s;
 }
 
-.etc_main2 img{
+.etc_part2 img{
     animation-delay: 0s;
 }
 

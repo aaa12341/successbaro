@@ -131,9 +131,9 @@ function etc1(){
 function etc2(){
     $(window).scroll(function(){
         var offsets = $(document).scrollTop();
-        var etc_main2 = $('.etc_main2').offset();
-        if(offsets +500 > etc_main2.top){
-            $('.etc_main2 img').css({
+        var etc_part2 = $('.etc_part2').offset();
+        if(offsets + 600 > etc_part2.top){
+            $('.etc_part2 img').css({
                 "animationName" : "up_fadein"
             })
         }

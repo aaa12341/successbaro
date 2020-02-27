@@ -178,8 +178,8 @@ section .etc_section2 .etc_main4 .etc_part41 .intro_box.last_box .four_line{bord
 section .etc_section2 .etc_main4 .etc_part41 .intro_box.third_box ul li:nth-child(2),section .etc_section2 .etc_main4 .etc_part41 .intro_box.second_box ul li:nth-child(4){margin-bottom: -10px;}
 section .etc_section2 .etc_main4 .etc_part41 img{width: 40px;margin: 0 15px;vertical-align: middle;}
 section .etc_section2 .etc_main5{width: 100%;height: 500px;background-color: #faf9f9;}
-section .etc_section2 .etc_main5 .etc_part5 .etc_consul{display: inline-block;width: 18%;height: 80px;margin-right: 20px;text-align: center;line-height: 80px;font-size: 1.2rem;border-radius: 4px;font-weight: bold;margin-bottom: 20px;-webkit-box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);-moz-box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);box-shadow: 0px 7px 10px 0px rgba(212,212,212,1);background-color: #AFC4CE;}
-section .etc_section2 .etc_main5 .etc_part5 .etc_consul.last{margin-right: 0;}
+section .etc_section2 .etc_main5 .etc_part5 .etc_consul{display: inline-block; width: 18.2%;height: 80px;margin-right: 20px;text-align: center;line-height: 80px;font-size: 1.2rem;border-radius: 4px;font-weight: bold;background-color: #b7cbe6;}
+section .etc_section2 .etc_main5 .etc_part5 .etc_consul.last5{margin-right: 0;}
 
 /* contact */
 section .section1.contact{background-image: url(../img/contact_pic.jpg);background-position-y: 55%;}
