@@ -141,13 +141,13 @@ $(document).ready(function(){
         }, 800)
     })
     $("#bdesign_btn3").click(function(){
-        var introTag = $('#bdesign_intro2').offset()
+        var introTag = $('#bdesign_intro3').offset()
         $('html,body').animate({
             scrollTop : introTag.top
         }, 800)
     })
     $("#bdesign_btn4").click(function(){
-        var introTag = $('#bdesign_intro3').offset()
+        var introTag = $('#bdesign_intro4').offset()
         $('html,body').animate({
             scrollTop : introTag.top
         }, 800)
@@ -178,6 +178,18 @@ $(document).ready(function(){
     })
     $("#etc_btn5").click(function(){
         var introTag = $('#etc_intro5').offset()
+        $('html,body').animate({
+            scrollTop : introTag.top
+        }, 800)
+    })
+    $("#etc_btn6").click(function(){
+        var introTag = $('#etc_intro6').offset()
+        $('html,body').animate({
+            scrollTop : introTag.top
+        }, 800)
+    })
+    $("#etc_btn7").click(function(){
+        var introTag = $('#etc_intro7').offset()
         $('html,body').animate({
             scrollTop : introTag.top
         }, 800)

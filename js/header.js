@@ -10,33 +10,32 @@ const HeaderTag = document.getElementById('head');
                     <div class="nav_title"><a href="about.html">About</a></div>
                     <div class="main_nav about_nav">
                         <ul>
-                            <li><a href="about.html?key=about1">업무수행 원칙</a></li>
+                            <li><a href="about.html?key=about1">컨설팅수행 원칙</a></li>
                             <li><a href="about.html?key=about2">석세스바로 역할</a></li>
-                            <li><a href="about.html?key=about3">기업경영 구성요소</a></li>
+                            <li><a href="about.html?key=about3">경영과 HR</a></li>
                             <li><a href="about.html?key=about4">오시는 길</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="main_ul hr_navul">
-                    <div class="nav_title"><a href="hr.html">경영과 HR</a></div>
+                    <div class="nav_title"><a href="hr.html">직무컨설팅</a></div>
                     <div class="main_nav hr_nav">
                         <ul>
-                            <li><a href="hr.html?key=hr1">경영과 HR</a></li>
-                            <li><a href="hr.html?key=hr2">경영 상시자문</a></li>
-                            <li><a href="hr.html?key=hr3">경영현황관리체계</a></li>
+                            <li><a href="hr.html?key=hr1">직무분석과 직무평가</a></li>
+                            <li><a href="hr.html?key=hr2">직무평가 프로세스</a></li>
+                            <li><a href="hr.html?key=hr3">임금체계 개선</a></li>
                             <li><a href="hr.html?key=hr4">HR컨설팅 프로세스</a></li>
-                            <li><a href="hr.html?key=hr5">경영컨설팅 프로세스</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="main_ul bd_navul">
-                    <div class="nav_title"><a href="bdesign.html">Business Design</a></div>
+                    <div class="nav_title"><a href="bdesign.html">비즈니스 프로세스</a></div>
                     <div class="main_nav bdesign_nav">
                         <ul>
-                            <li><a href="bdesign.html?key=bdesign1">비즈니스 모델 디자인</a></li>
-                            <li><a href="bdesign.html?key=bdesign2">경영전략 수립</a></li>
-                            <li><a href="bdesign.html?key=bdesign2">년간사업계획 수립</a></li>
-                            <li><a href="bdesign.html?key=bdesign4">마케팅프로세스</a></li>
+                            <li><a href="bdesign.html?key=bdesign1">프로세스 설계 및 구축</a></li>
+                            <li><a href="bdesign.html?key=bdesign2">비즈니스 모델 디자인</a></li>
+                            <li><a href="bdesign.html?key=bdesign3">마케팅 프로세스 구축</a></li>
+                            <li><a href="bdesign.html?key=bdesign4">감사시스템 구축</a></li>
                         </ul>
                     </div>
                 </div>
@@ -44,11 +43,13 @@ const HeaderTag = document.getElementById('head');
                     <div class="nav_title"><a href="etc.html">Etc.</a></div>
                     <div class="main_nav etc_nav">
                         <ul>
-                            <li><a href="etc.html?key=etc1">포인트 경영스쿨</a></li>
-                            <li><a href="etc.html?key=etc2">ISO 인증 컨설팅</a></li>
-                            <li><a href="etc.html?key=etc3">감사시스템 구축</a></li>
-                            <li><a href="etc.html?key=etc4">법인설립 컨설팅</a></li>
-                            <li><a href="etc.html?key=etc5">기타 컨설팅</a></li>
+                            <li><a href="etc.html?key=etc1">경영 상시자문</a></li>
+                            <li><a href="etc.html?key=etc2">경영현황 관리체계</a></li>
+                            <li><a href="etc.html?key=etc3">포인트 경영스쿨</a></li>
+                            <li><a href="etc.html?key=etc4">경영전략 수립<br>/년간 사업</a></li>
+                            <li><a href="etc.html?key=etc5">ISO 인증컨설팅</a></li>
+                            <li><a href="etc.html?key=etc6">법인설립 컨설팅</a></li>
+                            <li><a href="etc.html?key=etc7">기타 컨설팅</a></li>
                         </ul>
                     </div>
                 </div>
@@ -62,27 +63,51 @@ const HeaderTag = document.getElementById('head');
                 </div>
                 
             </div>
-            <ul class="mo_nav">
+            <ul class="mo_nav" id="mo_change" onclick='MoNavFade(this)'>
                 <li></li>
                 <li></li>
                 <li></li>
             </ul>
-            <div class="ham_main"> 
-                
+        </div>
+        <div class="nav_box">
+            <div class="mo_menu" id="monav_menu">
+                메뉴
             </div>
         </div>
-        <div class="nav_box"></div>
     </div>
 </header>
 `
 $(document).ready(function(){
-    $('header').on("mouseenter focus",function(){
+    $('.navul').on("mouseenter focus",function(){
         $('.nav_box').stop().slideDown(function(){
             $('.main_nav').delay(100).show()
         })
     })
-    $('.nav_box, body').mouseleave(function()
+    $('section').mouseenter(function()
         {$('.main_nav').hide()
         $('.nav_box').stop().delay(100).slideUp()
     })
 })
+function MoNavFade(thisvalue) {
+    console.log(thisvalue.className)
+    $('#mo_change').toggleClass('open');
+  
+    if(thisvalue.className == "mo_nav"){
+        $('.nav_box').stop().fadeIn(function(){
+            $('.mo_menu').delay(100).show()
+        })
+        $('html, body').css({
+            'overflow-y': 'hidden',
+            'height': '100%'
+          });
+    }
+    else{
+        $('.mo_menu').hide()
+        $('.nav_box').stop().delay(100).fadeOut()
+        $('html, body').css({
+            'overflow-y': 'scroll',
+            'height': 'auto'
+          });
+    }
+  $('#monav_menu').toggleClass('open');
+  }

@@ -86,8 +86,9 @@
     header .wrap{max-width: 98%;}
     header .navul{display: none;}
     header ul.mo_nav{display: block;}
+    header .nav_box{height: 100vh;background-color: rgb(255, 255, 255);}
     footer h1 img{min-width: 90px;}
-    section .wrap{max-width: 98%;}
+    section .wrap{max-width: 95%;}
     section .about_section2 .about_main1{height: 740px;}
     section .about_section2 .about_main1 .main1_circle{padding: 0 142px;}
     section .about_section2 .about_main1 .main1_circle ul{width: 165px;height: 165px;}
@@ -120,7 +121,7 @@
     div.main_section .center_box p.mission1{font-size: 1.2rem;}
     div.main_section .center_box p.mission2{font-size: 2.5rem;}
     div.main_section .center_box p.mission3,div.main_section .center_box p.mission4{font-size: 5.5rem;}    
-    section .wrap{max-width: 98%;}
+    section .wrap{max-width: 95%;}
     section .about_section1 .mission_box p.mission3,section .about_section1 .mission_box p.mission4{font-size: 1.2rem;word-break: keep-all;}
     section .about_section2 .about_main1{height: 550px;}
     section .about_section2 .about_main1 .main1_circle{padding: 0;}

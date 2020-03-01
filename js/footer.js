@@ -6,8 +6,8 @@ const FooterTag = document.getElementById('foot');
         </h1>
         <ul class="footnav">
             <li><a href="about.html">About</a></li>
-            <li><a href="hr.html">경영과 HR</a></li>
-            <li><a href="bdesign.html">Business Design</a></li>
+            <li><a href="hr.html">직무컨설팅</a></li>
+            <li><a href="bdesign.html">비즈니스 프로세스</a></li>
             <li><a href="etc.html">Etc.</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
