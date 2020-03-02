@@ -26,9 +26,16 @@
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
 }
-.hr_main1 img{
+.part1_gp .gp{
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateX(-50px);
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+.part2_gp .gp img{
+    opacity: 0;
+    transform: translateX(-50px);
     animation-fill-mode: forwards;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
@@ -40,30 +47,16 @@
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
 }
-.hr_part5 img{
-    opacity: 0;
-    transform: translateX(-50px);
-    animation-fill-mode: forwards;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-}
-.graph_part div.part{
-    opacity: 0;
-    transform: translateX(-50px);
-    animation-fill-mode: forwards;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-}
-#bd_ani1 div.tool_explain2 div{
-    opacity: 0;
-    transform: translateX(-50px);
-    animation-fill-mode: forwards;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-}
-.bdesign_main2 img{
+.bprocess .pro{
     opacity: 0;
     transform: translateY(50px);
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+.bdesign_main2 .tool_explain2 .step{
+    opacity: 0;
+    transform: translateX(-50px);
     animation-fill-mode: forwards;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
@@ -75,37 +68,44 @@
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
 }
-.etc_main1 img{
+.bdesign_main4 .intro_box{
     opacity: 0;
     transform: translateY(50px);
     animation-fill-mode: forwards;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
 }
-.etc_part2 img{
+#etc3_ani img{
     opacity: 0;
     transform: translateY(50px);
     animation-fill-mode: forwards;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
 }
-#etc3_ani div.intro_box{
+.etc_main4 img{
     opacity: 0;
     transform: translateY(50px);
     animation-fill-mode: forwards;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
 }
-.etc_part41 div.intro_box{
+.etc_part5 img{
+    opacity: 0;
+    transform: translateY(50px);
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+.etc_part6 .intro_box{
     opacity: 0;
     transform: translateX(-50px);
     animation-fill-mode: forwards;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
 }
-.etc_part5 div.etc_consul{
+.etc_part7 .etc_consul{
     opacity: 0;
-    transform: translateX(-50px);
+    transform: translateY(50px);
     animation-fill-mode: forwards;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
@@ -154,8 +154,27 @@
     animation-delay: 0s;
 }
 
-.hr_main1 img{
+.part1_gp div#gp1{
     animation-delay: 0s;
+}
+.part1_gp div#gp2{
+    animation-delay: 0.1s;
+}
+.part1_gp div#gp3{
+    animation-delay: 0.2s;
+}
+.part1_gp div#gp4{
+    animation-delay: 0.3s;
+}
+
+.part2_gp div#gp1 img{
+    animation-delay: 0s;
+}
+.part2_gp div#gp2 img{
+    animation-delay: 0.1s;
+}
+.part2_gp div#gp3 img{
+    animation-delay: 0.2s;
 }
 
 #intro_ani div.pro1{
@@ -174,92 +193,91 @@
     animation-delay: 0.4s;
 }
 
-.hr_part5 img{
+.bprocess div#pro1{
     animation-delay: 0s;
 }
-
-.graph_part div.part#part1{
+.bprocess div#pro2{
     animation-delay: 0.1s;
 }
-.graph_part div.part#part2{
-    animation-delay: 0.3s;
-}
-.graph_part div.part#part3{
-    animation-delay: 0.5s;
-}
-.graph_part div.part#part4{
-    animation-delay: 0.7s;
-}
-.graph_part div.part#part5{
-    animation-delay: 0.9s;
-}
-
-#bd_ani1 div.tool_explain2 div#step1{
-    animation-delay: 0s;
-}
-#bd_ani1 div.tool_explain2 div#step2{
+.bprocess div#pro3{
     animation-delay: 0.2s;
 }
-#bd_ani1 div.tool_explain2 div#step3{
+.bprocess div#pro4{
+    animation-delay: 0.3s;
+}
+.bprocess div#pro5{
     animation-delay: 0.4s;
 }
-#bd_ani1 div.tool_explain2 div#step4{
-    animation-delay: 0.6s;
-}
-#bd_ani1 div.tool_explain2 div#step5{
-    animation-delay: 0.8s;
-}
 
-.bdesign_main2 img{
+.bdesign_main2 .tool_explain2 div#step1{
     animation-delay: 0s;
+}
+.bdesign_main2 .tool_explain2 div#step2{
+    animation-delay: 0.1s;
+}
+.bdesign_main2 .tool_explain2 div#step3{
+    animation-delay: 0.2s;
+}
+.bdesign_main2 .tool_explain2 div#step4{
+    animation-delay: 0.3s;
+}
+.bdesign_main2 .tool_explain2 div#step5{
+    animation-delay: 0.4s;
 }
 
 .bdesign_main3 img{
     animation-delay: 0s;
 }
 
-.etc_main1 img{
+.bdesign_main4 .intro_box.first{
     animation-delay: 0s;
 }
-
-.etc_part2 img{
-    animation-delay: 0s;
-}
-
-#etc3_ani div.intro_box.first{
-    animation-delay: 0s;
-}
-#etc3_ani div.intro_box.second{
+.bdesign_main4 .intro_box.second{
     animation-delay: 0.1s;
 }
 
-.etc_part41 div.intro_box.first_box{
+#etc3_ani #etc3_ani img{
     animation-delay: 0s;
 }
-.etc_part41 div.intro_box.second_box{
+
+.etc_main4 img{
+    animation-delay: 0s;
+}
+
+.etc_part5 img{
+    animation-delay: 0s;
+}
+
+.etc_part6 .first_box{
+    animation-delay: 0s;
+}
+.etc_part6 .second_box{
     animation-delay: 0.1s;
 }
-.etc_part41 div.intro_box.third_box{
+.etc_part6 .third_box{
     animation-delay: 0.2s;
 }
-.etc_part41 div.intro_box.last_box{
+.etc_part6 .last_box{
     animation-delay: 0.3s;
 }
 
-.etc_part5 div.last1{
+.etc_part7 .last1{
     animation-delay: 0s;
 }
-.etc_part5 div.last2{
+.etc_part7 .last2{
+    animation-delay: 0.1s;
+}
+.etc_part7 .last3{
     animation-delay: 0.2s;
 }
-.etc_part5 div.last3{
+.etc_part7 .last4{
+    animation-delay: 0.3s;
+}
+.etc_part7 .last5{
     animation-delay: 0.4s;
 }
-.etc_part5 div.last4{
-    animation-delay: 0.6s;
-}
-.etc_part5 div.last5{
-    animation-delay: 0.8s;
+.etc_part7 .last6{
+    animation-delay: 0.5s;
 }
 
 .consul_contact ul li.con_con1{

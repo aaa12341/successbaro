@@ -42,11 +42,18 @@ function about4(){
     })
 }
 function hr1(){
+    $(document).ready(function(){
+        $('.part1_gp .gp').css({
+            "animationName" : "up_fadein"
+        })
+    })
+}
+function hr2(){
     $(window).scroll(function(){
         var offsets = $(document).scrollTop();
-        var hr_main1 = $('.hr_main1').offset();
-        if(offsets *2> hr_main1.top){
-                $('.hr_main1 img').css({
+        var hr_part2 = $('.hr_part2').offset();
+        if(offsets *2> hr_part2.top){
+                $('.part2_gp .gp img').css({
                     "animationName" : "up_fadein"
                 })
             }
@@ -63,36 +70,16 @@ function hr4(){
             }
     })
 }
-function hr5(){
-    $(window).scroll(function(){
-        var offsets = $(document).scrollTop();
-        var hr_part5 = $('.hr_part5').offset();
-        if(offsets + 600 > hr_part5.top){
-                $('.hr_part5 img').css({
-                    "animationName" : "up_fadein"
-                })
-                $('.hr_part5 div.graph_part').css({
-                    "animationName" : "up_fadein"
-                })
-            }
-    })
-}
-function hr6(){
-    $(window).scroll(function(){
-        var offsets = $(document).scrollTop();
-        var graph_part = $('.graph_part').offset();
-        if(offsets + 600 > graph_part.top){
-                $('.graph_part div.part').css({
-                    "animationName" : "up_fadein"
-                })
-            }
-    })
-}
+
 function bd1(){
-    $(document).ready(function(){
-        $('#bd_ani1 div.tool_explain2 div').css({
-            "animationName" : "up_fadein"
-        })
+    $(window).scroll(function(){
+        var offsets = $(document).scrollTop();
+        var bdesign_main1 = $('.bdesign_main1').offset();
+        if(offsets *2 > bdesign_main1.top){
+                $('.bprocess .pro').css({
+                    "animationName" : "up_fadein"
+                })
+            }
     })
 }
 function bd2(){
@@ -100,7 +87,7 @@ function bd2(){
         var offsets = $(document).scrollTop();
         var bdesign_main2 = $('.bdesign_main2').offset();
         if(offsets *2 > bdesign_main2.top){
-                $('.bdesign_main2 img').css({
+                $('.bdesign_main2 .tool_explain2 .step').css({
                     "animationName" : "up_fadein"
                 })
             }
@@ -117,34 +104,24 @@ function bd3(){
             }
     })
 }
-function etc1(){
+function bd4(){
     $(window).scroll(function(){
         var offsets = $(document).scrollTop();
-        var etc_main1 = $('.etc_main1').offset();
-        if(offsets *2 > etc_main1.top){
-            $('.etc_main1 img').css({
-                "animationName" : "up_fadein"
-            })
-        }
+        var bdesign_main4 = $('.bdesign_main4').offset();
+        if(offsets + 600 > bdesign_main4.top){
+                $('.bdesign_main4 .intro_box').css({
+                    "animationName" : "up_fadein"
+                })
+            }
     })
 }
-function etc2(){
-    $(window).scroll(function(){
-        var offsets = $(document).scrollTop();
-        var etc_part2 = $('.etc_part2').offset();
-        if(offsets + 600 > etc_part2.top){
-            $('.etc_part2 img').css({
-                "animationName" : "up_fadein"
-            })
-        }
-    })
-}
+
 function etc3(){
     $(window).scroll(function(){
         var offsets = $(document).scrollTop();
         var etc_part3 = $('.etc_part3').offset();
         if(offsets + 600 > etc_part3.top){
-            $('#etc3_ani div.intro_box').css({
+            $('#etc3_ani img').css({
                 "animationName" : "up_fadein"
             })
         }
@@ -153,9 +130,9 @@ function etc3(){
 function etc4(){
     $(window).scroll(function(){
         var offsets = $(document).scrollTop();
-        var etc_part41 = $('.etc_part41').offset();
-        if(offsets + 600 > etc_part41.top){
-            $('.etc_part41 div.intro_box').css({
+        var etc_main4 = $('.etc_main4').offset();
+        if(offsets + 400 > etc_main4.top){
+            $('.etc_main4 img').css({
                 "animationName" : "up_fadein"
             })
         }
@@ -165,8 +142,30 @@ function etc5(){
     $(window).scroll(function(){
         var offsets = $(document).scrollTop();
         var etc_part5 = $('.etc_part5').offset();
-        if(offsets + 600 > etc_part5.top){
-            $('.etc_part5 div.etc_consul').css({
+        if(offsets + 400 > etc_part5.top){
+            $('.etc_part5 img').css({
+                "animationName" : "up_fadein"
+            })
+        }
+    })
+}
+function etc6(){
+    $(window).scroll(function(){
+        var offsets = $(document).scrollTop();
+        var etc_part6 = $('.etc_part6').offset();
+        if(offsets + 400 > etc_part6.top){
+            $('.etc_part6 .intro_box').css({
+                "animationName" : "up_fadein"
+            })
+        }
+    })
+}
+function etc7(){
+    $(window).scroll(function(){
+        var offsets = $(document).scrollTop();
+        var etc_part7 = $('.etc_part7').offset();
+        if(offsets + 900 > etc_part7.top){
+            $('.etc_part7 .etc_consul').css({
                 "animationName" : "up_fadein"
             })
         }
