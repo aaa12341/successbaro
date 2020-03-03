@@ -43,12 +43,9 @@
     section .hr_section2 .hr_main3 .hr_part3 h3{font-size: 1.7rem;}
     section .hr_section2 .hr_main3 .hr_part3 h3 span{font-size: 1.7rem;}
     section .hr_section2 .hr_main3 .hr_part3 p{font-size: 1.2rem;}
-    section .hr_section2 .hr_main4 .hr_part4{margin: 0 auto;}
-    section .hr_section2 .hr_main4 .hr_part4 .arrow{display: none;}
-    section .hr_section2 .hr_main4 .hr_part4 .process{margin:0 25px;}
-    section .hr_section2 .hr_main5{height: 1600px;}
-    section .hr_section2 .hr_main5 .hr_part5 .graph_part .part{height: 210px;}
-    section .hr_section2 .hr_main5 .hr_part5 .graph_part ul li{font-size: 1.2rem;}
+    section .hr_section2 .hr_main4 .hr_part4 .process{width: 130px;height: 100px;}
+    section .hr_section2 .hr_main4 .hr_part4 .arrow{margin: 0 15px;}
+    section .hr_section2 .hr_main4 .hr_part4 .process h4{margin-top: 25px;}
     section .bdesign_section2 .bdesign_main1{width: 100%;height: 980px;}
     section .bdesign_section2 .bdesign_main1 .bdesign_part1 h3{line-height: 25px;}
     section .bdesign_section2 .bdesign_main1 .bdesign_part1 h3{font-size: 1.7rem;}
@@ -102,7 +99,8 @@
     section .about_section2 .about_main4 .adress img{min-width: 120px;}
     section .hr_section2 .hr_main1{height: 500px;}
     section .hr_section2 .hr_main4{height: 450px;}
-    section .hr_section2 .hr_main5{height: 1560px;}
+    section .hr_section2 .hr_main4 .hr_part4 .arrow{display: none;}
+    section .hr_section2 .hr_main4 .hr_part4 .process{margin: 0 15px;}
     section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain2 img{margin: 0 6px;}
     section .bdesign_section2 .bdesign_main1 .bdesign_part1 .tool_explain2 .step.last{margin-right: 0;}
     section .bdesign_section2 .bdesign_main1{height: 930px;}
