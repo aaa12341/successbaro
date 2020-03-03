@@ -90,6 +90,16 @@ $(document).ready(function(){
         $('html,body').animate({
             scrollTop : introTag.top
         },0)
+    }else if(params.key == "etc6"){
+        var introTag = $('#etc_intro6').offset()
+        $('html,body').animate({
+            scrollTop : introTag.top
+        },0)
+    }else if(params.key == "etc7"){
+        var introTag = $('#etc_intro7').offset()
+        $('html,body').animate({
+            scrollTop : introTag.top
+        },0)
     }
 
     $("#top_btn").html("<div class='fix_btn'>TOP</div>")
