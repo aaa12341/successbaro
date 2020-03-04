@@ -75,7 +75,7 @@ section .about_section2 .about_main1 h3{font-weight: 100;font-size: 1.6rem;margi
 section .about_section2 .about_main1 h3 span{color: #3570b4;font-weight: bold;font-size: 1.6rem;}
 section .about_section2 .about_main1 h3 span.ab_br{font-weight: 100;font-size: 1.6rem;margin-bottom: 80px;text-align: center;color: #222;}
 section .about_section2 .about_main1 .main1_circle{width: 100%;margin: 0 auto;text-align: center;}
-section .about_section2 .about_main1 .main1_circle ul{width: 210px;height: 210px;display:inline-block;border: 0.5px solid #3570b4;border-radius: 3px;margin: 0 10px;}
+section .about_section2 .about_main1 .main1_circle ul{width: 210px;height: 210px;display:inline-block;border: 0.5px solid #e5e5e5;border-radius: 3px;margin: 0 10px;}
 section .about_section2 .about_main1 .main1_circle ul.circle1{margin-left: 0;}
 section .about_section2 .about_main1 .main1_circle ul.last_circle{margin-right: 0;}
 section .about_section2 .about_main1 .main1_circle ul li.num{width: 100%;height: 70px; color: #3570b4;margin-bottom: 20px;font-size: 2rem;font-weight: bold;line-height: 140px;}
@@ -124,35 +124,36 @@ section .hr_section2 .hr_main4 .hr_part4 .process p{width: 100%;font-size: 1.4re
 section .hr_section2 .hr_main4 .hr_part4 .process h4{width: 100%;height: 25px;color: #C1554B;font-size: 0.9rem;margin-top: 35px;}
 
 /* bdesign */
-section .section1.bdesign{background-image: url(../img/bd_pic.jpg);background-position-y: 75%;}
-section .bdesign_section2 .bdesign_main1{width: 100%;height: 1030px;}
+section .section1.bdesign{background-image: url(../img/bd_pic.jpg);background-position-y: 40%;}
+section .bdesign_section2 .bdesign_main1{width: 100%;height: 1090px;}
 section .bdesign_section2 .bdesign_main1 .bdesign_part1{width: 100%;height: 250px;}
-section .bdesign_section2 .bdesign_main1 .bdesign_part1 h3{margin-bottom: 40px;text-align: center;line-height: 35px;}
-section .bdesign_section2 .bdesign_main1 .bdesign_part1 h4{margin-bottom: 40px;text-align: center;font-size: 1.3rem;}
-section .bdesign_section2 .bdesign_main1 .bdesign_part1 h4 span{color: #C1554B;font-weight: bold;font-size: 1.3rem;}
+section .bdesign_section2 .bdesign_main1 .bdesign_part1 h3{margin-bottom: 50px;text-align: center;line-height: 35px;}
+section .bdesign_section2 .bdesign_main1 .bdesign_part1 h4{margin-bottom: 40px;text-align: center;font-size: 1.3rem;color: #111;}
+section .bdesign_section2 .bdesign_main1 .bdesign_part1 h4 span{font-weight: bold;font-size: 1.3rem;}
 section .bdesign_section2 .bdesign_main1 .bdesign_part1 p{margin-bottom: 80px;text-align: justify;}
-section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess{width: 100%;height: 423px;}
-section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess .pro{width: 100%;height: 80px;margin-bottom: 7px;border: 0.5px solid #3570b4;border-radius: 3px;}
-section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess .pro .pro_num{width: 15%;height: 100%;line-height: 80px;font-size: 1.4rem;text-align: center;float: left;font-weight: bold;color: #3570b4;}
-section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess .pro .pro_detail{width: 85%;height: 100%;line-height: 80px;text-align: center;float: right;font-size: 1.1rem;}
-section .bdesign_section2 .bdesign_main2{width: 100%;height: 1020px;}
+section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess{width: 100%;}
+section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess .pro{width: 100%;height: 100px;border-top: 1px solid #e5e5e5;padding: 40px 0;}
+section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess #pro5{border-bottom: 1px solid #e5e5e5;}
+section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess .pro .pro_num{width: 15%;height: 100%;font-size: 1.4rem;text-align: center;float: left;font-weight: bold;color: #3570b4;}
+section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess .pro .pro_detail{color:#555;width: 85%;height: 100%;text-align: center;float: right;font-size: 1.1rem;}
+section .bdesign_section2 .bdesign_main2{width: 100%;height: 100vh;}
 section .bdesign_section2 .bdesign_main2 .bdesign_part2{width: 100%;height: 400px;}
 section .bdesign_section2 .bdesign_main2 .bdesign_part2 h3{margin-bottom: 60px;text-align: center;line-height: 35px;}
 section .bdesign_section2 .bdesign_main2 .bdesign_part2 .tool_explain{width: 100%;height: 50px;margin-bottom: 25px;font-weight: bold;}
 section .bdesign_section2 .bdesign_main2 .bdesign_part2 .tool_explain img{width: 30px;vertical-align: middle;}
-section .bdesign_section2 .bdesign_main2 .bdesign_part2 .tool_explain1{width: 19%;height: 50px;background-color: #3570b4;color: white;display: inline-block;line-height: 50px;text-align: center;border-radius: 3px;margin-left: 5px;}
-section .bdesign_section2 .bdesign_main2 .bdesign_part2 .tool_explain2{width: 80%;height: 50px;text-align: center;display: inline-block;color: #3570b4;}
-section .bdesign_section2 .bdesign_main2 .bdesign_part2 .tool_explain2 .step{width: 14%;height: 50px;border: 0.5px solid #3570b4;;line-height: 50px;text-align: center;display: inline-block;border-radius: 3px;}
+section .bdesign_section2 .bdesign_main2 .bdesign_part2 .tool_explain1{width: 19%;height: 50px;background-color: #dfdfdf;display: inline-block;line-height: 50px;text-align: center;border-radius: 3px;margin-left: 5px;}
+section .bdesign_section2 .bdesign_main2 .bdesign_part2 .tool_explain2{width: 80%;height: 50px;text-align: center;display: inline-block;}
+section .bdesign_section2 .bdesign_main2 .bdesign_part2 .tool_explain2 .step{width: 14%;height: 50px;border: 1px solid #e5e5e5;line-height: 50px;text-align: center;display: inline-block;border-radius: 3px;}
 section .bdesign_section2 .bdesign_main2 .bdesign_part2 .tool_explain2 img{margin: 0 15px;}
-section .bdesign_section2 .bdesign_main3{width: 100%;height: 970px;}
+section .bdesign_section2 .bdesign_main3{width: 100%;height: 1030px;}
 section .bdesign_section2 .bdesign_main3 .bdesign_part3{width: 100%;text-align: center;}
 section .bdesign_section2 .bdesign_main3 .bdesign_part3 h3{margin-bottom: 70px;}
 section .bdesign_section2 .bdesign_main4{width: 100%;height: 600px;text-align: center;}
 section .bdesign_section2 .bdesign_main4 .bdesign_part4 .intro_box{width: 30%;height: 260px;border-radius: 3px;display: inline-block;}
-section .bdesign_section2 .bdesign_main4 .bdesign_part4 .intro_box.first{margin-right: 40px;border: 0.5px solid #3878C2;}
-section .bdesign_section2 .bdesign_main4 .bdesign_part4 .intro_box.second{border: 0.5px solid #2D619C;}
-section .bdesign_section2 .bdesign_main4 .bdesign_part4 .intro_box.first .intro_box1{background-color: #3878C2;color: #fff;}
-section .bdesign_section2 .bdesign_main4 .bdesign_part4 .intro_box1{width: 100%; height: 50px;line-height: 50px;text-align: center; font-size: 1.2rem;font-weight: bold;background-color: #2D619C;color: #fff;}
+section .bdesign_section2 .bdesign_main4 .bdesign_part4 .intro_box.first{margin-right: 40px;border: 0.5px solid #c0ccd8;}
+section .bdesign_section2 .bdesign_main4 .bdesign_part4 .intro_box.second{border: 0.5px solid #b6c0cc;}
+section .bdesign_section2 .bdesign_main4 .bdesign_part4 .intro_box.first .intro_box1{background-color: #c0ccd8;}
+section .bdesign_section2 .bdesign_main4 .bdesign_part4 .intro_box1{width: 100%; height: 50px;line-height: 50px;text-align: center; font-size: 1.2rem;font-weight: bold;background-color: #b6c0cc;}
 section .bdesign_section2 .bdesign_main4 .bdesign_part4 .intro_box2 ul{width: 100%;}
 section .bdesign_section2 .bdesign_main4 .bdesign_part4 .intro_box2 ul li{text-align: center;height: 60px;line-height: 60px;}
 section .bdesign_section2 .bdesign_main4 .bdesign_part4 .intro_box2 ul li:nth-child(1){margin-top: 10px;}
@@ -164,25 +165,30 @@ section .etc_section2 .etc_main1 .etc_part1{position: relative; z-index: 1; widt
 section .etc_section2 .etc_main1 .etc_part1 h3{margin-bottom: 80px;text-align: center;line-height: 40px;}
 section .etc_section2 .etc_main1 .etc_part1 p{width: 50%;float: left;}
 section .etc_section2 .etc_main1 .etc_part1 img{width: 45%;height:430px;float: right;padding-top: 80px;}
-section .etc_section2 .etc_main1 .etc_bg1{width: 100%;height: 310px;position: absolute; top: 720px;right: 30%;background-color: #f9f9f9;}
-section .etc_section2 .etc_main2{width: 100%;height: 100vh;background-image: url(../img/etc_main2.jpg);color: #fff;background-position-y: 50%;}
+section .etc_section2 .etc_main1 .etc_bg1{width: 100%;height: 310px;position: absolute; top: 720px;right: 30%;background-color: #f8f8f8;}
+section .etc_section2 .etc_main2{width: 100%;height: 100vh;background-image: url(../img/etc_main21.jpg);background-position-y: 10%;color: #fff;}
 section .etc_section2 .etc_main2 .etc_part2{width: 100%;height: 400px;}
-section .etc_section2 .etc_main2 .etc_part2 h3{margin-bottom: 80px;text-align: center;line-height: 40px;}
+section .etc_section2 .etc_main2 .etc_part2 h3{margin-bottom: 90px;text-align: center;line-height: 40px;}
+section .etc_section2 .etc_main2 .etc_part2 span{color: #3570b4;}
 section .etc_section2 .etc_main2 .etc_part2 p{line-height: 30px;}
 section .etc_section2 .etc_main3{width: 100%;height: 100vh;}
 section .etc_section2 .etc_main3 .etc_part3{width: 100%;height: 300px;}
 section .etc_section2 .etc_main3 .etc_part3{width: 100%;height: 222px;}
 section .etc_section2 .etc_main3 .etc_part3 h3{margin-bottom: 80px;text-align: center;line-height: 40px;}
-section .etc_section2 .etc_main3 .etc_part3 p{margin-bottom: 67px;}
+section .etc_section2 .etc_main3 .etc_part3 p{margin-bottom: 100px;}
+section .etc_section2 .etc_main3 .etc_part3 img{width:18%;display: inline-block;margin-right: 25px;}
+section .etc_section2 .etc_main3 .etc_part3 img.last_pic{margin-right: 0;}
 section .etc_section2 .etc_main4{width: 100%;height: 100vh;}
 section .etc_section2 .etc_main5{width: 100%;height: 100vh;background-color: #f6f6f6;}
-section .etc_section2 .etc_main5 .etc_part5 h3{font-weight: bold;margin-bottom: 40px;text-align: center;color: #3570b4;}
+section .etc_section2 .etc_main5 .etc_part5{width: 46%;float: left;}
+section .etc_section2 .etc_main5 .etc_part5 h3{font-weight: bold;margin-bottom: 50px;color: #3570b4;margin-top: 40px;}
 section .etc_section2 .etc_main5 .etc_part5 p{line-height: 30px;margin-bottom: 40px;}
-section .etc_section2 .etc_main5 .etc_part5 img{width: 50%;margin: 0 auto; display: block;}
-section .etc_section2 .etc_main6{width: 100%;height: 100vh;background-image: url(../img/etc_main6.jpg);color: #fff;}
+section .etc_section2 .etc_main5 img{width: 50%;float: right;margin-top: 60px;}
+section .etc_section2 .etc_main6{width: 100%;height: 100vh;background-image: url(../img/etc_main6.jpg);}
+section .section2 .etc_main6 h3 span.br_span{color: #fff;}
 section .etc_section2 .etc_main6 .etc_part6{ width: 100%;  height: 104px;}
-section .etc_section2 .etc_main6 .etc_part6 h3{text-align: center;line-height: 40px;margin-bottom: 90px;}
-section .etc_section2 .etc_main6 .etc_part6 span.br_span{color: #fff;}
+section .section2 .etc_main6 h2{color: #fff;}
+section .etc_section2 .etc_main6 .etc_part6 h3{text-align: center;line-height: 40px;margin-bottom: 90px;color: #fff;}
 section .etc_section2 .etc_main6 .etc_part61{width: 100%;height: 320px;text-align: center;}
 section .etc_section2 .etc_main6 .etc_part61 .intro_box{width: 19%;height: 320px;border-radius: 4px;display: inline-block;vertical-align: middle;margin: 0 15px;}
 section .etc_section2 .etc_main6 .etc_part61 .intro_box.first_box{margin-left: 0;}
@@ -191,7 +197,7 @@ section .etc_section2 .etc_main6 .etc_part61 .intro_box1{width: 100%;height: 50p
 section .etc_section2 .etc_main6 .etc_part61 .intro_box2{position: relative;width: 100%;height: 270px;}
 section .etc_section2 .etc_main6 .etc_part61 .intro_box2 ul{position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);width: 100%;}
 section .etc_section2 .etc_main6 .etc_part61 .intro_box2 ul li{text-align: center;height: 30px;line-height: 30px;}
-section .etc_section2 .etc_main6 .etc_part61 .intro_box .intro_box2{background-color: rgba(97, 97, 97, 0.5)}
+section .etc_section2 .etc_main6 .etc_part61 .intro_box .intro_box2{background-color: rgba(255, 255, 255, 0.5)}
 section .etc_section2 .etc_main6 .etc_part61 .intro_box.first_box .intro_box1{background-color: #102136;color: #fff;}
 section .etc_section2 .etc_main6 .etc_part61 .intro_box.first_box .fir_line{border: 0.5px solid #102136;}
 section .etc_section2 .etc_main6 .etc_part61 .intro_box.second_box .intro_box1{color: #fff;background-color: #3570B5;}
@@ -200,7 +206,7 @@ section .etc_section2 .etc_main6 .etc_part61 .intro_box.last_box .intro_box1{col
 section .etc_section2 .etc_main6 .etc_part61 .intro_box.third_box ul li:nth-child(2){margin-bottom: -10px;}
 section .etc_section2 .etc_main6 .etc_part61 img{width: 40px;margin: 0 15px;vertical-align: middle;}
 section .etc_section2 .etc_main7{width: 100%;height: 450px;}
-section .etc_section2 .etc_main7 .etc_part7 .etc_consul{display: inline-block; width: 18.2%;height: 80px;margin-right: 20px;text-align: center;line-height: 80px;font-size: 1.2rem;border-radius: 4px;font-weight: bold;border: 0.5px solid #3570b4;color:#3570b4;}
+section .etc_section2 .etc_main7 .etc_part7 .etc_consul{display: inline-block; width: 18.2%;height: 80px;margin-right: 20px;background-color: #f3f3f3;text-align: center;line-height: 80px;font-size: 1.2rem;border-radius: 4px;font-weight: bold;}
 section .etc_section2 .etc_main7 .etc_part7 .etc_consul.last5{margin-right: 0;}
 
 /* contact */
