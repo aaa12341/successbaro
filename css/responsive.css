@@ -88,7 +88,8 @@
     div.main_section .center_box .start_btn:hover{width: 120px;background-color: #BB5555;}
     header .wrap{max-width: 95%;}
     header .navul{display: none;}
-    header ul.mo_nav{display: block;}
+    header div#nav-icon3{display: block;}
+    header .mo_menu{display: block;}
     header .nav_box{height: 100vh;background-color: rgb(255, 255, 255);}
     footer h1 img{min-width: 90px;}
     section .wrap{max-width: 95%;}
@@ -129,7 +130,7 @@
 @media (max-width: 865px) {
     div.main_section .nav_bar ul{display: none;}
     div.main_section .nav_box{display: none;}
-    div.main_section ul.mo_nav{display: block;width: 8%;}
+    div.main_section div#nav-icon3{display: block;width: 8%;}
     div.main_section .center_box p.mission1 span{display: block;margin-top: 5px;}
     div.main_section .center_box p.mission1{font-size: 1.2rem;}
     div.main_section .center_box p.mission2{font-size: 2.5rem;}
@@ -171,7 +172,7 @@
 }
 
 @media (max-width: 768px) {
-    div.main_section ul.mo_nav{width: 9%;}
+    div.main_section div#nav-icon3{width: 9%;}
     div.main_section .center_box p.mission2{font-size: 2.4rem;}
     div.main_section .center_box p.mission3,div.main_section .center_box p.mission4{font-size: 5rem;}
     footer{height: 220px;}
@@ -261,7 +262,7 @@
 
 @media (max-width: 480px) {
     section .section1 h3{display: none;}
-    div.main_section ul.mo_nav{width: 16%;}
+    div.main_section div#nav-icon3{width: 16%;}
     section .about_section1{height: 500px;}
     section .section2 .line{width: 35px;}
     section .about_section1 .mission_box p.mission{font-size: 3.2rem;padding-top: 200px;margin-bottom: 20px;}

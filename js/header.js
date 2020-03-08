@@ -63,11 +63,12 @@ const HeaderTag = document.getElementById('head');
                 </div>
                 
             </div>
-            <ul class="mo_nav" id="mo_change" onclick='MoNavFade(this)'>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
+            <div class="mo_nav" id="nav-icon3" onclick='MoNavFade(this)'>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
         <div class="nav_box">
             <div class="mo_menu" id="monav_menu">
@@ -89,25 +90,15 @@ $(document).ready(function(){
     })
 })
 function MoNavFade(thisvalue) {
-    console.log(thisvalue.className)
-    $('#mo_change').toggleClass('open');
+    if (thisvalue.className == "mo_nav") {
+      $('.nav_box').stop().fadeIn(function () {
+        $('.mo_menu').delay(100).show();
+      });
+      $('#nav-icon3').addClass('open');
   
-    if(thisvalue.className == "mo_nav"){
-        $('.nav_box').stop().fadeIn(function(){
-            $('.mo_menu').delay(100).show()
-        })
-        $('html, body').css({
-            'overflow-y': 'hidden',
-            'height': '100%'
-          });
+    } else {
+      $('.mo_menu').hide();
+      $('.nav_box').stop().delay(100).fadeOut();
+      $('#nav-icon3').removeClass('open');
     }
-    else{
-        $('.mo_menu').hide()
-        $('.nav_box').stop().delay(100).fadeOut()
-        $('html, body').css({
-            'overflow-y': 'scroll',
-            'height': 'auto'
-          });
-    }
-  $('#monav_menu').toggleClass('open');
   }
