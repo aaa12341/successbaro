@@ -40,6 +40,13 @@
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
 }
+.gp1 div.gp_box{
+    opacity: 0;
+    transform: translateY(50px);
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
 #intro_ani div.process{
     opacity: 0;
     transform: translateX(-50px);
@@ -75,9 +82,23 @@
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
 }
+.etc_part1 img{
+    opacity: 0;
+    transform: translateX(50px);
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+.etc_part2 img{
+    opacity: 0;
+    transform: translateX(-50px);
+    animation-fill-mode: forwards;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
 #etc3_ani img{
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateX(-50px);
     animation-fill-mode: forwards;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
@@ -89,7 +110,7 @@
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
 }
-.etc_part5 img{
+.etc_main5 img{
     opacity: 0;
     transform: translateY(50px);
     animation-fill-mode: forwards;
@@ -126,6 +147,7 @@
         transform: translate(0px, 0px);
     }
 }
+/* about */
 #about_ani1 ul.circle1{
     animation-delay: 0s;
 }
@@ -153,7 +175,7 @@
 #about_ani4 div.all_map{
     animation-delay: 0s;
 }
-
+/* hr */
 .part1_gp div#gp1{
     animation-delay: 0s;
 }
@@ -177,6 +199,16 @@
     animation-delay: 0.2s;
 }
 
+.gp1 div#gp_box1{
+    animation-delay: 0s;
+}
+.gp1 div#gp_box2{
+    animation-delay: 0.1s;
+}
+.gp1 div#gp_box3{
+    animation-delay: 0.2s;
+}
+
 #intro_ani div.pro1{
     animation-delay: 0s;
 }
@@ -192,7 +224,7 @@
 #intro_ani div.pro5{
     animation-delay: 0.4s;
 }
-
+/* bdesign */
 .bprocess div#pro1{
     animation-delay: 0s;
 }
@@ -235,16 +267,34 @@
 .bdesign_main4 .intro_box.second{
     animation-delay: 0.1s;
 }
-
-#etc3_ani #etc3_ani img{
+/* etc */
+.etc_part1 img{
     animation-delay: 0s;
+}
+.etc_part2 img{
+    animation-delay: 0s;
+}
+#etc3_ani #etc3_img1{
+    animation-delay: 0s;
+}
+#etc3_ani #etc3_img2{
+    animation-delay: 0.1s;
+}
+#etc3_ani #etc3_img3{
+    animation-delay: 0.2s;
+}
+#etc3_ani #etc3_img4{
+    animation-delay: 0.3s;
+}
+#etc3_ani #etc3_img5{
+    animation-delay: 0.4s;
 }
 
 .etc_main4 img{
     animation-delay: 0s;
 }
 
-.etc_part5 img{
+.etc_main5 img{
     animation-delay: 0s;
 }
 
@@ -279,7 +329,7 @@
 .etc_part7 .last6{
     animation-delay: 0.5s;
 }
-
+/* contact */
 .consul_contact ul li.con_con1{
     animation-delay: 0s;
 }
