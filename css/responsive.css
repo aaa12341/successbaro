@@ -10,6 +10,8 @@
     section .about_section1 .mission_box p.mission{padding-top: 330px;margin-bottom: 40px;}
     section .about_section1 .mission_box p.mission2{margin-bottom: 200px;}
     section .hr_section2 .hr_main1 .hr_part1 h3{font-size: 1.1rem;}
+    section .etc_section2 .etc_main1 .etc_bg1{height: 260px;}
+    section .etc_section2 .etc_main2 .etc_bg2{height: 310px;}
 }
 
 @media (max-width: 1200px) {
@@ -67,21 +69,33 @@
     section .etc_section2 .etc_main1 .etc_part1 h3{font-size: 1.7rem;}
     section .etc_section2 .etc_main1 .etc_part1 h3 span{font-size: 1.7rem;}
     section .etc_section2 .etc_main1 .etc_part1 p{font-size: 1.2rem;}
-    section .etc_section2 .etc_main2{height: 980px;}
+    section .etc_section2 .etc_main1 .etc_part1 img{height:380px;}
+    section .etc_section2 .etc_main1 .etc_bg1{height: 340px;top: 645px;}
+    section .etc_section2 .etc_main2{height: 850px;}
     section .etc_section2 .etc_main2 .etc_part2 h3{font-size: 1.7rem;}
     section .etc_section2 .etc_main2 .etc_part2 h3 span{font-size: 1.7rem;}
     section .etc_section2 .etc_main2 .etc_part2 p{font-size: 1.2rem;}
-    section .etc_section2 .etc_main3{height: 540px;}
-    section .etc_section2 .etc_main3 .etc_part3 .intro_box1{font-size: 1.7rem;}
-    section .etc_section2 .etc_main3 .etc_part3 .intro_box2{font-size: 1.2rem;}
+    section .etc_section2 .etc_main2 .etc_part2 img{height:400px;}
+    section .etc_section2 .etc_main2 .etc_bg2{height: 375px;top: 1365px;}
+    section .etc_section2 .etc_main3{height: 840px;}
+    section .etc_section2 .etc_main3 .etc_part3 h3 span{font-size: 1.7rem;}
+    section .etc_section2 .etc_main3 .etc_part3 h3{font-size: 1.7rem;}
+    section .etc_section2 .etc_main3 .etc_part3 p{font-size: 1.2rem;margin-bottom: 70px;}
+    section .etc_section2 .etc_main3 .etc_part3 img{margin-right: 15px;}
+    section .etc_section2 .etc_main4{height: 830px;}
     section .etc_section2 .etc_main4 .etc_part4 h3{font-size: 1.7rem;}
     section .etc_section2 .etc_main4 .etc_part4 h3 span{font-size: 1.7rem;}
-    section .etc_section2 .etc_main4 .etc_part41 .intro_box{width: 20%;}
-    section .etc_section2 .etc_main4 .etc_part41 .intro_box1{font-size: 1.4rem;}
-    section .etc_section2 .etc_main4 .etc_part41 .intro_box2{font-size: 1.2rem;}
-    section .etc_section2 .etc_main4 .etc_part41 img{margin: 0 5px;}
-    section .etc_section2 .etc_main5{height: 450px;}
-    section .etc_section2 .etc_main5 .etc_part5 .etc_consul{width: 17%;margin-right: 34px;}
+    section .etc_section2 .etc_main5{height: 760px;}
+    /* section .etc_section2 .etc_main5 img{width: 54%;} */
+    section .etc_section2 .etc_main5 .etc_part5 h3{font-size: 1.7rem;}
+    section .etc_section2 .etc_main5 .etc_part5 p{font-size: 1.2rem;}
+    section .etc_section2 .etc_main6{height: 840px;}
+    section .etc_section2 .etc_main6 .etc_part6 h3{font-size: 1.7rem;}
+    section .etc_section2 .etc_main6 .etc_part6 span{font-size: 1.7rem;}
+    section .etc_section2 .etc_main6 .etc_part61 .intro_box2{height: 250px;}
+    section .etc_section2 .etc_main6 .etc_part61 .intro_box2 ul li{height: 25px;line-height: 25px;font-size: 1.2rem;}
+    section .etc_section2 .etc_main7{height: 390px;}
+    section .etc_section2 .etc_main7 .etc_part7 .etc_consul{width: 18%;font-size: 1.2rem;}
     section .contact_section2 .consul_contact{height: 420px;}
     section .contact_section2 .consul_contact ul li{width: 22%;height: 90px;}
 }
@@ -114,9 +128,18 @@
     section .hr_section2 .hr_main4 .hr_part4 .process{margin: 0 15px;}    
     section .bdesign_section2 .bdesign_main1{height: 980px;}
     section .bdesign_section2 .bdesign_main3{height: 830px;}
-    section .etc_section2 .etc_main2{height: 960px;}
-    section .etc_section2 .etc_main5{height: 420px;}
-    section .etc_section2 .etc_main5 .etc_part5 .etc_consul{width: 17%;margin-right: 28px;}
+    section .etc_section2 .etc_main1{height: 760px;}
+    section .etc_section2 .etc_main1 .etc_part1 p{font-size: 1.1rem;}
+    section .etc_section2 .etc_main1 .etc_part1 img{height:360px;}
+    section .etc_section2 .etc_main1 .etc_bg1{height: 310px;top: 645px;}
+    section .etc_section2 .etc_main2{height: 840px;}
+    section .etc_section2 .etc_main2 .etc_part2 p{font-size: 1.1rem;}
+    section .etc_section2 .etc_main2 .etc_part2 img{height:380px;}
+    section .etc_section2 .etc_main2 .etc_bg2{height: 360px;top: 1365px;}
+    section .etc_section2 .etc_main3{height: 830px;}
+    section .etc_section2 .etc_main4{height: 810px;}
+    section .etc_section2 .etc_main5{height: 740px;}    
+    section .etc_section2 .etc_main5 .etc_part5 p{font-size: 1.1rem;}
     section .contact_section2 .consul_contact{height: 420px;}
 }
 @media (max-width: 880px) {
@@ -131,30 +154,30 @@
 @media (max-width: 872px) {
     section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess .pro{padding: 30px 0;}
     section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess .pro .pro_detail{line-height: 17px;}
-    section .etc_section2 .etc_main4 .etc_part41 img{display: none;}
-    section .etc_section2 .etc_main4 .etc_part41 .intro_box{width: 24%;margin-right: 5px;}
-    section .etc_section2 .etc_main4 .etc_part41 .intro_box.last_box{margin-right: 0;}
 }
 
 @media (max-width: 865px) {
-    div.main_section .nav_bar ul{display: none;}
-    div.main_section .nav_box{display: none;}
-    div.main_section div#nav-icon3{display: block;width: 8%;}
+    div.main_section .nav_bar h1{margin: 0 auto;float: none;display: block;}
+    div.main_section .nav_bar ul{width: 100%;float: none; text-align: center;padding-top: 50px;font-size: 1.1rem;}
+    div.main_section .center_box{height: 496px;}
     div.main_section .center_box p.mission1 span{display: block;margin-top: 5px;}
     div.main_section .center_box p.mission1{font-size: 1.2rem;}
     div.main_section .center_box p.mission2{font-size: 2.5rem;}
-    div.main_section .center_box p.mission3,div.main_section .center_box p.mission4{font-size: 5.5rem;}    
+    div.main_section .center_box p.mission3,div.main_section .center_box p.mission4{font-size: 5.4rem;}  
+    div.main_section .center_box p.mission4{margin-bottom: 40px;}  
     section .wrap{max-width: 93%;}
     section .about_section1 .mission_box p.mission3,section .about_section1 .mission_box p.mission4{font-size: 1.2rem;word-break: keep-all;}
     section .about_section2 .about_main2{height: 740px;}
     section .about_section2 .about_main3{height: 680px;}
     section .hr_section2 .hr_main1{height: 580px;}
     section .hr_section2 .hr_main2{height: 680px;}
-    section .hr_section2 .hr_main2 .hr_part2 h3{margin-bottom: 70px;}
+    section .hr_section2 .hr_main2 .hr_part2 h3{font-size: 1.6rem;margin-bottom: 70px;line-height: 35px;}
+    section .hr_section2 .hr_main2 .hr_part2 h3 span{font-size: 1.6rem;}
     section .hr_section2 .hr_main2 .hr_part2 .part2_gp .arrow{margin: 0 20px;}
     /* section .hr_section2 .hr_main2 .hr_part2 .part2_gp .gp img{min-width: 150px;margin: 0 auto;} */
     section .hr_section2 .hr_main3{height: 890px;}
-    section .hr_section2 .hr_main3 .hr_part3 h3{line-height: 35px;margin-bottom: 60px;}
+    section .hr_section2 .hr_main3 .hr_part3 h3{font-size: 1.6rem;line-height: 35px;margin-bottom: 60px;}
+    section .hr_section2 .hr_main3 .hr_part3 h3 span{font-size: 1.6rem;}
     /* section .hr_section2 .hr_main3 .hr_part3 .gp img{min-width: 130%;} */
     section .hr_section2 .hr_main3 .hr_part3 .gp1 .gp_box li{font-size: 1.1rem;}
     section .hr_section2 .hr_main4{height: 400px;}
@@ -174,13 +197,38 @@
     section .bdesign_section2 .bdesign_main4{height: 560px;}
     section .bdesign_section2 .bdesign_main4 .bdesign_part4 .intro_box1{font-size: 1.4rem;}
     section .bdesign_section2 .bdesign_main4 .bdesign_part4 .intro_box2 ul li{font-size: 1.1rem;}
-    section .etc_section2 .etc_main1{height: 730px;}
-    section .etc_section2 .etc_main2{height: 940px;}
-    section .etc_section2 .etc_main3{height: 540px;}
-    section .etc_section2 .etc_main3 .etc_part3 .intro_box{width: 40%;}
-    section .etc_section2 .etc_main4{height: 790px;}
-    section .etc_section2 .etc_main5{height: 550px;}
-    section .etc_section2 .etc_main5 .etc_part5 .etc_consul{width: 49%;margin-right: 5px;margin-bottom: 10px;font-size: 1.3rem;}
+    section .etc_section2 .etc_main1{height: 610px;}
+    section .etc_section2 .etc_main1 .etc_part1 h3{font-size: 1.6rem;line-height: 35px;}
+    section .etc_section2 .etc_main1 .etc_part1 h3 span{font-size: 1.6rem;}
+    section .etc_section2 .etc_main1 .etc_part1 p{width: 80%;}
+    section .etc_section2 .etc_main1 .etc_part1 img{display: none;}
+    section .etc_section2 .etc_main1 .etc_bg1{height: 270px;top: 615px;right: 20%;}
+    section .etc_section2 .etc_main2{height: 700px;}
+    section .etc_section2 .etc_main2 .etc_part2 h3{font-size: 1.6rem;line-height: 35px;}
+    section .etc_section2 .etc_main2 .etc_part2 h3 span{font-size: 1.6rem;}
+    section .etc_section2 .etc_main2 .etc_part2 p{width: 80%;}
+    section .etc_section2 .etc_main2 .etc_part2 img{display: none;}
+    section .etc_section2 .etc_main2 .etc_bg2{height: 295px;top: 1195px;width: 82%;left: 18%;}
+    section .etc_section2 .etc_main3{height: 790px;}
+    section .etc_section2 .etc_main3 .etc_part3 h3 span{font-size: 1.6rem;}
+    section .etc_section2 .etc_main3 .etc_part3 h3{font-size: 1.6rem;margin-bottom: 60px;line-height: 35px;}
+    section .etc_section2 .etc_main3 .etc_part3 p{margin-bottom: 70px;}
+    section .etc_section2 .etc_main3 .etc_part3 img{margin-right: 15px;}
+    section .etc_section2 .etc_main4{height: 730px;}
+    section .etc_section2 .etc_main5{height: 1070px;text-align: center;}
+    section .etc_section2 .etc_main5 .etc_part5{width: 100%;display: inline-block;}
+    section .etc_section2 .etc_main5 .etc_part5 h3{font-size: 1.6rem;margin-top: 0;}
+    section .etc_section2 .etc_main5 img{min-width: 90%;float: none;}
+    section .etc_section2 .etc_main6{height: 1150px;}
+    section .etc_section2 .etc_main6 .etc_part6 h3{line-height: 35px;font-size: 1.6rem;}
+    section .etc_section2 .etc_main6 .etc_part6 span{font-size: 1.6rem;}
+    section .etc_section2 .etc_main6 .etc_part6 h3 span.br_span{display: inline;}
+    section .etc_section2 .etc_main6 .etc_part61 .intro_box{width: 32%;}
+    section .etc_section2 .etc_main6 .etc_part61 .intro_box.second_box{margin-right: 0;}
+    section .etc_section2 .etc_main6 .etc_part61 .intro_box.third_box{margin-left: 0;}
+    section .etc_section2 .etc_main7{height: 480px;text-align: center;}
+    section .etc_section2 .etc_main7 .etc_part7 .etc_consul{width: 25%;margin-bottom: 15px;}
+    section .etc_section2 .etc_main7 .etc_part7 .etc_consul.last3{margin-right: 0;}
     section .contact_section2 .consul_contact{height: 480px;}
     section .contact_section2 .consul_contact h3{font-size: 1.3rem;}
     section .contact_section2 .consul_contact h3 span.ct_br{font-size: 1.3rem;}
@@ -193,9 +241,8 @@
 }
 
 @media (max-width: 768px) {
-    div.main_section div#nav-icon3{width: 9%;}
-    div.main_section .center_box p.mission2{font-size: 2.4rem;}
-    div.main_section .center_box p.mission3,div.main_section .center_box p.mission4{font-size: 5rem;}
+    div.main_section .center_box p.mission2{font-size: 2.3rem;}
+    div.main_section .center_box p.mission3,div.main_section .center_box p.mission4{font-size: 4.5rem;}
     footer{height: 220px;}
     section .about_section1 .mission_box p.mission3,section .about_section1 .mission_box p.mission4{font-size: 1.1rem;}
     section .about_section2 .about_main1{height: 630px;}
@@ -209,7 +256,7 @@
     section .section2 h3 span.br_span{display: inline;}
     section .hr_section2 .hr_main1 .hr_part1 h3{font-size: 1.1rem;}
     section .hr_section2 .hr_main1 .hr_part1 .part1_gp .arrow{margin: 0 15px;}
-    section .hr_section2 .hr_main2{height: 660px;}
+    section .hr_section2 .hr_main2{height: 640px;}
     section .hr_section2 .hr_main2 .hr_part2 h3 span.br_span{display: block;}
     section .hr_section2 .hr_main2 .hr_part2 h3{font-size: 1.4rem;}
     section .hr_section2 .hr_main2 .hr_part2 h3 span{font-size: 1.4rem;}
@@ -240,21 +287,29 @@
     section .bdesign_section2 .bdesign_main3 .bdesign_part3 .br_span{display: block;}
     section .bdesign_section2 .bdesign_main4{height: 710px;}
     section .bdesign_section2 .bdesign_main4 .bdesign_part4 .intro_box{width: 100%;height: 200px;margin-bottom: 15px;}
+    section .bdesign_section2 .bdesign_main4 .bdesign_part4 .intro_box.first{margin-right: 0;}
     section .bdesign_section2 .bdesign_main4 .bdesign_part4 .intro_box2 ul li{height: 40px;line-height: 40px;}
-    section .etc_section2 .etc_main1{height: 720px;}
-    section .etc_section2 .etc_main1 .etc_part1 p{margin-bottom: 57px;}
-    section .etc_section2 .etc_main1 .etc_part1 h3{font-size: 1.6rem;}
-    section .etc_section2 .etc_main1 .etc_part1 h3 span{font-size: 1.6rem;}
-    section .etc_section2 .etc_main2{height: 1024px;}
-    section .etc_section2 .etc_main2 .etc_part2 h3{font-size: 1.6rem;}
-    section .etc_section2 .etc_main2 .etc_part2 h3 span{font-size: 1.6rem;}
-    section .etc_section2 .etc_main2 .etc_part2 img{width: 100%;}
-    section .etc_section2 .etc_main4{height: 1110px;}
-    section .etc_section2 .etc_main4 .etc_part4{height: 160px;}
-    section .etc_section2 .etc_main4 .etc_part4 h3{font-size: 1.6rem;}
-    section .etc_section2 .etc_main4 .etc_part4 h3 span{font-size: 1.6rem;}
-    section .etc_section2 .etc_main4 .etc_part41 .intro_box{width: 48%;margin-right: 5px;margin-bottom: 10px;}
-    section .etc_section2 .etc_main4 .etc_part41 .intro_box.second_box{margin-right: 0;}
+    section .etc_section2 .etc_main1{height: 630px;}
+    section .etc_section2 .etc_main1 .etc_part1 h3{font-size: 1.4rem;}
+    section .etc_section2 .etc_main1 .etc_part1 h3 span{font-size: 1.4rem;}
+    section .etc_section2 .etc_main1 .etc_bg1{height: 280px;top: 625px;}
+    section .etc_section2 .etc_main2{height: 720px;}
+    section .etc_section2 .etc_main2 .etc_part2 h3{font-size: 1.4rem;}
+    section .etc_section2 .etc_main2 .etc_part2 h3 span{font-size: 1.4rem;}
+    section .etc_section2 .etc_main2 .etc_bg2{height: 305px;top: 1225px;}
+    section .etc_section2 .etc_main3{height: 1100px;text-align: center;}
+    section .etc_section2 .etc_main3 .etc_part3 h3 span{font-size: 1.4rem;}
+    section .etc_section2 .etc_main3 .etc_part3 h3{font-size: 1.4rem;}
+    section .etc_section2 .etc_main3 .etc_part3 p{font-size: 1.1rem;}
+    section .etc_section2 .etc_main3 .etc_part3 img{width:30%;margin-bottom: 45px;}
+    section .etc_section2 .etc_main3 .etc_part3 img.third_pic{margin-right: 0;}
+    section .etc_section2 .etc_main4{height: 680px;}
+    section .etc_section2 .etc_main5{height: 1050px;}
+    section .etc_section2 .etc_main5 .etc_part5 h3{font-size: 1.4rem;}
+    section .etc_section2 .etc_main6{height: 1160px;}
+    section .etc_section2 .etc_main6 .etc_part6 h3{font-size: 1.4rem;}
+    section .etc_section2 .etc_main6 .etc_part6 span{font-size: 1.4rem;}
+    section .etc_section2 .etc_main6 .etc_part6 h3 span.br_span{font-size: 1.4rem;}
     section .contact_section2 .consul_contact{height: 670px;}
     section .contact_section2 .consul_contact p{margin-bottom: 50px;}
     section .contact_section2 .consul_contact ul li{width: 100%;height: 60px;margin-bottom: 10px;margin-right: 0;}
@@ -267,7 +322,6 @@
     section .hr .pad{padding: 0 99px;}
     section .hr_section2 .hr_main2 .hr_part2 .part2_gp .arrow{width: 25px;}
     section .bdesign .pad{padding: 0 30px;}
-    section .etc_section2 .etc_main5 .etc_part5 .etc_consul{width: 48.5%;margin-right: 5px;margin-bottom: 10px;font-size: 1.3rem;}
 }
 
 @media (max-width: 605px) {
@@ -278,13 +332,10 @@
     section .hr_section2 .hr_main2{height: 620px;}
     section .hr_section2 .hr_main2 .hr_part2 h3{margin-bottom: 70px;margin-bottom: 50px;}
     section .hr_section2 .hr_main2 .hr_part2 .part2_gp .arrow{width: 15px; margin: 0 15px;}
-    section .etc_section2 .etc_main3{height: 810px;}
-    section .etc_section2 .etc_main3 .etc_part3 .intro_box{width: 100%;height: 260px;display: block;margin-bottom: 10px;}
-    section .etc_section2 .etc_main4{height: 1130px;}
-    section .etc_section2 .etc_main4 .etc_part4 h3{margin-bottom: 60px;}
 }
 
 @media (max-width: 507px) {
+    div.main_section .nav_bar ul{display: none;}
     section .hr .pad{padding: 0 10px;}
     section .about_section2 .about_main1 h2{margin-bottom: 60px;}
     section .about_section2 .about_main1 h3 span.ab_br{display: block;margin-bottom: 0;}
@@ -293,7 +344,6 @@
 @media (max-width: 480px) {
     section .intro{padding-top: 80px;}
     section .section1 h3{display: none;}
-    div.main_section div#nav-icon3{width: 16%;}
     section .about_section1{height: 500px;}
     section .section2 .line{width: 35px;}
     section .about_section1 .mission_box{text-align: left;}
@@ -330,39 +380,56 @@
     section .hr_section2 .hr_main4 .hr_part4 .process{height: 70px;}
     section .hr_section2 .hr_main4 .hr_part4 .process h4{margin-top: 15px;}
     section .bdesign_section2 .bdesign_main1{height: 1100px;}
-    section .bdesign_section2 .bdesign_main1 .bdesign_part1 p{font-size: 1.1rem;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 p{font-size: 1rem;}
     section .bdesign_section2 .bdesign_main1 .bdesign_part1 h3{font-size: 1.2rem;line-height: 25px;}
     section .bdesign_section2 .bdesign_main1 .bdesign_part1 h3 span{font-size: 1.2rem;}
-    section .bdesign_section2 .bdesign_main1 .bdesign_part1 h4{font-size: 1.1rem;}
-    section .bdesign_section2 .bdesign_main1 .bdesign_part1 h4 span{font-size: 1.1rem;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 h4{font-size: 1rem;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 h4 span{font-size: 1rem;}
     section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess .pro .pro_detail{font-size: 1.1rem;}
     section .bdesign_section2 .bdesign_main2{height: 600px;}
     section .bdesign_section2 .bdesign_main2 .bdesign_part2 h3{font-size: 1.2rem;line-height: 25px;margin-bottom: 40px;}
     section .bdesign_section2 .bdesign_main2 .bdesign_part2 span{font-size: 1.2rem;}
-    section .bdesign_section2 .bdesign_main2 .bdesign_part2 .tool_explain1{width: 100%;height: 40px;line-height: 40px;font-size: 0.95rem;margin-left: 0;}
+    section .bdesign_section2 .bdesign_main2 .bdesign_part2 .tool_explain1{width: 100%;height: 40px;line-height: 40px;font-size: 1rem;margin-left: 0;}
     section .bdesign_section2 .bdesign_main2 .bdesign_part2 .tool_explain2{width: 100%;}
-    section .bdesign_section2 .bdesign_main2 .bdesign_part2 .tool_explain2 .step{width: 18%;margin: 15px 0;font-size: 0.95rem;height: 40px;line-height: 40px;}
+    section .bdesign_section2 .bdesign_main2 .bdesign_part2 .tool_explain2 .step{width: 18%;margin: 15px 0;font-size: 1rem;height: 40px;line-height: 40px;}
     section .bdesign_section2 .bdesign_main2 .bdesign_part2 .tool_explain2 img{display: none;}
     section .bdesign_section2 .bdesign_main2 .bdesign_part2 .tool_box img{margin-top: 30px;}
     section .bdesign_section2 .bdesign_main3{height: 540px;}
     section .bdesign_section2 .bdesign_main3 .bdesign_part3 h3{font-size: 1.2rem;line-height: 25px;}
     section .bdesign_section2 .bdesign_main3 .bdesign_part3 h3 span{font-size: 1.2rem;}
     section .bdesign_section2 .bdesign_main4{height: 660px;}
-    section .bdesign_section2 .bdesign_main4 .bdesign_part4 .intro_box.first{margin-right: 0;}
-    section .etc_section2 .etc_main1 .etc_part1 p{font-size: 1.1rem;}
-    section .etc_section2 .etc_main1 .etc_part1 h3{font-size: 1.4rem;}
-    section .etc_section2 .etc_main1 .etc_part1 h3 span{font-size: 1.4rem;}
-    section .etc_section2 .etc_main2{height: 950px;}
-    section .etc_section2 .etc_main2 .etc_part2 p{font-size: 1.1rem;}
-    section .etc_section2 .etc_main2 .etc_part2 h3{font-size: 1.4rem;}
-    section .etc_section2 .etc_main2 .etc_part2 h3 span{font-size: 1.4rem;}
-    section .etc_section2 .etc_main2 .etc_part2 p{margin-bottom: 20px;}
-    section .etc_section2 .etc_main4{height: 1160px;}
-    section .etc_section2 .etc_main4 .etc_part4 p{font-size: 1.1rem;}
-    section .etc_section2 .etc_main4 .etc_part4 h3{font-size: 1.4rem;}
-    section .etc_section2 .etc_main4 .etc_part4 h3 span{font-size: 1.4rem;}
-    section .etc_section2 .etc_main5{height: 690px;}
-    section .etc_section2 .etc_main5 .etc_part5 .etc_consul{width: 100%;height: 70px;line-height: 70px;margin-right: 0;margin-bottom: 10px;font-size: 1.3rem;}
+    section .bdesign_section2 .bdesign_main4 .bdesign_part4 .intro_box1{font-size: 1.3rem;}
+    section .etc_section2 .etc_main1{height: 740px;}
+    section .etc_section2 .etc_main1 .etc_part1 h3{font-size: 1.2rem;}
+    section .etc_section2 .etc_main1 .etc_part1 h3 span{font-size: 1.2rem;}
+    section .etc_section2 .etc_main1 .etc_part1 p{font-size: 1rem;}
+    section .etc_section2 .etc_main1 .etc_bg1{height: 400px;top: 615px;}
+    section .etc_section2 .etc_main2{height: 840px;}
+    section .etc_section2 .etc_main2 .etc_part2 h3{font-size: 1.2rem;}
+    section .etc_section2 .etc_main2 .etc_part2 h3 span{font-size: 1.2rem;}
+    section .etc_section2 .etc_main2 .etc_part2 p{font-size: 1rem;}
+    section .etc_section2 .etc_main2 .etc_bg2{height: 450px;top: 1325px;}
+    section .etc_section2 .etc_main3{height: 950px;text-align: center;}
+    section .etc_section2 .etc_main3 .etc_part3 h3 span{font-size: 1.2rem;}
+    section .etc_section2 .etc_main3 .etc_part3 h3 span.br_span{font-size: 1.2rem;}
+    section .etc_section2 .etc_main3 .etc_part3 h3{font-size: 1.2rem;}
+    section .etc_section2 .etc_main3 .etc_part3 p{font-size: 1rem;}
+    section .etc_section2 .etc_main4{height: 490px;}
+    section .etc_section2 .etc_main5{height: 900px;}
+    section .etc_section2 .etc_main5 .etc_part5 h3{font-size: 1.2rem;}
+    section .etc_section2 .etc_main5 .etc_part5 p{font-size: 1rem;}
+    section .etc_section2 .etc_main5 img{margin-top: 30px;}
+    section .etc_section2 .etc_main6{height: 1580px;}
+    section .etc_section2 .etc_main6 .etc_part6 h3{font-size: 1.2rem;margin-bottom: 60px;}
+    section .etc_section2 .etc_main6 .etc_part6 span{font-size: 1.2rem;}
+    section .etc_section2 .etc_main6 .etc_part6 h3 span.br_span{font-size: 1.2rem;}
+    section .etc_section2 .etc_main6 .etc_part61 .intro_box{width: 100%;height: 280px;margin: 0;}
+    section .etc_section2 .etc_main6 .etc_part61 .intro_box2{height: 215px;}
+    section .etc_section2 .etc_main7{height: 470px;text-align: center;}
+    section .etc_section2 .etc_main7 .etc_part7 .etc_consul{width: 35%;margin-bottom: 15px;height: 65px;line-height: 65px;}
+    section .etc_section2 .etc_main7 .etc_part7 .etc_consul.last2{margin-right: 0;}
+    section .etc_section2 .etc_main7 .etc_part7 .etc_consul.last3{margin-right: 20px;}
+    section .etc_section2 .etc_main7 .etc_part7 .etc_consul.last4{margin-right: 0;}
     section .contact_section2 .consul_contact h3{font-size: 1.2rem;}
     section .contact_section2 .consul_contact h3 span.ct_br{font-size: 1.2rem;}
     section .contact_section2 .consul_contact p span.ct_br{font-size: 1.3rem;}
@@ -390,13 +457,36 @@
     section .hr_section2 .hr_main2 .hr_part2 h3 span.br_span{display: inline;}
     section .hr_section2 .hr_main3{height: 1050px;}
     section .hr_section2 .hr_main3 .hr_part3 .gp1{margin-top: 30px;}
-    section .bdesign_section2 .bdesign_main1{height: 1160px;}
-    section .bdesign_section2 .bdesign_main2{height: 580px;}
-    section .bdesign_section2 .bdesign_main3{height: 490px;}
-    section .etc_section2 .etc_main1{height: 760px;}
-    section .etc_section2 .etc_main1 .etc_part1 p{margin-bottom: 40px;}
-    section .etc_section2 .etc_main2{height: 970px;}
-    section .etc_section2 .etc_main5{height: 670px;}
+    section .bdesign_section2 .bdesign_main1{height: 1140px;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess .pro .pro_detail{font-size: 1rem;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 h4 span.bd_br{display: inline; line-height: 25px;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess #pro1{padding: 30px 0;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess .pn_1{padding: 8px 0;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess #pro2{padding: 29px 0;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess .pn_2{padding: 9px 0;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess #pro3{padding: 37px 0;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess .pn_3{padding: 0;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess #pro4{padding: 37px 0;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess .pn_4{padding: 0;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess #pro5{padding: 27px 0;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess .pn_5{padding: 8px 0;}
+    section .bdesign_section2 .bdesign_main2{height: 600px;}
+    section .bdesign_section2 .bdesign_main3{height: 500px;}
+    section .etc_section2 .etc_main1{height: 700px;}
+    section .etc_section2 .etc_main1 .etc_bg1{height: 400px;top: 570px;}
+    section .etc_section2 .etc_main1 .etc_part1 h3{margin-bottom: 50px;line-height: 25px;}
+    section .etc_section2 .etc_main2{height: 825px;}
+    section .etc_section2 .etc_main2 .etc_bg2{height: 490px;top: 1245px;}
+    section .etc_section2 .etc_main2 .etc_part2 h3{margin-bottom: 50px;line-height: 25px;}
+    section .etc_section2 .etc_main3{height: 890px;}
+    section .etc_section2 .etc_main3 .etc_part3 h3{margin-bottom: 40px;line-height: 25px;}
+    section .etc_section2 .etc_main4{height: 450px;}
+    section .etc_section2 .etc_main5{height: 920px;}
+    section .etc_section2 .etc_main6{height: 1540px;}
+    section .etc_section2 .etc_main6 .etc_part6 h3{margin-bottom: 40px;line-height: 25px;}
+    section .etc_section2 .etc_main7{height: 580px;}
+    section .etc_section2 .etc_main7 .etc_part7 .etc_consul{width: 100%;margin-right: 0;height: 55px;line-height: 55px;font-size: 1.1rem;}
+    section .etc_section2 .etc_main7 .etc_part7 .etc_consul.last3{margin-right: 0;}
     section .contact_section2 .consul_contact{margin-top: -20px;height: 700px;}
     section .contact_section2 .consul_contact p span.ct_br{display: block;line-height: 25px;margin-bottom: 0;}
 }
@@ -414,9 +504,30 @@
     section .hr_section2 .hr_main2{height: 480px;}
     section .hr_section2 .hr_main3{height: 1070px;}
     section .hr_section2 .hr_main4{height: 630px;}
-    section .bdesign_section2 .bdesign_main1{height: 1190px;}
+    section .bdesign_section2 .bdesign_main1{height: 1150px;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess #pro1{padding: 21px 0;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess .pn_1{padding: 14px 0;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess #pro2{padding: 29px 0;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess .pn_2{padding: 9px 0;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess #pro3{padding: 37px 0;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess .pn_3{padding: 0;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess #pro4{padding: 37px 0;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess .pn_4{padding: 0;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess #pro5{padding: 20px 0;}
+    section .bdesign_section2 .bdesign_main1 .bdesign_part1 .bprocess .pn_5{padding: 15px 0;}
     section .bdesign_section2 .bdesign_main3{height: 500px;}
-    section .etc_section2 .etc_main4{height: 1190px;}
+    section .etc_section2 .etc_main1{height: 740px;}
+    section .etc_section2 .etc_main1 .etc_bg1{height: 470px;top: 555px;}
+    section .etc_section2 .etc_main2{height: 855px;}
+    section .etc_section2 .etc_main2 .etc_bg2{height: 530px;top: 1270px;}
+    section .etc_section2 .etc_main3{height: 930px;}
+    section .etc_section2 .etc_main3 .etc_part3 img{width:30%;margin-bottom: 45px;}
+    section .etc_section2 .etc_main3 .etc_part3 img.sec_pic{margin-right: 0;}
+    section .etc_section2 .etc_main3 .etc_part3 img.third_pic{margin-right: 15px;}
+    section .etc_section2 .etc_main3 .etc_part3 img.four_pic{margin-right: 0;}
+    section .etc_section2 .etc_main4{height: 430px;}
+    section .etc_section2 .etc_main5{height: 930px;}
+    section .etc_section2 .etc_main6{height: 1540px;}
     section .contact_section2 .consul_contact h3 span.ct_br{display: block;line-height: 30px;}
 }
 

@@ -151,10 +151,10 @@ section .about_section2 .about_main1 .main1_circle ul{width: 210px;height: 210px
 section .about_section2 .about_main1 .main1_circle ul.circle1{margin-left: 0;}
 section .about_section2 .about_main1 .main1_circle ul.last_circle{margin-right: 0;}
 section .about_section2 .about_main1 .main1_circle ul li.num{width: 100%;height: 70px; color: #3570b4;margin-bottom: 20px;font-size: 2rem;font-weight: bold;line-height: 140px;}
-section .about_section2 .about_main1 .main1_circle ul li.detail{width: 100%;height: 70px;font-weight: bold;line-height: 70px;font-size: 1.05rem;}
+section .about_section2 .about_main1 .main1_circle ul li.detail{width: 100%;height: 70px;font-weight: bold;line-height: 70px;font-size: 1.05rem;color: #555;}
 section .about_section2 .about_main2{width: 100%;height: 940px;background-color: #faf9f9;}
 section .about_section2 .about_main2 .role,section .about_section2 .about_main3 .role2{width: 100%;height: 400px;}
-section .about_section2 .about_main3{width: 100%;height: 940px;}
+section .about_section2 .about_main3{width: 100%;height: 830px;}
 section .about_section2 .about_main4{width: 100%;height: 872px;}
 section .about_section2 .about_main4 .map{width: 100%;height: 350px;background-color: lavender;}
 section .about_section2 .about_main4 .adress{width: 100%;height: 180px;text-align: center;}
@@ -214,9 +214,9 @@ section .bdesign_section2 .bdesign_main2 .bdesign_part2{width: 100%;height: 400p
 section .bdesign_section2 .bdesign_main2 .bdesign_part2 h3{margin-bottom: 60px;text-align: center;line-height: 45px;}
 section .bdesign_section2 .bdesign_main2 .bdesign_part2 .tool_explain{width: 100%;height: 50px;margin-bottom: 25px;font-weight: bold;}
 section .bdesign_section2 .bdesign_main2 .bdesign_part2 .tool_explain img{width: 30px;vertical-align: middle;}
-section .bdesign_section2 .bdesign_main2 .bdesign_part2 .tool_explain1{width: 19%;height: 50px;background-color: #dfdfdf;display: inline-block;line-height: 50px;text-align: center;border-radius: 3px;margin-left: 5px;}
+section .bdesign_section2 .bdesign_main2 .bdesign_part2 .tool_explain1{color: #555;width: 19%;height: 50px;background-color: #dfdfdf;display: inline-block;line-height: 50px;text-align: center;border-radius: 3px;margin-left: 5px;}
 section .bdesign_section2 .bdesign_main2 .bdesign_part2 .tool_explain2{width: 80%;height: 50px;text-align: center;display: inline-block;}
-section .bdesign_section2 .bdesign_main2 .bdesign_part2 .tool_explain2 .step{width: 14%;height: 50px;border: 1px solid #e5e5e5;line-height: 50px;text-align: center;display: inline-block;border-radius: 3px;}
+section .bdesign_section2 .bdesign_main2 .bdesign_part2 .tool_explain2 .step{color: #555;width: 14%;height: 50px;border: 1px solid #e5e5e5;line-height: 50px;text-align: center;display: inline-block;border-radius: 3px;}
 section .bdesign_section2 .bdesign_main2 .bdesign_part2 .tool_explain2 img{margin: 0 15px;}
 section .bdesign_section2 .bdesign_main3{width: 100%;height: 970px;}
 section .bdesign_section2 .bdesign_main3 .bdesign_part3{width: 100%;text-align: center;}
@@ -260,10 +260,10 @@ section .etc_section2 .etc_main5 .etc_part5 h3{font-weight: bold;margin-bottom: 
 section .etc_section2 .etc_main5 .etc_part5 p{line-height: 30px;}
 section .etc_section2 .etc_main5 img{width: 50%;float: right;margin-top: 60px;}
 section .etc_section2 .etc_main6{width: 100%;height: 860px;background-image: url(../img/etc_main6.jpg);}
-section .section2 .etc_main6 h3 span.br_span{color: #fff;}
+section .etc_section2 .etc_main6 h2{color: #fff;}
 section .etc_section2 .etc_main6 .etc_part6{ width: 100%;  height: 104px;}
-section .section2 .etc_main6 h2{color: #fff;}
 section .etc_section2 .etc_main6 .etc_part6 h3{text-align: center;line-height: 40px;margin-bottom: 90px;color: #fff;}
+section .etc_section2 .etc_main6 .etc_part6 h3 span.br_span{color: #fff;}
 section .etc_section2 .etc_main6 .etc_part61{width: 100%;height: 320px;text-align: center;}
 section .etc_section2 .etc_main6 .etc_part61 .intro_box{width: 19%;height: 320px;border-radius: 4px;display: inline-block;vertical-align: middle;margin: 0 15px;}
 section .etc_section2 .etc_main6 .etc_part61 .intro_box.first_box{margin-left: 0;}
