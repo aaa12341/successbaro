@@ -72,7 +72,51 @@ const HeaderTag = document.getElementById('head');
         </div>
         <div class="nav_box">
             <div class="mo_menu" id="monav_menu">
-                메뉴
+                <div class="menu menu1">
+                    <div class="menu_title"><a href="about.html">About</a></div>
+                    <ul>
+                        <li><a href="about.html?key=about1">컨설팅수행 원칙</a></li>
+                        <li><a href="about.html?key=about2">석세스바로 역할</a></li>
+                        <li><a href="about.html?key=about3">경영과 HR</a></li>
+                        <li><a href="about.html?key=about4">오시는 길</a></li>
+                    </ul>
+                </div>
+                <div class="menu menu2">
+                    <div class="menu_title"><a href="hr.html">직무컨설팅</a></div>
+                    <ul>
+                        <li><a href="hr.html?key=hr1">직무분석과 직무평가</a></li>
+                        <li><a href="hr.html?key=hr2">직무평가 프로세스</a></li>
+                        <li><a href="hr.html?key=hr3">임금체계 개선</a></li>
+                        <li><a href="hr.html?key=hr4">HR컨설팅 프로세스</a></li>
+                    </ul>
+                </div>
+                <div class="menu menu3">
+                    <div class="menu_title"><a href="bdesign.html">비즈니스 프로세스</a></div>
+                    <ul>
+                        <li><a href="bdesign.html?key=bdesign1">프로세스 설계 및 구축</a></li>
+                        <li><a href="bdesign.html?key=bdesign2">비즈니스 모델 디자인</a></li>
+                        <li><a href="bdesign.html?key=bdesign3">마케팅 프로세스 구축</a></li>
+                        <li><a href="bdesign.html?key=bdesign4">감사시스템 구축</a></li>
+                    </ul>
+                </div>
+                <div class="menu menu5">
+                    <div class="menu_title"><a href="contact.html">Contact</a></div>
+                    <ul>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="menu menu4">
+                    <div class="menu_title"><a href="etc.html">Etc.</a></div>
+                    <ul>
+                        <li><a href="etc.html?key=etc1">경영 상시자문</a></li>
+                        <li><a href="etc.html?key=etc2">경영현황 관리체계</a></li>
+                        <li><a href="etc.html?key=etc3">포인트 경영스쿨</a></li>
+                        <li><a href="etc.html?key=etc4">경영전략 수립/년간 사업</a></li>
+                        <li><a href="etc.html?key=etc5">ISO 인증컨설팅</a></li>
+                        <li><a href="etc.html?key=etc6">법인설립 컨설팅</a></li>
+                        <li><a href="etc.html?key=etc7">기타 컨설팅</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
