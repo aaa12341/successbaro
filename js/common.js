@@ -132,12 +132,6 @@ $(document).ready(function(){
             scrollTop : introTag.top
         }, 800)
     })
-    $("#hr_btn5").click(function(){
-        var introTag = $('#hr_intro5').offset()
-        $('html,body').animate({
-            scrollTop : introTag.top
-        }, 800)
-    })
     $("#bdesign_btn1").click(function(){
         var introTag = $('#bdesign_intro1').offset()
         $('html,body').animate({
