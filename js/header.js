@@ -46,7 +46,7 @@ const HeaderTag = document.getElementById('head');
                             <li><a href="etc.html?key=etc1">경영 상시자문</a></li>
                             <li><a href="etc.html?key=etc2">경영현황 관리체계</a></li>
                             <li><a href="etc.html?key=etc3">포인트 경영스쿨</a></li>
-                            <li><a href="etc.html?key=etc4">경영전략 수립<br>/년간 사업</a></li>
+                            <li><a href="etc.html?key=etc4">경영전략 수립<br>/연간 사업</a></li>
                             <li><a href="etc.html?key=etc5">ISO 인증컨설팅</a></li>
                             <li><a href="etc.html?key=etc6">법인설립 컨설팅</a></li>
                             <li><a href="etc.html?key=etc7">기타 컨설팅</a></li>
@@ -111,7 +111,7 @@ const HeaderTag = document.getElementById('head');
                         <li><a href="etc.html?key=etc1">경영 상시자문</a></li>
                         <li><a href="etc.html?key=etc2">경영현황 관리체계</a></li>
                         <li><a href="etc.html?key=etc3">포인트 경영스쿨</a></li>
-                        <li><a href="etc.html?key=etc4">경영전략 수립/년간 사업</a></li>
+                        <li><a href="etc.html?key=etc4">경영전략 수립/연간 사업</a></li>
                         <li><a href="etc.html?key=etc5">ISO 인증컨설팅</a></li>
                         <li><a href="etc.html?key=etc6">법인설립 컨설팅</a></li>
                         <li><a href="etc.html?key=etc7">기타 컨설팅</a></li>
